@@ -40,7 +40,7 @@
       "text_en_US": "Option"
     },
     {
-      "selector": "div#{id} .item-radio input:checked",
+      "selector": "div#{id} .item-radio input:checked + .radio-content .item-content",
       "text_pt_BR": "Item selecionado",
       "text_en_US": "Selected item"
     },
