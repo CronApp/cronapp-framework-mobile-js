@@ -1,8 +1,17 @@
 {
   "name": "crn-video",
-  "text": "Video",
+  "text_pt_BR": "Vídeo",
+  "text_en_US": "Video",
   "class": "adjust-icon mdi mdi-youtube",
+  "description": "Exibição de vídeo",
+  "description_en_US": "Video display",
+  "category": [
+    "LAYOUTS"
+  ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/video.template.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/video.designtime.html",
+  "designTimeSelector": "cron-video",
+  "designTimeDynamic": true,
   "forceGroup": true,
   "wrapper": true,
   "properties": {
@@ -36,22 +45,22 @@
   "childrenProperties": [
     {
       "name": "src",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "width",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "height",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "title",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     }
   ]
