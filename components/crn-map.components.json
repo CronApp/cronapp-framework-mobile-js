@@ -6,9 +6,12 @@
   "description": "Estrutura para visualização de mapa estático",
   "description_en_US": "Structure for static map visualization",
   "category": [
-      "LAYOUTS"
+    "LAYOUTS"
   ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/maps.template.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/maps.designtime.html",
+  "designTimeSelector": "cron-map",
+  "designTimeDynamic": true,
   "properties": {
     "id": {
       "order": 1
@@ -35,17 +38,17 @@
   "childrenProperties": [
     {
       "name": "src",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     },
     {
       "name": "width",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     },
     {
       "name": "height",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     }
   ]
