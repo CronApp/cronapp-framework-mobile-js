@@ -1715,25 +1715,34 @@ window.addEventListener('message', function (event) {
           });
         }
       }
-    });
+    })
 
-  app.directive('cronMap', function ($compile) {
-    return {
-      restrict: 'E',
-      require: 'ngModel',
-      link: async function (scope, element, attrs, ngModelCtrl) {
+    .directive('cronMap', function ($compile) {
+      return {
+        restrict: 'AE',
+        replace: true,
+        link: function (scope, element, attrs, ngModelCtrl) {
 
-        // <iframe
-        //   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.216568467426!2d-46.71442904920029!3d-23.632413984572306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51ad27188dbf%3A0x999630947e3dda9f!2sTechne!5e0!3m2!1spt-BR!2sbr!4v1624546178375!5m2!1spt-BR!2sbr"
-        //   width="100%"
-        //   height="400"
-        //   style="border:0;"
-        //   allowfullscreen="" loading="lazy">
-        // </iframe>
 
+          var component = element.find('.cronMap')[0];
+          $compile(component)(element.scope());
+
+          var componentOptions = element.find('.cronMapIframe')[0];
+          $compile(componentOptions)(element.scope());
+
+
+          var $templateDyn = "";
+
+          console.log(attrs);
+
+       var options = JSON.stringify(attrs.src);
+        var $templateDyn = $(`<iframe class="cronMapIframe" ng-src="${options}" width="100%" height="100%" loading="lazy"></iframe>`);
+
+        element.html($templateDyn);
+        $compile($templateDyn)(element.scope());
       }
     }
-  }(app));
+    });
 
   app.directive("kendoChat", function ($compile, $timeout) {
     return {
