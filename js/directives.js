@@ -1737,8 +1737,32 @@ window.addEventListener('message', function(event) {
         $compile($templateDyn)(element.scope());
       }
     }
-  }
-);
+  })
+  
+  .directive('cronVideo', function ($compile) {
+    return {
+      restrict: 'AE',
+      replace: true,
+      link: function (scope, element, attrs) {
+  
+        var component = element.find('.cronVideo')[0];
+        $compile(component)(element.scope());
+  
+        var componentOptions = element.find('.cronVideoIframe')[0];
+        $compile(componentOptions)(element.scope());
+  
+        var $templateDyn = "";
+        var src = attrs.src;
+        var width = attrs.width;
+        var height = attrs.height;
+        var title = attrs.title;
+        $templateDyn = `<iframe class="cronVideoIframe" src="${src}" width="${width}" height="${height}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`;
+  
+        element.html($templateDyn);
+        $compile($templateDyn)(element.scope());
+      }
+    }
+  });
 
   app.directive("kendoChat", function ($compile, $timeout) {
     return {
