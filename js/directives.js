@@ -1721,8 +1721,7 @@ window.addEventListener('message', function (event) {
       return {
         restrict: 'AE',
         replace: true,
-        link: function (scope, element, attrs, ngModelCtrl) {
-
+        link: function (scope, element, attrs) {
 
           var component = element.find('.cronMap')[0];
           $compile(component)(element.scope());
@@ -1730,19 +1729,17 @@ window.addEventListener('message', function (event) {
           var componentOptions = element.find('.cronMapIframe')[0];
           $compile(componentOptions)(element.scope());
 
-
           var $templateDyn = "";
+          var src = attrs.src;
+          var width = attrs.width;
+          var height = attrs.height;
+          $templateDyn = `<iframe class="cronMapIframe" src="${src}" width="${width}" height="${height}" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
 
-          console.log(attrs);
-
-       var options = JSON.stringify(attrs.src);
-        var $templateDyn = $(`<iframe class="cronMapIframe" ng-src="${options}" width="100%" height="100%" loading="lazy"></iframe>`);
-
-        element.html($templateDyn);
-        $compile($templateDyn)(element.scope());
+          element.html($templateDyn);
+          $compile($templateDyn)(element.scope());
       }
     }
-    });
+  });
 
   app.directive("kendoChat", function ($compile, $timeout) {
     return {

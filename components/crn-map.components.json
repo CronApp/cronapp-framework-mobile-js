@@ -38,17 +38,17 @@
   "childrenProperties": [
     {
       "name": "src",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     },
     {
       "name": "width",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     },
     {
       "name": "height",
-      "selector": "iframe",
+      "selector": "cron-map",
       "type": "text"
     }
   ]
