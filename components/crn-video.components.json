@@ -45,22 +45,22 @@
   "childrenProperties": [
     {
       "name": "src",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "width",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "height",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     },
     {
       "name": "title",
-      "selector": "iframe",
+      "selector": "cron-video",
       "type": "text"
     }
   ]

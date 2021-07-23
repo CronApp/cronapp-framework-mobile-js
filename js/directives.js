@@ -1757,7 +1757,7 @@ window.addEventListener('message', function(event) {
       var width = attrs.width;
       var height = attrs.height;
       var title = attrs.title;
-      $templateDyn = `<iframe src="${src}" width="${width}" height="${height}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`;
+      $templateDyn = `<iframe class="cronVideoIframe" src="${src}" width="${width}" height="${height}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>`;
 
       element.html($templateDyn);
       $compile($templateDyn)(element.scope());
