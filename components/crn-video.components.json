@@ -9,6 +9,9 @@
       "LAYOUTS"
   ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/video.template.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/video.designtime.html",
+  "designTimeSelector": "cron-video",
+  "designTimeDynamic": true,
   "forceGroup": true,
   "wrapper": true,
   "properties": {
