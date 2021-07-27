@@ -62,14 +62,14 @@
     "canIncrement": true,
     "rules": [
       {
-        "sourceHTML": "<ion-item data-component=\"crn-list-item\" class=\"item dark text-left\" xattr-theme=\"dark\" xattr-text-position=\"text-left\" id=\"crn-list-item-${RANDOM}\" data-replace=\"true\">Item 1</ion-item>",
+        "sourceHTML": "<ion-item data-component=\"crn-list-item\" class=\"item dark text-left item-content\" xattr-theme=\"dark\" xattr-text-position=\"text-left\" id=\"crn-list-item-${RANDOM}\" data-replace=\"true\">Item 1</ion-item>",
         "targetSelector": "div"
       }
     ]
   },
   "styles": [
     {
-      "selector": "div#{id}  .item-content",
+      "selector": "div#{id} .item-content",
       "text_pt_BR": "Conteúdo",
       "text_en_US": "Content"
     }
