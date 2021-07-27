@@ -40,42 +40,22 @@
     padding-bottom: calc(0px + var(--safe-area-inset-bottom));
 }
 
-@media (orientation : portrait){
 
-    .tabs {
-        height: calc(30px + var(--safe-area-inset-bottom, 19px)) !important;
-        min-height: 49px;
-    }
-
-    .bar-header:not(.bar-subheader) {
-        height: calc(45px + var(--safe-area-inset-top, 19px)) !important;
-    }
-
-    .bar-header:not(.bar-subheader) > * {
-        margin-top: var(--safe-area-inset-top, 20px) !important;
-    }
-
-    .platform-ios.platform-cordova:not(.fullscreen) .has-header,
-    .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
-        padding-top: calc(45px + var(--safe-area-inset-top) - 64px);
-        padding-bottom: var(--safe-area-inset-bottom);
-    }
-
+.bar-header:not(.bar-subheader) {
+    height: calc(45px + var(--safe-area-inset-top, 19px)) !important;
 }
 
-@media (orientation : landscape) {
+.bar-header:not(.bar-subheader) > * {
+    margin-top: var(--safe-area-inset-top, 20px) !important;
+}
 
-    .tabs {
-        height: calc(45px + var(--safe-area-inset-bottom, 19px)) !important;
-        min-height: 49px;
-    }
+.tabs {
+    height: calc(45px + var(--safe-area-inset-bottom, 19px)) !important;
+    min-height: 49px;
+}
 
-    .platform-ios.platform-cordova:not(.fullscreen) .has-header,
-    .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
-        padding-left: var(--safe-area-inset-left);
-        padding-right: var(--safe-area-inset-right);
-        padding-bottom: var(--safe-area-inset-bottom);
-    }
+.has-header {
+  top: calc(44px + var(--safe-area-inset-top)) !important;
 }
 
 body {
@@ -244,7 +224,7 @@ kendo-chat .k-bubble {
     right: 18px;
 }
 
-.selected-designtime-list .checkbox input:checked:before, 
+.selected-designtime-list .checkbox input:checked:before,
 .selected-designtime-list input:checked + .selected-designtime-list .checkbox-icon:before{
     background: #2B71E8;
     border-color: #2B71E8;
