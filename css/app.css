@@ -40,18 +40,33 @@
     padding-bottom: calc(0px + var(--safe-area-inset-bottom));
 }
 
+.bar-footer {
+    height: calc(54px + var(--safe-area-inset-bottom, 19px));
+    padding-left: var(--safe-area-inset-left);
+    padding-right: var(--safe-area-inset-right);
+}
 
 .bar-header:not(.bar-subheader) {
     height: calc(45px + var(--safe-area-inset-top, 19px)) !important;
+    padding-left: var(--safe-area-inset-left);
+    padding-right: var(--safe-area-inset-right);
 }
 
 .bar-header:not(.bar-subheader) > * {
     margin-top: var(--safe-area-inset-top, 20px) !important;
 }
 
+.bar-footer button {
+   margin-bottom: var(--safe-area-inset-bottom);
+}
+
 .tabs {
     height: calc(45px + var(--safe-area-inset-bottom, 19px)) !important;
     min-height: 49px;
+}
+
+bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+    margin-right: calc(5px + var(--safe-area-inset-left));
 }
 
 .has-header {
