@@ -2,7 +2,12 @@
   "name": "crn-spacer",
   "text_pt_BR": "Espaço",
   "text_en_US": "Spacer",
-  "class": " adjust-icon mdi mdi-file-presentation-box",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-spacer.svg",
+  "description": "Espaçamento para distanciamento de componentes",
+  "description_en_US": "Spacing for component spacing",
+  "category": [
+    "LAYOUTS"
+  ],
   "wrapper": false,
   "template": "<div style= \"height: 100px;\">&nbsp;</div>",
   "properties": {

@@ -2,7 +2,12 @@
   "name": "crn-paragraph",
   "text_pt_BR": "Parágrafo",
   "text_en_US": "Paragraph",
-  "class": "adjust-icon mdi  mdi-format-paragraph",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-paragraph.svg",
+  "description": "Estrutura para inserir texto longo",
+  "description_en_US": "Structure for inserting long text",
+  "category": [
+    "TEXTS", "LAYOUTS"
+  ],
   "wrapper": false,
   "template": "<p xattr-position=\"text-center\" style=\"font-size: 14px;\" class=\"text-center\" xattr-type=\"font-size: 14px;\">Some friendly Paragraph</p>",
   "properties": {
