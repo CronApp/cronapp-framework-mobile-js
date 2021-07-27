@@ -6,7 +6,7 @@
   "description": "Campo para inserir texto com animação no título",
   "description_en_US": "Field to insert text with animation in the title",
   "category": [
-    "INPUTS"
+    "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/floattextinput.template.html",

@@ -6,7 +6,7 @@
   "description": "Texto com tamanho de letra padrão",
   "description_en_US": "Text with standard font size",
   "category": [
-    "TEXTS"
+    "TEXTS", "LAYOUTS"
   ],
   "wrapper": false,
   "template": "<h2 xattr-position=\"text-center\" class=\"text-center\">Some label text</h2>",
