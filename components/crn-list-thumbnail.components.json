@@ -233,7 +233,7 @@
   ],
   "styles": [
     {
-      "selector": "div#{id}",
+      "selector": "div#{id} a",
       "text_pt_BR": "Plano de fundo",
       "text_en_US": "Background"
     },
