@@ -6,7 +6,7 @@
   "description": "Exibição de gráfico com valores da fonte de dados",
   "description_en_US": "Graph display with data source values",
   "category": [
-      "COMBOS"
+      "LAYOUTS"
   ],
   "wrapper": false,
   "template": "<div class=\"col-xs-12\"> <canvas id=\"chart${RANDOM}\" data-component=\"crn-chart\" class=\"col-xs-12\"></canvas></div>",

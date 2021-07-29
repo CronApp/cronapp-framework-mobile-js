@@ -6,7 +6,7 @@
   "description": "Estrutura para avaliar itens",
   "description_en_US": "Structure for valuing items",
   "category": [
-      "LAYOUTS"
+      "BUTTONS"
   ],
   "wrapper": false,
   "autoWrapper": false,

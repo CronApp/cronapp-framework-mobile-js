@@ -6,7 +6,7 @@
   "description": "Estrutura para armazenar imagem na fonte de dados",
   "description_en_US": "Structure for storing image in data source",
   "category": [
-      "INPUTS"
+      "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamicimage.template.html",

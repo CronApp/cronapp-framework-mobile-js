@@ -6,10 +6,7 @@
   "description": "Cartão com ação de deslizamento e exibição de botões",
   "description_en_US": "Card with sliding action and display of buttons",
   "category": [
-    "Itens"
-  ],
-  "category_en_US": [
-    "Items"
+    "LISTS"
   ],
   "wrapper": true,
   "forcedGroup": true,

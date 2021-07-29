@@ -6,7 +6,7 @@
   "description": "Campo com texto e botão de verdadeiro ou falso",
   "description_en_US": "Field with text and true or false button",
   "category": [
-    "INPUTS"
+    "LISTS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/toggle.template.html",

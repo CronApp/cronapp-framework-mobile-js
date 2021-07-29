@@ -6,7 +6,7 @@
   "description": "Campo de seleção com valores da fonte de dados",
   "description_en_US": "Selection field with data source values",
   "category": [
-    "INPUTS"
+    "INPUTS", "FORMS", "COMBOS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamic-combobox.template.html",

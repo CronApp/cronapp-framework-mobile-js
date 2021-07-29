@@ -6,7 +6,7 @@
   "description": "Código de barras bidimensional lido por câmera",
   "description_en_US": "Two-dimensional barcode read by camera",
   "category": [
-    "COMBOS"
+    "LAYOUTS"
   ],
   "wrapper": true,
   "template": "<qr ng-model=\"vars.QR${RANDOM}\" ><div> </div> </qr>",

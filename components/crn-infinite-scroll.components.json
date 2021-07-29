@@ -6,7 +6,7 @@
   "description": "Estrutura de paginação invisível",
   "description_en_US": "Invisible paging structure",
   "category": [
-      "LAYOUTS"
+      "LAYOUTS", "LISTS"
   ],
   "template": "<cron-infinite-scroll crn-datasource=\"\"></cron-infinite-scroll>",
   "designTimeHTML": "<img alt=\"chart\" style=\"height: 7%;width:10%;min-height:7%; min-width:7%;\"  src=\"node_modules/cronapp-framework-mobile-js/img/svg-charts.svg\"/>",

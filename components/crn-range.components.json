@@ -6,7 +6,7 @@
   "description": "Campo para escolha de valores através de uma sequência pré-estabelecida",
   "description_en_US": "Field for choosing values through a pre-established sequence",
   "category": [
-    "INPUTS"
+    "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/range.template.html",

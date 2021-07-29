@@ -6,7 +6,7 @@
   "description": "Campo para inserir texto",
   "description_en_US": "Field to enter text",
   "category": [
-    "INPUTS"
+    "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/textinput.template.html",

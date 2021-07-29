@@ -6,7 +6,7 @@
   "description": "Estrutura para armazenar arquivos na fonte de dados",
   "description_en_US": "Structure for storing file in data source",
   "category": [
-      "INPUTS"
+      "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamicfile.template.html",

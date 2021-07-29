@@ -8,7 +8,7 @@
   "description": "Estrutura completa para chat",
   "description_en_US": "Complete structure for chat",
   "category": [
-    "COMBOS"
+    "LAYOUTS"
   ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/kendo-chat.template.html",
   "properties": {
