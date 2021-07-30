@@ -113,7 +113,7 @@
     },
     {
       "name": "align-title",
-      "type": "options",
+      "type": "btngroup",
       "target": "style",
       "values": [
         {
@@ -135,6 +135,11 @@
     }
   ],
   "childrenProperties": [
+    {
+      "name": "xattr-theme",
+      "selector": "ion-header-bar",
+      "order": 1
+    },
     {
       "name": "content",
       "displayName_pt_BR": "Título",
@@ -165,11 +170,6 @@
       "displayName_en_US": "Right icon",
       "type": "icon",
       "order": 4
-    },
-    {
-      "name": "xattr-theme",
-      "selector": "ion-header-bar",      
-      "order": 5
     },
     {
       "name": "ng-click",

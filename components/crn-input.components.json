@@ -2,7 +2,12 @@
   "name": "crn-input",
   "text_pt_BR": "Entrada de texto",
   "text_en_US": "Input",
-  "class": "adjust-icon mdi mdi-label-outline",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-textinput.svg",
+  "description": "Campo para inserir texto",
+  "description_en_US": "Field to enter text",
+  "category": [
+    "INPUTS", "FORMS"
+  ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/textinput.template.html",
   "properties": {
@@ -103,13 +108,6 @@
       "type": "event"
     }
   ],
-  "styles": [
-    {
-      "selector": "div#{id} input",
-      "text_pt_BR": "Entrada de texto",
-      "text_en_US": "Input"
-    }
-  ],
   "attributesForPreview": [
     {
       "name": "keyboard",
@@ -152,6 +150,18 @@
           "value_en_US": "Search"
         }
       ]
+    }
+  ],
+  "styles": [
+    {
+      "selector": "div#{id} input",
+      "text_pt_BR": "Entrada de texto",
+      "text_en_US": "Input"
+    },
+    {
+      "selector": "div#{id} input::placeholder",
+      "text_pt_BR": "Sugestão",
+      "text_en_US": "Placeholder"
     }
   ]
 }

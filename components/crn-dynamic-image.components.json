@@ -2,9 +2,17 @@
   "name": "crn-dynamic-image",
   "text_pt_BR": "Imagem dinâmica",
   "text_en_US": "Dynamic Image",
-  "class": "adjust-icon mdi mdi-image",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-dynamic-image.svg",
+  "description": "Estrutura para armazenar imagem na fonte de dados",
+  "description_en_US": "Structure for storing image in data source",
+  "category": [
+    "INPUTS"
+  ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamicimage.template.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamicimage.designtime.html",
+  "designTimeSelector": "div",
+  "designTimeDynamic": true,
   "properties": {
     "id": {
       "order": 1
@@ -126,8 +134,8 @@
     },
     {
       "selector": "div#{id} label",
-      "text_pt_BR": "Label",
-      "text_en_US": "Label"
+      "text_pt_BR": "Título",
+      "text_en_US": "Titulo"
     },
     {
       "selector": "div#{id} .button-positive",

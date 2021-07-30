@@ -66,12 +66,5 @@
         "targetSelector": "div"
       }
     ]
-  },
-  "styles": [
-    {
-      "selector": "div#{id} .item-content",
-      "text_pt_BR": "Conteúdo",
-      "text_en_US": "Content"
-    }
-  ]
+  }
 }

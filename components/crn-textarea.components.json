@@ -87,12 +87,5 @@
         }
       ]
     }
-  ],
-  "styles": [
-    {
-      "selector": "textarea#{id}",
-      "text_pt_BR": "Área de texto",
-      "text_en_US": "Textarea"
-    }
   ]
 }

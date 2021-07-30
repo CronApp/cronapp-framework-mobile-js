@@ -12,7 +12,7 @@
     "class": {
       "order": 9999
     },
-    "ng-initial-value":{
+    "ng-initial-value": {
       "displayName_pt_BR": "Valor inicial",
       "displayName_en_US": "Initial value"
     }
@@ -143,17 +143,12 @@
   ],
   "styles": [
     {
-      "selector": "div#{id}",
+      "selector": "label#{id}",
       "text_pt_BR": "Plano de fundo",
       "text_en_US": "Background"
     },
     {
-      "selector": "div#{id} span",
-      "text_pt_BR": "Descrição",
-      "text_en_US": "Description"
-    },
-    {
-      "selector": "div#{id} .handle",
+      "selector": "label#{id} .toggle .handle",
       "text_pt_BR": "Botão de alternância",
       "text_en_US": "Toggle Button"
     }
