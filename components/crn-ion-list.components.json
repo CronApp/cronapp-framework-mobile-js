@@ -10,8 +10,8 @@
   "category": [
     "LISTS"
   ],
-  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/advanced.list.template.html",
-  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/advanced.list.designtime.html",
+  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/advanced.list.template.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/advanced.list.designtime.html",
   "designTimeSelector": ":self",
   "designTimeDynamic": true,
   "templateInitializers": [
