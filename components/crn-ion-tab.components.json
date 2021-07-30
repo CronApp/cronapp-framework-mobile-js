@@ -14,11 +14,9 @@
       "class": "tab-nav tabs"
     }
   ],
-  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/ion-tab.designtime.html",
-  "designTimeSelector": "ion-tabs",
   "wrapper": false,
-  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/ion-tab.template.html",
   "forcedGroup": true,
+  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/ion-tab.template.html",
   "properties": {
     "class": {
       "order": 9999
@@ -37,7 +35,8 @@
     },
     "xattr-theme": {
       "displayName_pt_BR": "Tema do plano de fundo",
-      "displayName_en_US": "Background theme"
+      "displayName_en_US": "Background theme",
+      "order": 1
     }
   },
   "handleRules": {

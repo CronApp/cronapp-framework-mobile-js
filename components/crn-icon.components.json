@@ -6,19 +6,26 @@
   "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-icon.svg",
   "description": "Ícone",
   "description_en_US": "Icon",
-  "template": "<i class=\"ion ion-star\" id=\"\" style=\"font-size:300%;\" xattr-size=\"font-size:300%;\"/>",
+  "template": "<i class=\"ion ion-android-star\" style=\"font-size:300%; color: #333;\" icon-size=\"font-size:300%;\" icon-theme=\"color: #333;\"></i>",
   "wrapper": false,
-  "properties": {
-    "class": {
-      "order": 9999
-    },
+  "properties": {   
     "id": {
       "order": 1
     },
-    "xattr-size": {
-      "displayName_en_US": "Size",
-      "displayName_pt_BR": "Tamanho",
-      "order": 2
+    "class": {
+      "order": 9999
+    },
+    "cronapp-security": {
+      "order": 9999
+    },
+    "crn-repeat": {
+      "order": 9999
+    },
+    "ng-show": {
+      "order": 9999
+    },
+    "style": {
+      "order": 9999
     },
     "ng-click": {
       "removable": false,
@@ -45,48 +52,198 @@
       "type": "event"
     }
   },
-  "styles": [
-    {
-      "selector": "i#{id}",
-      "text_pt_BR": "Ícone",
-      "text_en_US": "Icon"
-    }
-  ],
   "attributesForPreview": [
     {
-      "name": "xattr-size",
+      "name": "icon-theme",
       "type": "options",
       "target": "style",
       "values": [
         {
-          "key": "font-size:100%;",
-          "value": "100%"
+          "key": "color: #fff;",
+          "value_pt_BR": "Branco",
+          "value_en_US": "White",
+          "color": "#fff"
         },
         {
-          "key": "font-size:200%;",
-          "value": "200%"
+          "key": "color: #333;",
+          "value_pt_BR": "Cinza",
+          "value_en_US": "Gray",
+          "color": "#333"
         },
         {
-          "key": "font-size:300%;",
-          "value": "300%"
+          "key": "color: #000;",
+          "value_pt_BR": "Preto",
+          "value_en_US": "Black",
+          "color": "#000"
         },
         {
-          "key": "font-size:400%;",
-          "value": "400%"
+          "key": "color: #0247FE;",
+          "value_pt_BR": "Azul",
+          "value_en_US": "Blue",
+          "color": "#0247FE"
         },
         {
-          "key": "font-size:500%;",
-          "value": "500%"
+          "key": "color: #85A5FF;",
+          "value_pt_BR": "Azul claro",
+          "value_en_US": "Light blue",
+          "color": "#85A5FF"
         },
         {
-          "key": "font-size:600%;",
-          "value": "600%"
+          "key": "color: #00217A;",
+          "value_pt_BR": "Azul escuro",
+          "value_en_US": "Dark blue",
+          "color": "#00217A"
         },
         {
-          "key": "font-size:700%;",
-          "value": "700%"
+          "key": "color: #3D01A4;",
+          "value_pt_BR": "Roxo",
+          "value_en_US": "Purple",
+          "color": "#3D01A4"
+        },
+        {
+          "key": "color: #B285FF;",
+          "value_pt_BR": "Roxo claro",
+          "value_en_US": "Light purple",
+          "color": "#B285FF"
+        },
+        {
+          "key": "color: #2D007A;",
+          "value_pt_BR": "Roxo escuro",
+          "value_en_US": "Dark purple",
+          "color": "#2D007A"
+        },
+        {
+          "key": "color: #FE2712;",
+          "value_pt_BR": "Vermelho",
+          "value_en_US": "Red",
+          "color": "#FE2712"
+        },
+        {
+          "key": "color: #FE8F84;",
+          "value_pt_BR": "Vermelho claro",
+          "value_en_US": "Light red",
+          "color": "#FE8F84"
+        },
+        {
+          "key": "color: #7A0B00;",
+          "value_pt_BR": "Vermelho escuro",
+          "value_en_US": "Dark red",
+          "color": "#7A0B00"
+        },
+        {
+          "key": "color: #FB9B02;",
+          "value_pt_BR": "Laranja",
+          "value_en_US": "Orange",
+          "color": "#FB9B02"
+        },
+        {
+          "key": "color: #FFD085;",
+          "value_pt_BR": "Laranja claro",
+          "value_en_US": "Light orange",
+          "color": "#FFD085"
+        },
+        {
+          "key": "color: #7A4B00;",
+          "value_pt_BR": "Laranja escuro",
+          "value_en_US": "Dark orange",
+          "color": "#7A4B00"
+        },
+        {
+          "key": "color: #FFFF33;",
+          "value_pt_BR": "Amarelo",
+          "value_en_US": "Yellow",
+          "color": "#FFFF33"
+        },
+        {
+          "key": "color: #FFFF85;",
+          "value_pt_BR": "Amarelo claro",
+          "value_en_US": "Light yellow",
+          "color": "#FFFF85"
+        },
+        {
+          "key": "color: #FFFF33;",
+          "value_pt_BR": "Amarelo escuro",
+          "value_en_US": "Dark yellow",
+          "color": "#FFFF33"
+        },
+        {
+          "key": "color: #66B032;",
+          "value_pt_BR": "Verde",
+          "value_en_US": "Green",
+          "color": "#66B032"
+        },
+        {
+          "key": "color: #B7FF85;",
+          "value_pt_BR": "Verde claro",
+          "value_en_US": "Light green",
+          "color": "#B7FF85"
+        },
+        {
+          "key": "color: #337A00;",
+          "value_pt_BR": "Verde escuro",
+          "value_en_US": "Dark green",
+          "color": "#337A00"
         }
       ]
+    },
+    {
+      "name": "icon-size",
+      "type": "options",
+      "target": "style",
+      "values": [
+          {
+            "key": "font-size:100%;",
+            "value": "100%"
+          },
+          {
+            "key": "font-size:200%;",
+            "value": "200%"
+          },
+          {
+            "key": "font-size:300%;",
+            "value": "300%"
+          },
+          {
+            "key": "font-size:400%;",
+            "value": "400%"
+          },
+          {
+            "key": "font-size:500%;",
+            "value": "500%"
+          },
+          {
+            "key": "font-size:600%;",
+            "value": "600%"
+          },
+          {
+            "key": "font-size:700%;",
+            "value": "700%"
+          }
+      ]
+    }
+  ],
+  "childrenProperties": [
+    {
+      "name": "class",
+      "selector": "i",
+      "displayName_pt_BR": "Ícone",
+      "displayName_en_US": "Icon",
+      "type": "icon",
+      "order": 1
+    },
+    {
+      "name": "icon-theme",
+      "displayName_pt_BR": "Cor do ícone",
+      "displayName_en_US": "Icon color",
+      "selector": "i",
+      "order": 2
+    },
+    {
+      "name": "icon-size",  
+      "displayName_pt_BR": "Tamanho do ícone",
+      "displayName_en_US": "Icon size",
+      "order": 3,    
+      "selector": "i"
     }
   ]
 }

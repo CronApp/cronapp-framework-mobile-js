@@ -6,10 +6,10 @@
   "description": "Texto com tamanho de letra padrão",
   "description_en_US": "Text with standard font size",
   "category": [
-    "TEXTS"
+    "TEXTS", "LAYOUTS"
   ],
   "wrapper": false,
-  "template": "<h2 xattr-position=\"text-center\" class=\"text-center\">Some label text</h2>",
+  "template": "<h2 class=\"text-center\" xattr-position=\"text-center\" subtitle-size=\"font-size: 22px;\" style=\"font-size: 22px;\">Some label text</h2>",
   "properties": {
     "id": {
       "order": 1
@@ -18,13 +18,18 @@
       "order": 9999
     },
     "content": {
-      "displayName_pt_BR": "Título",
-      "displayName_en_US": "Title",
+      "displayName_pt_BR": "Subttulo",
+      "displayName_en_US": "Subtitle",
       "order": 1
     },
     "xattr-position": {
       "displayName_pt_BR": "Posição",
       "displayName_en_US": "Position",
+      "order": 2
+    },
+    "subtitle-size": {
+      "displayName_pt_BR": "Tamanho da letra",
+      "displayName_en_US": "Font size",
       "order": 2
     },
     "ng-click": {
@@ -61,20 +66,39 @@
         {
           "key": "text-left",
           "value_pt_BR": "Esquerda",
-          "value_en_US": "Left",
-          "icon": "mdi mdi-ray-start"
+          "value_en_US": "Left"
         },
         {
           "key": "text-center",
           "value_pt_BR": "Centro",
-          "value_en_US": "Center",
-          "icon": "mdi mdi-ray-vertex"
+          "value_en_US": "Center"
         },
         {
           "key": "text-right",
           "value_pt_BR": "Direita",
-          "value_en_US": "Right",
-          "icon": "mdi mdi-ray-end"
+          "value_en_US": "Right"
+        }
+      ]
+    },
+    {
+      "name": "subtitle-size",
+      "type": "options",
+      "target": "style",
+      "values": [
+        {
+          "key": "font-size: 16px;",
+          "value_pt_BR": "Pequena",
+          "value_en_US": "Small"
+        },
+        {
+          "key": "font-size: 22px;",
+          "value_pt_BR": "Média",
+          "value_en_US": "Medium"
+        },
+        {
+          "key": "font-size: 30px;",
+          "value_pt_BR": "Grande",
+          "value_en_US": "Big"
         }
       ]
     }
@@ -84,13 +108,6 @@
       "name": "ng-mouseover",
       "selector": "h2",
       "type": "event"
-    }
-  ],
-  "styles": [
-    {
-      "selector": "h2#{id}",
-      "text_pt_BR": "Subtítulo",
-      "text_en_US": "Subtitle"
     }
   ]
 }

@@ -6,10 +6,7 @@
   "description": "Cartão com miniatura, título e subtítulo",
   "description_en_US": "Card with thumbnail, title and subtitle",
   "category": [
-    "Itens"
-  ],
-  "category_en_US": [
-    "Items"
+    "LISTS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/item.thumbnail.template.html",
@@ -88,20 +85,17 @@
         {
           "key": "text-left",
           "value_pt_BR": "Esquerda",
-          "value_en_US": "Left",
-          "icon": "mdi mdi-ray-start"
+          "value_en_US": "Left"
         },
         {
           "key": "text-center",
           "value_pt_BR": "Centro",
-          "value_en_US": "Center",
-          "icon": "mdi mdi-ray-vertex"
+          "value_en_US": "Center"
         },
         {
           "key": "text-right",
           "value_pt_BR": "Direita",
-          "value_en_US": "Right",
-          "icon": "mdi mdi-ray-end"
+          "value_en_US": "Right"
         }
       ]
     },
@@ -194,15 +188,15 @@
     },
     {
       "name": "xattr-theme",
-      "displayName_pt_BR": "Tema do Título",
-      "displayName_en_US": "Title theme",
+      "displayName_pt_BR": "Cor do Título",
+      "displayName_en_US": "Title color",
       "selector": "h2",
       "type": "text"
     },
     {
       "name": "xattr-theme",
-      "displayName_pt_BR": "Tema do Subtítulo",
-      "displayName_en_US": "Subtitle theme",
+      "displayName_pt_BR": "Cor do Subtítulo",
+      "displayName_en_US": "Subtitle color",
       "selector": "h3",
       "type": "text"
     }
