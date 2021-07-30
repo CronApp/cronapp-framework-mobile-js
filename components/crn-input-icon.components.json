@@ -6,7 +6,7 @@
   "description": "Campo para inserir texto com ícone",
   "description_en_US": "Field to enter text with icon",
   "category": [
-    "INPUTS"
+    "INPUTS", "FORMS"
   ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/icontextinput.template.html",

@@ -6,7 +6,7 @@
   "description": "Estrutura para inserir texto longo",
   "description_en_US": "Structure for inserting long text",
   "category": [
-    "TEXTS"
+    "TEXTS", "LAYOUTS"
   ],
   "wrapper": false,
   "template": "<p xattr-position=\"text-center\" style=\"font-size: 14px;\" class=\"text-center\" xattr-type=\"font-size: 14px;\">Some friendly Paragraph</p>",

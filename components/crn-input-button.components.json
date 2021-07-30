@@ -6,7 +6,7 @@
   "description": "Campo para inserir texto com botão",
   "description_en_US": "Field to enter text with button",
   "category": [
-    "INPUTS"
+    "INPUTS", "BUTTONS", "FORMS"
   ],
   "wrapper": false,
   "forcedGroup": true,

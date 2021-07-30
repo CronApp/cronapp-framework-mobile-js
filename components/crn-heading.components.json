@@ -6,7 +6,7 @@
   "description": "Texto com letra grande",
   "description_en_US": "Large font text",
   "category": [
-    "TEXTS"
+    "TEXTS", "LAYOUTS"
   ],
   "wrapper": false,
   "template": "<h1 class=\"text-center h1\" xattr-position=\"text-center\" xattr-type=\"h1\">Title</h1>",
