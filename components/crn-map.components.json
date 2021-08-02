@@ -2,7 +2,7 @@
   "name": "crn-map",
   "text_pt_BR": "Mapa",
   "text_en_US": "Map",
-  "class": " adjust-icon mdi mdi-google-maps",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-map.svg",
   "description": "Estrutura para visualização de mapa estático",
   "description_en_US": "Structure for static map visualization",
   "category": [

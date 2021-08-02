@@ -2,7 +2,12 @@
   "name": "crn-input-icon",
   "text_pt_BR": "Entrada de texto com ícone",
   "text_en_US": "Icon Input",
-  "class": "adjust-icon mdi mdi-label-outline",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-textinputicon.svg",
+  "description": "Campo para inserir texto com ícone",
+  "description_en_US": "Field to enter text with icon",
+  "category": [
+    "INPUTS", "FORMS"
+  ],
   "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/icontextinput.template.html",
   "properties": {
