@@ -11,9 +11,17 @@
   "onDrop": "openEditor",
   "wrapper": true,
   "onDoubleClick": "openEditor",
+  "onDrop": "openEditor",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-ion-list.svg",
+  "description": "Lista de dados com barra de pesquisa",
+  "description_en_US": "Data list with search bar",
+  "category": [
+    "LISTS"
+  ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/advanced.list.template.html",
   "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/advanced.list.designtime.html",
-  "designTimeSelector": "cron-list",
+  "designTimeSelector": ":self",
+  "designTimeDynamic": true,
   "templateInitializers": [
     {
       "template": "<ion-list type=\"\" can-swipe=\"listCanSwipe\">\n\t<ion-item ng-class=\"{'cron-list-selected' :isChecked(rowData)}\" class=\"item {{options.editableButtonClass}} {{options.iconClassPosition}} {{options.imageClassPosition}}\" ng-repeat=\"rowData in datasource\">\n\t\t<ul ng-if=\"options.allowMultiselect\" class=\"checkbox-group component-holder {{'cron-list-multiselect-' + options.imageType}}\" data-component=\"crn-checkbox\"><label class=\"checkbox\"><input ng-checked=\"isChecked(rowData);\" type=\"checkbox\"></label></ul>\n\t\t<img alt='Thumbnail' ng-if=\"options.imageType !== 'do-not-show' && rowData[options.fields.image]\" \n\t\t ng-src=\"{{options.isImageFromDropbox ? '' : 'data:image/png;base64,'}}{{rowData[options.fields.image]}}\" class=\"{{options.imageToClassPosition}}\">\n\t\t<div class=\"{{options.xattrTextPosition}} {{options.textToClassPosition}}\">\n\t\t\t<h2 ng-if=\"rowData[options.fields.field0]\">{{rowData[options.fields.field0]|mask:options.fields.mask0:options.fields.type0}}</h2>\n\t\t\t<p class=\"dark\" ng-if=\"rowData[options.fields.field1]\">{{rowData[options.fields.field1]|mask:options.fields.mask1:options.fields.type1}}</p>\n\t\t\t<p class=\"dark\" ng-if=\"rowData[options.fields.field2]\">{{rowData[options.fields.field2]|mask:options.fields.mask2:options.fields.type2}}</p>\n\t\t\t<p class=\"dark\" ng-if=\"rowData[options.fields.field3]\">{{rowData[options.fields.field3]|mask:options.fields.mask3:options.fields.type3}}</p>\n\t\t\t<p class=\"dark\" ng-if=\"rowData[options.fields.field4]\">{{rowData[options.fields.field4]|mask:options.fields.mask4:options.fields.type4}}</p>\n\t\t\t<p class=\"dark\" ng-if=\"rowData[options.fields.field5]\">{{rowData[options.fields.field5]|mask:options.fields.mask5:options.fields.type5}}</p>\n\t\t\t<i ng-if=\"options.icon\" class=\"{{options.icon}}\" xattr-theme=\"dark\"></i>\n\t\t</div>\n\t</ion-item>\n</ion-list>\n<ion-infinite-scroll></ion-infinite-scroll>\n",
@@ -24,158 +32,130 @@
       "attribute": "searchTemplate"
     }
   ],
+  "forcedGroup": true,
+  "wrapper": false,
   "properties": {
     "id": {
       "order": 1
     },
     "class": {
       "order": 9999
+    },
+    "onclick": {
+      "type": "event"
+    },
+    "on-tap": {
+      "removable": true,
+      "type": "event"
+    },
+    "on-double-tap": {
+      "removable": true,
+      "type": "event"
+    },
+    "on-hold": {
+      "removable": false,
+      "type": "event"
+    },
+    "on-drag": {
+      "removable": false,
+      "type": "event"
+    },
+    "on-swipe": {
+      "removable": false,
+      "type": "event"
+    },
+    "options": {
+      "displayName_pt_BR": "Configuração",
+      "displayName_en_US": "Configuration",
+      "mandatory": true
+    },
+    "xattr-text-position": {
+      "displayName_pt_BR": "Posição do Texto",
+      "displayName_en_US": "Text Position"
     }
   },
   "attributesForPreview": [
     {
       "name": "xattr-text-position",
       "type": "btngroup",
-      "target": "cron-list",
+      "target": "class",
       "values": [
         {
           "key": "text-left",
-          "value": "Left",
-          "icon": "mdi mdi-ray-start"
+          "value_pt_BR": "Esquerda",
+          "value_en_US": "Left"
         },
         {
           "key": "text-center",
-          "value": "Center",
-          "icon": "mdi mdi-ray-vertex"
+          "value_pt_BR": "Centro",
+          "value_en_US": "Center"
         },
         {
           "key": "text-right",
-          "value": "Right",
-          "icon": "mdi mdi-ray-end"
+          "value_pt_BR": "Direita",
+          "value_en_US": "Right"
         }
       ]
     }
   ],
-  "childrenProperties": [
-    {
-      "name": "options",
-      "selector": "cron-list",
-      "displayName_pt_BR": "Configuração",
-      "displayName_en_US": "Configuration",
-      "mandatory": true
-    },
-    {
-      "name": "ng-model",
-      "selector": "cron-list",
-      "displayName_pt_BR": "Valor",
-      "displayName_en_US": "Value"
-    },
-    {
-      "name": "xattr-text-position",
-      "selector": "cron-list",
-      "displayName_pt_BR": "Posição do Texto",
-      "displayName_en_US": "Text Position",
-      "type": "text"
-    },
-    {
-      "name": "ng-click",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "on-double-tap",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "ng-keydown",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "ng-keyup",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "ng-focus",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "ng-blur",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "on-hold",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "on-swipe",
-      "selector": "cron-list",
-      "type": "event"
-    },
-    {
-      "name": "on-drag",
-      "selector": "cron-list",
-      "type": "event"
-    }
-  ],
   "styles": [
     {
-      "selector": "div#{id} h2",
+      "selector": "ion-list .item h2",
       "text_pt_BR": "Título",
       "text_en_US": "Title"
     },
     {
-      "selector": "div#{id} p",
+      "selector": "ion-list .item p",
       "text_pt_BR": "Subtítulo",
       "text_en_US": "Subtitle"
     },
     {
-      "selector": "div#{id} .item-content i.icon",
+      "selector": "ion-list .item-content i.icon",
       "text_pt_BR": "Ícone",
       "text_en_US": "Icon"
     },
     {
-      "selector": "div#{id} .item-content , div#{id} .item-complex",
+      "selector": "ion-list .item-content , ion-list .item-complex",
       "text_pt_BR": "Lista",
       "text_en_US": "List"
     },
     {
-      "selector": "div#{id} .item-input-inset",
+      "selector": "div.item .item-input-inset",
       "text_pt_BR": "Plano de fundo da pesquisa",
       "text_en_US": "Search Box"
     },
     {
-      "selector": "div#{id} .item-input-wrapper",
+      "selector": "div.item .item-input-wrapper",
       "text_pt_BR": "Barra de Pesquisar",
       "text_en_US": "Research Background"
     },
     {
-      "selector": "div#{id} .item-input-wrapper > input",
+      "selector": "div.item .item-input-wrapper input",
       "text_pt_BR": "Entrada de texto da pesquisa",
       "text_en_US": "Search text entry"
     },
     {
-      "selector": "div#{id} label.checkbox",
+      "selector": "div.item .item-input-wrapper input::placeholder",
+      "text_pt_BR": "Sugestão da entrada de texto",
+      "text_en_US": "Text input suggestion"
+    },
+    {
+      "selector": "ion-list .checkbox input",
       "text_pt_BR": "Caixa de checagem",
       "text_en_US": "Checkbox"
     },
     {
-      "selector": "div#{id} label.checkbox",
-      "text_pt_BR": "Cor da caixa de selecionada",
+      "selector": "ion-list .checkbox input:checked::before, ion-list .checkbox-icon::before",
+      "text_pt_BR": "Cor da caixa selecionada",
       "text_en_US": "Selected checkbox color"
     },
     {
-      "selector": "div#{id} .cron-list-selected, div#{id} .cron-list-selected > div.item-content",
+      "selector": "ion-list .cron-list-selected, ion-list .cron-list-selected div.item-content",
       "text_pt_BR": "Item Selecionado",
       "text_en_US": "Selected Item"
     },
     {
-      "selector": "div#{id} button.cron-list-button-clean",
+      "selector": "div.item .cron-list-button-clean",
       "text_pt_BR": "Botão de Limpar",
       "text_en_US": "Clean Button"
     }

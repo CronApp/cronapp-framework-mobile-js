@@ -93,11 +93,6 @@
       "text_en_US": "Background"
     },
     {
-      "selector": "div#{id} input",
-      "text_pt_BR": "Alcance",
-      "text_en_US": "Range"
-    },
-    {
       "selector": "div#{id} i.left-icon",
       "text_pt_BR": "Ícone inicial/esquerda",
       "text_en_US": "First/left icon"

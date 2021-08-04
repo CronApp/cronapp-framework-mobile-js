@@ -76,20 +76,17 @@
         {
           "key": "left-block",
           "value_pt_BR": "Esquerda",
-          "value_en_US": "Left",
-          "icon": "mdi mdi-ray-start"
+          "value_en_US": "Left"
         },
         {
           "key": "center-block",
           "value_pt_BR": "Centro",
-          "value_en_US": "Center",
-          "icon": "mdi mdi-ray-vertex"
+          "value_en_US": "Center"
         },
         {
           "key": "right-block",
           "value_pt_BR": "Direita",
-          "value_en_US": "Right",
-          "icon": "mdi mdi-ray-end"
+          "value_en_US": "Right"
         }
       ]
     },
