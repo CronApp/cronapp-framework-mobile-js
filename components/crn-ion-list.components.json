@@ -138,7 +138,7 @@
     },
     {
       "selector": "ion-list .checkbox input:checked::before, ion-list .checkbox-icon::before",
-      "text_pt_BR": "Cor da caixa selecionada",
+      "text_pt_BR": "Cor da caixa de seleção selecionada",
       "text_en_US": "Selected checkbox color"
     },
     {
