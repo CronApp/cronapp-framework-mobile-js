@@ -135,7 +135,7 @@
     {
       "selector": "div#{id} label",
       "text_pt_BR": "Título",
-      "text_en_US": "Titulo"
+      "text_en_US": "Title"
     },
     {
       "selector": "div#{id} .button-positive",
