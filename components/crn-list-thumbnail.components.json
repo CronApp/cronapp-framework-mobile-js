@@ -80,17 +80,20 @@
         {
           "key": "text-left",
           "value_pt_BR": "Esquerda",
-          "value_en_US": "Left"
+          "value_en_US": "Left",
+          "icon": "mdi mdi-ray-start"
         },
         {
           "key": "text-center",
           "value_pt_BR": "Centro",
-          "value_en_US": "Center"
+          "value_en_US": "Center",
+          "icon": "mdi mdi-ray-vertex"
         },
         {
           "key": "text-right",
           "value_pt_BR": "Direita",
-          "value_en_US": "Right"
+          "value_en_US": "Right",
+          "icon": "mdi mdi-ray-end"
         }
       ]
     },
@@ -213,16 +216,16 @@
     },
     {
       "name": "xattr-theme",
-      "displayName_pt_BR": "Cor do título",
-      "displayName_en_US": "Title color",
+      "displayName_pt_BR": "Tema do título",
+      "displayName_en_US": "Title theme",
       "selector": "h2",
       "type": "text",
       "order": 8
     },
     {
       "name": "xattr-theme",
-      "displayName_pt_BR": "Cor do subtítulo",
-      "displayName_en_US": "Subtitle color",
+      "displayName_pt_BR": "Tema do subtítulo",
+      "displayName_en_US": "Subtitle theme",
       "selector": "h3",
       "type": "text",
       "order": 9

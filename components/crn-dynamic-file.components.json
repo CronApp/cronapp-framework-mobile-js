@@ -12,10 +12,18 @@
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/dynamicfile.template.html",
   "properties": {
     "id": {
-      "order": 2
+      "order": 1
     },
     "class": {
       "order": 9999
+    },
+    "content":{
+      "displayName_pt_BR": "Título",
+      "displayName_en_US": "Title",
+      "order": 2
+    },
+    "max-file-size":{
+      "order": 3
     },
     "ng-model": {
       "onSave": "javascript:function() { var result = arguments[0]; if (result.indexOf('.') == -1 && result.trim().length > 0 ) { result = 'vars.'+result;  }  return result; }",
@@ -24,25 +32,24 @@
       "order": 1
     }
   },
+  "styles": [
+    {
+      "selector": "div#{id} .form-group",
+      "text_pt_BR": "Campo Interno",
+      "text_en_US": "Internal Field"
+    },
+    {
+      "selector": "div#{id} label",
+      "text_pt_BR": "Título",
+      "text_en_US": "Title"
+    }
+  ],
   "childrenProperties": [
     {
       "name": "file-info",
       "selector": "div[dynamic-file]",
       "type": "text",
-      "order": 2
-    },
-    {
-      "name": "max-file-size",
-      "displayName_pt_BR": "Tamanho máximo da arquivo",
-      "displayName_en_US": "Maximum file size",
-      "selector": "div[dynamic-file]",
-      "type": "text",
-      "order": 1
-    },
-    {
-      "name": "ng-required",
-      "selector": "div[dynamic-file]",
-      "type": "logic"
+      "order": 4
     },
     {
       "name": "ng-click",
@@ -68,18 +75,6 @@
       "name": "on-swipe",
       "selector": "div.item",
       "type": "event"
-    }
-  ],
-  "styles": [
-    {
-      "selector": "div#{id} .form-group",
-      "text_pt_BR": "Campo Interno",
-      "text_en_US": "Internal Field"
-    },
-    {
-      "selector": "div#{id} label",
-      "text_pt_BR": "Título",
-      "text_en_US": "Title"
     }
   ]
 }

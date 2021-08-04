@@ -1098,8 +1098,8 @@ window.addEventListener('message', function(event) {
     }
 
     var addDefaultButton = function(dataSourceName, column) {
-      const EDIT_TEMPLATE = '<ion-option-button ' + getCronappSecurity(column) + ' class="button-positive ion-edit button-edit" ng-click="' + getEditCommand(dataSourceName) + '"><span>&nbsp;{{"Permission.view.Edit" | translate}}</span></ion-option-button>';
-      const DELETE_TEMPLATE = '<ion-option-button ' + getCronappSecurity(column) + ' class="button-assertive ion-trash-a button-delete" ng-click="' + dataSourceName + '.remove(rowData)"><span>&nbsp;{{"Permission.view.Remove" | translate}}</span></ion-option-button>';
+      const EDIT_TEMPLATE = '<ion-option-button ' + getCronappSecurity(column) + ' class="button-positive ion-edit" ng-click="' + getEditCommand(dataSourceName) + '"><span>&nbsp;{{"Permission.view.Edit" | translate}}</span></ion-option-button>';
+      const DELETE_TEMPLATE = '<ion-option-button ' + getCronappSecurity(column) + ' class="button-assertive ion-trash-a" ng-click="' + dataSourceName + '.remove(rowData)"><span>&nbsp;{{"Permission.view.Remove" | translate}}</span></ion-option-button>';
 
       if (column.command == 'edit|destroy') {
         return EDIT_TEMPLATE.concat(DELETE_TEMPLATE);

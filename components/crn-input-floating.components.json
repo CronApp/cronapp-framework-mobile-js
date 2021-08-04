@@ -115,6 +115,18 @@
       "type": "event"
     }
   ],
+  "styles": [
+    {
+      "selector": "div#{id} .input-label",
+      "text_pt_BR": "Título",
+      "text_en_US": "Title"
+    },
+    {
+      "selector": "div#{id} input",
+      "text_pt_BR": "Entrada de texto",
+      "text_en_US": "Input"
+    }
+  ],
   "attributesForPreview": [
     {
       "name": "keyboard",
@@ -157,23 +169,6 @@
           "value_en_US": "Search"
         }
       ]
-    }
-  ],
-  "styles": [
-    {
-      "selector": "#{id} .input-label",
-      "text_pt_BR": "Título",
-      "text_en_US": "Title"
-    },
-    {
-      "selector": "#{id} input",
-      "text_pt_BR": "Entrada de texto",
-      "text_en_US": "Input"
-    },
-    {
-      "selector": "#{id} input::placeholder",
-      "text_pt_BR": "Sugestão",
-      "text_en_US": "Placeholder"
     }
   ]
 }

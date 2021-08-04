@@ -121,17 +121,20 @@
         {
           "key": "text-left",
           "value_pt_BR": "Esquerda",
-          "value_en_US": "Left"
+          "value_en_US": "Left",
+          "icon": "mdi mdi-ray-start"
         },
         {
           "key": "text-center",
           "value_pt_BR": "Centro",
-          "value_en_US": "Center"
+          "value_en_US": "Center",
+          "icon": "mdi mdi-ray-vertex"
         },
         {
           "key": "text-right",
           "value_pt_BR": "Direita",
-          "value_en_US": "Right"
+          "value_en_US": "Right",
+          "icon": "mdi mdi-ray-end"
         }
       ]
     },
@@ -209,8 +212,8 @@
     {
       "name": "xattr-theme",
       "selector": "h2",
-      "displayName_pt_BR": "Cor do conteúdo",
-      "displayName_en_US": "Content color",
+      "displayName_pt_BR": "Tema do conteúdo",
+      "displayName_en_US": "Content Theme",
       "type": "text"
     },
     {
@@ -230,8 +233,8 @@
     {
       "name": "xattr-theme",
       "selector": "i",
-      "displayName_pt_BR": "Cor do ícone",
-      "displayName_en_US": "Icon color",
+      "displayName_pt_BR": "Tema do ícone",
+      "displayName_en_US": "Icon Theme",
       "type": "text"
     },
     {

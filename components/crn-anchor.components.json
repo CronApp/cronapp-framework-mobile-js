@@ -85,5 +85,12 @@
       "selector": "a",
       "type": "event"
     }
+  ],
+  "styles": [
+    {
+      "selector": "a#{id}",
+      "text_pt_BR": "Link",
+      "text_en_US": "Link"
+    }
   ]
 }

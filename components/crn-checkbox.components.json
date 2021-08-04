@@ -49,6 +49,11 @@
       "target": "class",
       "values": [
         {
+          "key": "",
+          "value_pt_BR": "Padrão",
+          "value_en_US": "Default"
+        },
+        {
           "key": "checkbox-assertive",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive",

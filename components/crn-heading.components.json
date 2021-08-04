@@ -85,25 +85,32 @@
     },
     {
       "name": "xattr-type",
-      "type": "btngroup",
+      "type": "options",
       "target": "class",
       "values": [
         {
           "key": "h1",
-          "value_pt_BR": "Grande",
-          "value_en_US": "Large"
+          "value_pt_BR": "Título maior",
+          "value_en_US": "Major Title"
         },
         {
           "key": "h3",
-          "value_pt_BR": "Médio",
-          "value_en_US": "Medium"
+          "value_pt_BR": "Título médio",
+          "value_en_US": "Medium Title"
         },
         {
           "key": "h5",
-          "value_pt_BR": "Pequeno",
-          "value_en_US": "Small"
+          "value_pt_BR": "Título menor",
+          "value_en_US": "Minor Title"
         }
       ]
+    }
+  ],
+  "styles": [
+    {
+      "selector": "h1#{id}",
+      "text_pt_BR": "Título",
+      "text_en_US": "Title"
     }
   ]
 }

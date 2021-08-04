@@ -9,7 +9,7 @@
     "INPUTS", "FORMS"
   ],
   "wrapper": false,
-  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/compnents/templates/textarea.template.html",
+  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/textarea.template.html",
   "properties": {
     "class": {
       "order": 9999
@@ -91,6 +91,13 @@
           "value_en_US": "Both"
         }
       ]
+    }
+  ],
+  "styles": [
+    {
+      "selector": "textarea#{id}",
+      "text_pt_BR": "Área de texto",
+      "text_en_US": "Textarea"
     }
   ]
 }

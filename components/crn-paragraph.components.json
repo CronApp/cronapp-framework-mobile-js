@@ -106,5 +106,12 @@
       "selector": "p",
       "type": "event"
     }
+  ],
+  "styles": [
+    {
+      "selector": "p",
+      "text_pt_BR": "Conteúdo",
+      "text_en_US": "Content"
+    }
   ]
 }
