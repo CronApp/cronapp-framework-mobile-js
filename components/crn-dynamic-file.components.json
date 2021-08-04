@@ -33,7 +33,7 @@
     },
     {
       "name": "max-file-size",
-      "displayName_pt_BR": "Tamanho máximo da arquivo",
+      "displayName_pt_BR": "Tamanho máximo do arquivo",
       "displayName_en_US": "Maximum file size",
       "selector": "div[dynamic-file]",
       "type": "text",
