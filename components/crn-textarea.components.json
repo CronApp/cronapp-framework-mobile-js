@@ -9,7 +9,7 @@
     "INPUTS", "FORMS"
   ],
   "wrapper": false,
-  "templateURL": "src/main/mobileapp/www/node_moduleso/cronapp-framework-mobile-js/dist/compnents/templates/textarea.template.html",
+  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/compnents/templates/textarea.template.html",
   "properties": {
     "class": {
       "order": 9999
