@@ -1,6 +1,7 @@
 @import 'custom-ionic.css';
 @import 'signup.css';
 @import "groupingOfCss/import_groupingOfCss.css";
+@import '../components/css/color-default.css';
 
 /* Empty. Add your own CSS if you like */
 
