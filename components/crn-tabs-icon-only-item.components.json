@@ -2,7 +2,7 @@
   "name": "crn-tabs-icon-only-item",
   "text_pt_BR": "Item de aba com ícone",
   "text_en_US": "Tab item with icon",
-  "class": "adjust-icon mdi mdi-window-maximize",
+  "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-tabs-icon-only.svg",
   "wrapper": false,
   "autoWrapper": true,
   "pallete": false,
