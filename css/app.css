@@ -271,3 +271,9 @@ kendo-chat .k-bubble {
 .item-floating-label .input-label{
     display: table;
 }
+
+.tabs-striped .tabs .tab-item .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
