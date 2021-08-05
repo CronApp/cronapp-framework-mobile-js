@@ -30,6 +30,8 @@
     {
       "name": "ng-model",
       "selector": "input[ng-model]",
+      "onSave": "javascript:function() { var result = arguments[0]; result = result.replaceAll(/[-,+, ,(,),']/g,''); if (result.indexOf('.') == -1 && result.trim().length > 0 ) { result = 'vars.'+result; } return result; }",
+      "onDisplay": "javascript:function() { return arguments[0].replace('vars.',''); }",
       "displayName_pt_BR": "Valor",
       "displayName_en_US": "Value",
       "type": "text",
