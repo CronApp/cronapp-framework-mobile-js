@@ -3,8 +3,8 @@
     "text_pt_BR": "Abas com ícone",
     "text_en_US": "Tabs with icon",
     "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-tabs.svg",
-    "description": "Diferentes painéis separados por abas",
-    "description_en_US": "Different panels separated by tabs",
+    "description": "Diferentes painéis separados por abas com ícone",
+    "description_en_US": "Different panels separated by tabs with icon",
     "category": [
         "LAYOUTS"
     ],
