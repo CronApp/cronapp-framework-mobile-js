@@ -1,6 +1,7 @@
 @import 'custom-ionic.css';
 @import 'signup.css';
 @import "groupingOfCss/import_groupingOfCss.css";
+@import '../components/css/color-default.css';
 
 /* Empty. Add your own CSS if you like */
 
@@ -273,4 +274,10 @@ ion-header-bar.bar h1.title {
 
 .item-floating-label .input-label{
     display: table;
+}
+
+.tabs-striped .tabs .tab-item .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
