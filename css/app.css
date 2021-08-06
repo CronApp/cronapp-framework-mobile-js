@@ -280,4 +280,5 @@ ion-header-bar.bar h1.title {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }

@@ -1,10 +1,10 @@
 {
     "name": "crn-tabs-icon-only",
-    "text_pt_BR": "Abas com ícone",
-    "text_en_US": "Tabs with icon",
+    "text_pt_BR": "Rodapé com ícone",
+    "text_en_US": "Footer with icon",
     "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-tabs-icon-only.svg",
-    "description": "Diferentes painéis separados por abas com ícone",
-    "description_en_US": "Different panels separated by tabs with icon",
+    "description": "Estrutura de rodapé com ícones",
+    "description_en_US": "Footer structure with icon",
     "category": [
         "LAYOUTS"
     ],
@@ -52,6 +52,12 @@
             "displayName_pt_BR": "Tamanho dos ícones",
             "displayName_en_US": "Icon size",
             "selector": "i",
+            "order": 3
+        },
+        "tabs-text": {
+            "displayName_pt_BR": "Texto da aba",
+            "displayName_en_US": "Tabs text",
+            "selector": "span",
             "order": 3
         }
     },
