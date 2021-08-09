@@ -1,0 +1,11 @@
+<div class="component-holder ng-binding ng-scope ui-draggable ui-draggable-handle" data-component="crn-datasource" id="crn-datasource-${RANDOM}">
+    <datasource name="" entity="" keys="" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete="" on-after-fill=""><i class="cpn cpn-datasource"></i></datasource>
+</div>
+
+<div crn-datasource="User" class="" ng-hide="User.editing || User.inserting">
+    <div class="component-holder ng-binding ng-scope" data-component="crn-ion-list" id="crn-ion-list-main">
+        <cron-list options="" ng-model="vars.cronlist${RANDOM}" xattr-text-position="text-left"></cron-list>
+    </div>
+</div>
+
+<div class="list" ng-disabled="!datasource.editing &amp;&amp; !datasource.inserting" data-container="true" data-replace="true">Arraste os campos do formulário aqui</div>
