@@ -30,11 +30,6 @@
       "displayName_en_US": "Placeholder",
       "order": 2
     },
-    "class": {
-      "displayName_pt_BR": "Ícone",
-      "displayName_en_US": "Icon",
-      "order": 1
-    },
     "id": {
       "order": 4
     },
@@ -66,19 +61,25 @@
   "childrenProperties": [
     {
       "name": "class",
+      "displayName_pt_BR": "Ícone",
+      "displayName_en_US": "Icon",
       "selector": "i",
       "type": "icon",
       "order": 1
     },
     {
-      "name": "title",
+      "name": "title",      
       "selector": "a",
-      "type": "text"
+      "type": "text",
+      "order": 2
     },
     {
       "name": "content",
+      "displayName_pt_BR": "Título",
+      "displayName_en_US": "Title",
       "selector": "span",
-      "type": "text"
+      "type": "text",
+      "order": 3
     }
   ]
 }

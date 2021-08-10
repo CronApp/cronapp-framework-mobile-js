@@ -12,9 +12,6 @@
     "autoWrapper": true,
     "forcedGroup": true,
     "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/tabs-icon-only.template.html",
-    "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/tabs-icon-only.designtime.html",
-    "designTimeSelector": "ion-tabs",
-    "designTimeDynamic": true,
     "controls": {
         "ungroup": true,
         "resizable": false,
