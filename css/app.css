@@ -62,8 +62,8 @@
 }
 
 .tabs {
-    height: calc(57px + var(--safe-area-inset-bottom, 19px)) !important;
-    min-height: 57px;
+    height: calc(44px + var(--safe-area-inset-bottom, 19px)) !important;
+    min-height: 44px;
 }
 
 .bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
@@ -289,4 +289,13 @@ kendo-chat .k-bubble {
     font-size: 10px;
     height: 33px;
     margin-top: -16px;
+}
+
+.tabs-striped .tabs {
+    height: calc(57px + var(--safe-area-inset-bottom, 19px)) !important;
+    min-height: 57px;
+}
+
+.has-footer-tabs {
+    bottom: 57px;
 }
