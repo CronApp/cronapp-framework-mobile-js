@@ -171,6 +171,11 @@
       "removable": false,
       "global": true,
       "order": 8
+    },
+    "on-change-status": {
+      "removable": true,
+      "type": "event",
+      "global": true
     }
   }
 }
