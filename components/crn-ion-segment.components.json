@@ -732,5 +732,27 @@
       "order": 7,
       "selector": "div.crn-ion-segment-classic ul"
     }
+  ],
+  "styles": [
+    {
+      "selector": "div#{id} ul",
+      "text_pt_BR": "Cor do fundo",
+      "text_en_US": "Background"
+    },
+    {
+      "selector": "div#{id} ul li a",
+      "text_pt_BR": "Texto e ícone",
+      "text_en_US": "Text and icon"
+    },
+    {
+      "selector": "div#{id} ul li.active",
+      "text_pt_BR": "Aba ativa",
+      "text_en_US": "Active tab"
+    },
+    {
+      "selector": "div#{id} ul li a i",
+      "text_pt_BR": "Ícone",
+      "text_en_US": "Icon"
+    }
   ]
 }
