@@ -1,6 +1,4 @@
-.crn-ion-segment-light ul,
-.crn-ion-segment-modern ul,
-.crn-ion-segment-classic ul {
+.crn-ion-segment-light ul, .crn-ion-segment-modern ul, .crn-ion-segment-classic ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,9 +12,7 @@
     height: 54px;
 }
 
-.crn-ion-segment-light ul li,
-.crn-ion-segment-modern ul li,
-.crn-ion-segment-classic ul li {
+.crn-ion-segment-light ul li, .crn-ion-segment-modern ul li, .crn-ion-segment-classic ul li {
     background-color: transparent;
     border: none;
     border-radius: 16px;
@@ -29,9 +25,7 @@
     height: 98%;
 }
 
-.crn-ion-segment-light ul li a,
-.crn-ion-segment-modern ul li a,
-.crn-ion-segment-classic ul li a {
+.crn-ion-segment-light ul li a, .crn-ion-segment-modern ul li a, .crn-ion-segment-classic ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,21 +33,15 @@
     width: 100%;
 }
 
-.crn-ion-segment-light ul li a:hover,
-.crn-ion-segment-modern ul li a:hover,
-.crn-ion-segment-classic ul li a:hover {
+.crn-ion-segment-light ul li a:hover, .crn-ion-segment-modern ul li a:hover, .crn-ion-segment-classic ul li a:hover {
     cursor: pointer;
 }
 
-.crn-ion-segment-light ul li a i,
-.crn-ion-segment-modern ul li a i,
-.crn-ion-segment-classic ul li a i {
+.crn-ion-segment-light ul li a i, .crn-ion-segment-modern ul li a i, .crn-ion-segment-classic ul li a i {
     margin-bottom: 3px;
 }
 
-.crn-ion-segment-light ul li.active a,
-.crn-ion-segment-modern ul li.active a,
-.crn-ion-segment-classic ul li.active a {
+.crn-ion-segment-light ul li.active a, .crn-ion-segment-modern ul li.active a, .crn-ion-segment-classic ul li.active a {
     background-color: transparent;
 }
 
@@ -61,34 +49,27 @@
     font-weight: 600;
 }
 
-.crn-ion-segment-modern ul li.active,
-.crn-ion-segment-classic ul li.active {
+.crn-ion-segment-modern ul li.active, .crn-ion-segment-classic ul li.active {
     box-shadow: rgb(0 16 46 / 15%) 0px 2px 3px;
 }
 
-.crn-ion-segment-light ul li,
-.crn-ion-segment-modern ul li {
+.crn-ion-segment-light ul li, .crn-ion-segment-modern ul li {
     border-radius: 6px;
 }
 
-.crn-ion-segment-light ul,
-.crn-ion-segment-modern ul {
+.crn-ion-segment-light ul, .crn-ion-segment-modern ul {
     border-radius: 0px;
 }
 
 /* tabs-template */
 
-
 .crn-ion-segment-classic ul.tabs-template-compact {
     width: 79%;
 }
 
-.crn-ion-segment-light ul.tabs-template-full,
-.crn-ion-segment-modern ul.tabs-template-full {
+.crn-ion-segment-light ul.tabs-template-full, .crn-ion-segment-modern ul.tabs-template-full {
     width: 100%;
 }
-
-
 
 /* icon-orientation */
 
@@ -114,239 +95,194 @@
 
 /* icon-theme */
 
-div.crn-ion-segment-light.icon-theme-light-white li a,
-.ion-segment-white li a {
+div.crn-ion-segment-light.icon-theme-light-white li a, .ion-segment-white li a {
     color: var(--white);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-white li.active a,
-.ion-segment-white li.active a {
+div.crn-ion-segment-light.icon-theme-light-white li.active a, .ion-segment-white li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-gray li a,
-.ion-segment-gray li a {
+div.crn-ion-segment-light.icon-theme-light-gray li a, .ion-segment-gray li a {
     color: var(--gray);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-gray li.active a,
-.ion-segment-gray li.active a {
+div.crn-ion-segment-light.icon-theme-light-gray li.active a, .ion-segment-gray li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-black li a,
-.ion-segment-black li a {
+div.crn-ion-segment-light.icon-theme-light-black li a, .ion-segment-black li a {
     color: var(--black);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-black li.active a,
-.ion-segment-black li.active a {
+div.crn-ion-segment-light.icon-theme-light-black li.active a, .ion-segment-black li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-blue li a,
-.ion-segment-blue li a {
+div.crn-ion-segment-light.icon-theme-light-blue li a, .ion-segment-blue li a {
     color: var(--blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-blue li.active a,
-.ion-segment-blue li.active a {
+div.crn-ion-segment-light.icon-theme-light-blue li.active a, .ion-segment-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-blue li a,
-.ion-segment-light-blue li a {
+div.crn-ion-segment-light.icon-theme-light-light-blue li a, .ion-segment-light-blue li a {
     color: var(--light-blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-blue li.active a,
-.ion-segment-light-blue li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-blue li.active a, .ion-segment-light-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-blue li a,
-.ion-segment-dark-blue li a {
+div.crn-ion-segment-light.icon-theme-light-dark-blue li a, .ion-segment-dark-blue li a {
     color: var(--dark-blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-blue li.active a,
-.ion-segment-dark-blue li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-blue li.active a, .ion-segment-dark-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-purple li a,
-.ion-segment-purple li a {
+div.crn-ion-segment-light.icon-theme-light-purple li a, .ion-segment-purple li a {
     color: var(--purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-purple li.active a,
-.ion-segment-purple li.active a {
+div.crn-ion-segment-light.icon-theme-light-purple li.active a, .ion-segment-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-purple li a,
-.ion-segment-light-purple li a {
+div.crn-ion-segment-light.icon-theme-light-light-purple li a, .ion-segment-light-purple li a {
     color: var(--light-purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-purple li.active a,
-.ion-segment-light-purple li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-purple li.active a, .ion-segment-light-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-purple li a,
-.ion-segment-dark-purple li a {
+div.crn-ion-segment-light.icon-theme-light-dark-purple li a, .ion-segment-dark-purple li a {
     color: var(--dark-purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-purple li.active a,
-.ion-segment-dark-purple li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-purple li.active a, .ion-segment-dark-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-red li a,
-.ion-segment-red li a {
+div.crn-ion-segment-light.icon-theme-light-red li a, .ion-segment-red li a {
     color: var(--red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-red li.active a,
-.ion-segment-red li.active a {
+div.crn-ion-segment-light.icon-theme-light-red li.active a, .ion-segment-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li a,
-.ion-segment-light-red li a {
+div.crn-ion-segment-light.icon-theme-light-light-red li a, .ion-segment-light-red li a {
     color: var(--light-red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li.active a,
-.ion-segment-light-red li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-red li.active a, .ion-segment-light-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li a,
-.ion-segment-dark-red li a {
+div.crn-ion-segment-light.icon-theme-light-dark-red li a, .ion-segment-dark-red li a {
     color: var(--dark-red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li.active a,
-.ion-segment-dark-red li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-red li.active a, .ion-segment-dark-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-orange li a,
-.ion-segment-orange li a {
+div.crn-ion-segment-light.icon-theme-light-orange li a, .ion-segment-orange li a {
     color: var(--orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-orange li.active a,
-.ion-segment-orange li.active a {
+div.crn-ion-segment-light.icon-theme-light-orange li.active a, .ion-segment-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li a,
-.ion-segment-light-orange li a {
+div.crn-ion-segment-light.icon-theme-light-light-red li a, .ion-segment-light-orange li a {
     color: var(--light-orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li.active a,
-.ion-segment-light-orange li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-red li.active a, .ion-segment-light-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li a,
-.ion-segment-dark-orange li a {
+div.crn-ion-segment-light.icon-theme-light-dark-red li a, .ion-segment-dark-orange li a {
     color: var(--dark-orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li.active a,
-.ion-segment-dark-orange li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-red li.active a, .ion-segment-dark-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-yellow li a,
-.ion-segment-yellow li a {
+div.crn-ion-segment-light.icon-theme-light-yellow li a, .ion-segment-yellow li a {
     color: var(--yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-yellow li.active a,
-.ion-segment-yellow li.active a {
+div.crn-ion-segment-light.icon-theme-light-yellow li.active a, .ion-segment-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-yellow li a,
-.ion-segment-light-yellow li a {
+div.crn-ion-segment-light.icon-theme-light-light-yellow li a, .ion-segment-light-yellow li a {
     color: var(--light-yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-yellow li.active a,
-.ion-segment-light-yellow li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-yellow li.active a, .ion-segment-light-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-yellow li a,
-.ion-segment-dark-yellow li a {
+div.crn-ion-segment-light.icon-theme-light-dark-yellow li a, .ion-segment-dark-yellow li a {
     color: var(--dark-yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-yellow li.active a,
-.ion-segment-dark-yellow li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-yellow li.active a, .ion-segment-dark-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-green li a,
-.ion-segment-green li a {
+div.crn-ion-segment-light.icon-theme-light-green li a, .ion-segment-green li a {
     color: var(--green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-green li.active a,
-.ion-segment-green li.active a {
+div.crn-ion-segment-light.icon-theme-light-green li.active a, .ion-segment-green li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-green li a,
-.ion-segment-light-green li a {
+div.crn-ion-segment-light.icon-theme-light-light-green li a, .ion-segment-light-green li a {
     color: var(--light-green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-green li.active a,
-.ion-segment-light-green li.active a {
+div.crn-ion-segment-light.icon-theme-light-light-green li.active a, .ion-segment-light-green li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-green li a,
-.ion-segment-dark-green li a {
+div.crn-ion-segment-light.icon-theme-light-dark-green li a, .ion-segment-dark-green li a {
     color: var(--dark-green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-green li.active a,
-.ion-segment-dark-green li.active a {
+div.crn-ion-segment-light.icon-theme-light-dark-green li.active a, .ion-segment-dark-green li.active a {
     opacity: 1;
 }
-
-
-
 
 /* icon-size */
 
@@ -464,132 +400,95 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active a,
     background-color: #337A0047;
 }
 
-
-
-
 /* background-color-active */
 
-div.crn-ion-segment-classic ul.active-background-white li.active,
-div.crn-ion-segment-modern ul.active-background-white li.active {
+div.crn-ion-segment-classic ul.active-background-white li.active, div.crn-ion-segment-modern ul.active-background-white li.active {
     background-color: var(--white);
 }
 
-div.crn-ion-segment-classic ul.active-background-gray li.active,
-div.crn-ion-segment-modern ul.active-background-gray li.active {
+div.crn-ion-segment-classic ul.active-background-gray li.active, div.crn-ion-segment-modern ul.active-background-gray li.active {
     background-color: var(--gray);
 }
 
-div.crn-ion-segment-classic ul.active-background-black li.active,
-div.crn-ion-segment-modern ul.active-background-black li.active {
+div.crn-ion-segment-classic ul.active-background-black li.active, div.crn-ion-segment-modern ul.active-background-black li.active {
     background-color: var(--black);
 }
 
-div.crn-ion-segment-classic ul.active-background-blue li.active,
-div.crn-ion-segment-modern ul.active-background-blue li.active {
+div.crn-ion-segment-classic ul.active-background-blue li.active, div.crn-ion-segment-modern ul.active-background-blue li.active {
     background-color: var(--blue);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-blue li.active,
-div.crn-ion-segment-modern ul.active-background-light-blue li.active {
+div.crn-ion-segment-classic ul.active-background-light-blue li.active, div.crn-ion-segment-modern ul.active-background-light-blue li.active {
     background-color: var(--light-blue);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-blue li.active,
-div.crn-ion-segment-modern ul.active-background-dark-blue li.active {
+div.crn-ion-segment-classic ul.active-background-dark-blue li.active, div.crn-ion-segment-modern ul.active-background-dark-blue li.active {
     background-color: var(--dark-blue);
 }
 
-div.crn-ion-segment-classic ul.active-background-purple li.active,
-div.crn-ion-segment-modern ul.active-background-purple li.active {
+div.crn-ion-segment-classic ul.active-background-purple li.active, div.crn-ion-segment-modern ul.active-background-purple li.active {
     background-color: var(--purple);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-purple li.active,
-div.crn-ion-segment-modern ul.active-background-light-purple li.active {
+div.crn-ion-segment-classic ul.active-background-light-purple li.active, div.crn-ion-segment-modern ul.active-background-light-purple li.active {
     background-color: var(--light-purple);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-purple li.active,
-div.crn-ion-segment-modern ul.active-background-dark-purple li.active {
+div.crn-ion-segment-classic ul.active-background-dark-purple li.active, div.crn-ion-segment-modern ul.active-background-dark-purple li.active {
     background-color: var(--dark-purple);
 }
 
-div.crn-ion-segment-classic ul.active-background-red li.active,
-div.crn-ion-segment-modern ul.active-background-red li.active {
+div.crn-ion-segment-classic ul.active-background-red li.active, div.crn-ion-segment-modern ul.active-background-red li.active {
     background-color: var(--red);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-red li.active,
-div.crn-ion-segment-modern ul.active-background-light-red li.active {
+div.crn-ion-segment-classic ul.active-background-light-red li.active, div.crn-ion-segment-modern ul.active-background-light-red li.active {
     background-color: var(--light-red);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-red li.active,
-div.crn-ion-segment-modern ul.active-background-dark-red li.active {
+div.crn-ion-segment-classic ul.active-background-dark-red li.active, div.crn-ion-segment-modern ul.active-background-dark-red li.active {
     background-color: var(--dark-red);
 }
 
-div.crn-ion-segment-classic ul.active-background-orange li.active,
-div.crn-ion-segment-modern ul.active-background-orange li.active {
+div.crn-ion-segment-classic ul.active-background-orange li.active, div.crn-ion-segment-modern ul.active-background-orange li.active {
     background-color: var(--orange);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-orange li.active,
-div.crn-ion-segment-modern ul.active-background-light-orange li.active {
+div.crn-ion-segment-classic ul.active-background-light-orange li.active, div.crn-ion-segment-modern ul.active-background-light-orange li.active {
     background-color: var(--light-orange);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-orange li.active,
-div.crn-ion-segment-modern ul.active-background-dark-orange li.active {
+div.crn-ion-segment-classic ul.active-background-dark-orange li.active, div.crn-ion-segment-modern ul.active-background-dark-orange li.active {
     background-color: var(--dark-orange);
 }
 
-div.crn-ion-segment-classic ul.active-background-yellow li.active,
-div.crn-ion-segment-modern ul.active-background-yellow li.active {
+div.crn-ion-segment-classic ul.active-background-yellow li.active, div.crn-ion-segment-modern ul.active-background-yellow li.active {
     background-color: var(--yellow);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-yellow li.active,
-div.crn-ion-segment-modern ul.active-background-light-yellow li.active {
+div.crn-ion-segment-classic ul.active-background-light-yellow li.active, div.crn-ion-segment-modern ul.active-background-light-yellow li.active {
     background-color: var(--light-yellow);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-yellow li.active,
-div.crn-ion-segment-modern ul.active-background-dark-yellow li.active {
+div.crn-ion-segment-classic ul.active-background-dark-yellow li.active, div.crn-ion-segment-modern ul.active-background-dark-yellow li.active {
     background-color: var(--dark-yellow);
 }
 
-div.crn-ion-segment-classic ul.active-background-green li.active,
-div.crn-ion-segment-modern ul.active-background-green li.active {
+div.crn-ion-segment-classic ul.active-background-green li.active, div.crn-ion-segment-modern ul.active-background-green li.active {
     background-color: var(--green);
 }
 
-div.crn-ion-segment-classic ul.active-background-light-green li.active,
-div.crn-ion-segment-modern ul.active-background-light-green li.active {
+div.crn-ion-segment-classic ul.active-background-light-green li.active, div.crn-ion-segment-modern ul.active-background-light-green li.active {
     background-color: var(--light-green);
 }
 
-div.crn-ion-segment-classic ul.active-background-dark-green li.active,
-div.crn-ion-segment-modern ul.active-background-dark-green li.active {
+div.crn-ion-segment-classic ul.active-background-dark-green li.active, div.crn-ion-segment-modern ul.active-background-dark-green li.active {
     background-color: var(--dark-green);
 }
-
-
-
-
-
-
 
 .crn-ion-segment-light ul {
     padding-bottom: 0;
 }
-
-
-
-
-
-
-
 
 /*  light background-color-active */
 
@@ -597,9 +496,8 @@ div.crn-ion-segment-light ul li.active {
     border-bottom: 1px solid;
     border-radius: 0;
     box-shadow: none;
-    background-color: transparent; 
+    background-color: transparent;
 }
-
 
 div.crn-ion-segment-light.icon-theme-light-white li.active {
     border-color: var(--white);
