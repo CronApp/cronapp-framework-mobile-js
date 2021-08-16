@@ -1,30 +1,26 @@
 @import 'custom-ionic.css';
 @import 'signup.css';
 @import "groupingOfCss/import_groupingOfCss.css";
-@import '../components/css/color-default.css';
-
+@import '../components/css/app.css';
 /* Empty. Add your own CSS if you like */
 
 /*Set CSS Properties to Iphone x^ devices*/
+
 :root {
-    --safe-area-inset-top : env(safe-area-inset-top);
-    --safe-area-inset-right : env(safe-area-inset-right);
+    --safe-area-inset-top: env(safe-area-inset-top);
+    --safe-area-inset-right: env(safe-area-inset-right);
     --safe-area-inset-bottom: env(safe-area-inset-bottom);
-    --safe-area-inset-left : env(safe-area-inset-left);
-
-
+    --safe-area-inset-left: env(safe-area-inset-left);
     /* //portrait orientation, status bar is shown */
     /*
     additionalSafeAreaInsets.top = 24.0
     additionalSafeAreaInsets.bottom = 34.0
     */
-
     /* //portrait orientation, status bar is hidden */
     /*
     additionalSafeAreaInsets.top = 44.0
     additionalSafeAreaInsets.bottom = 34.0
     */
-
     /* //landscape orientation */
     /*
     additionalSafeAreaInsets.top = 0.0
@@ -34,8 +30,7 @@
     */
 }
 
-.platform-ios.platform-cordova:not(.fullscreen) .has-header,
-.platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
+.platform-ios.platform-cordova:not(.fullscreen) .has-header, .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
     padding-left: calc(0px + var(--safe-area-inset-left));
     padding-right: calc(0px + var(--safe-area-inset-right));
     padding-bottom: calc(0px + var(--safe-area-inset-bottom));
@@ -53,12 +48,12 @@
     padding-right: var(--safe-area-inset-right);
 }
 
-.bar-header:not(.bar-subheader) > * {
+.bar-header:not(.bar-subheader)>* {
     margin-top: var(--safe-area-inset-top, 20px) !important;
 }
 
 .bar-footer button {
-   margin-bottom: var(--safe-area-inset-bottom);
+    margin-bottom: var(--safe-area-inset-bottom);
 }
 
 .tabs {
@@ -71,7 +66,7 @@
 }
 
 .has-header {
-  top: calc(44px + var(--safe-area-inset-top)) !important;
+    top: calc(44px + var(--safe-area-inset-top)) !important;
 }
 
 body {
@@ -105,8 +100,7 @@ body {
     line-height: 0px;
 }
 
-.list .item.item-accordion.ng-hide-add,
-.list .item.item-accordion.ng-hide-remove {
+.list .item.item-accordion.ng-hide-add, .list .item.item-accordion.ng-hide-remove {
     display: block !important;
 }
 
@@ -133,7 +127,7 @@ body {
     transition: 400ms;
 }
 
-.menu-view .user-button p, .login-bg .user-button p  {
+.menu-view .user-button p, .login-bg .user-button p {
     color: #aaa;
 }
 
@@ -147,7 +141,7 @@ body {
     border: 1px solid #1d4f9e;
 } */
 
-.center-content-vertically{
+.center-content-vertically {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,7 +190,7 @@ body {
     padding-left: 10px;
 }
 
-.custom-item-avatar-imagem{
+.custom-item-avatar-imagem {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -206,12 +200,12 @@ body {
     float: left;
 }
 
-
 /*
  * This class was intended to be used only for Screen Readers
  * Please, search for .sr-only on Bootstrap docs
  */
-.sr-only{
+
+.sr-only {
     display: none !important;
 }
 
@@ -226,7 +220,7 @@ kendo-chat .k-bubble {
     user-select: auto;
 }
 
-.icon-designtime-ion-list{
+.icon-designtime-ion-list {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -240,35 +234,38 @@ kendo-chat .k-bubble {
     right: 18px;
 }
 
-.selected-designtime-list .checkbox input:checked:before,
-.selected-designtime-list input:checked + .selected-designtime-list .checkbox-icon:before{
+.selected-designtime-list .checkbox input:checked:before, .selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
     background: #2B71E8;
     border-color: #2B71E8;
 }
 
-.bar .title{
+.bar .title {
     text-align: inherit;
 }
 
-.bar-positive .button.button-icon{
+ion-header-bar.bar h1.title {
+    text-align: center;
+}
+
+.bar-positive .button.button-icon {
     align-content: center;
     display: grid;
 }
 
-.bar-positive .button.button-clear i{
+.bar-positive .button.button-clear i {
     font-size: 28px;
 }
 
-.button-bar > .button{
+.button-bar>.button {
     gap: 6px;
     display: flex;
 }
 
-.button-bar > .button:last-child{
+.button-bar>.button:last-child {
     border-right-width: inherit;
 }
 
-.item-floating-label .input-label{
+.item-floating-label .input-label {
     display: table;
 }
 
@@ -298,4 +295,12 @@ kendo-chat .k-bubble {
 
 .has-footer-tabs {
     bottom: 57px;
+}
+
+.tab-content>.tab-pane {
+    display: none
+}
+
+.tab-content>.active {
+    display: block
 }
