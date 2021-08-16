@@ -4,7 +4,7 @@
   "text_en_US": "Footer",
   "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-ion-footer-bar.svg",
   "description": "Estrutura de rodapé com botões",
-  "description_en_US": "Estrutura de rodapé com botões",
+  "description_en_US": "Footer structure with buttons",
   "category": [
       "LAYOUTS"
   ],

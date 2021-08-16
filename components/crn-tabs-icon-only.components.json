@@ -1,13 +1,17 @@
 {
     "name": "crn-tabs-icon-only",
-    "text_pt_BR": "Abas com ícone",
-    "text_en_US": "Tabs with icon",
+    "text_pt_BR": "Rodapé com ícone",
+    "text_en_US": "Footer with icon",
     "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-tabs-icon-only.svg",
-    "description": "Diferentes painéis separados por abas com ícone",
-    "description_en_US": "Different panels separated by tabs with icon",
+    "description": "Rodapé com ícone e título",
+    "description_en_US": "Footer with icon and title",
     "category": [
         "LAYOUTS"
     ],
+    "wrapper": false,
+    "autoWrapper": true,
+    "forcedGroup": true,
+    "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/tabs-icon-only.template.html",
     "controls": {
         "ungroup": true,
         "resizable": false,
@@ -16,10 +20,13 @@
         "pluggable": false,
         "removable": true
     },
-    "wrapper": false,
-    "autoWrapper": true,
-    "forcedGroup": true,
-    "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/tabs-icon-only.template.html",
+    "droppableArea": {
+        "onmiddle": true,
+        "ontop": false,
+        "onbottom": false,
+        "onleft": false,
+        "onright": false
+    },
     "properties": {
         "class": {
             "order": 9999
@@ -45,13 +52,13 @@
         "tabs-color": {
             "displayName_pt_BR": "Cor dos ícones",
             "displayName_en_US": "Icon color",
-            "selector": "i",
+            "selector": "tab-item",
             "order": 2
         },
         "tabs-size": {
             "displayName_pt_BR": "Tamanho dos ícones",
             "displayName_en_US": "Icon size",
-            "selector": "i",
+            "selector": "tab-item",
             "order": 3
         }
     },
@@ -60,7 +67,7 @@
         "rules": [
             {
                 "activeClass": "active",
-                "sourceHTML": "<a class=\"tab-item\" title=\"New tabs\" data-component=\"crn-tabs-icon-only-item\" href=\"\"><i class=\"icon ion-gear-a\"></i></a>",
+                "sourceHTML": "<a class=\"tab-item\" title=\"New tabs\" data-component=\"crn-tabs-icon-only-item\" contenttitle=\"\" href=\"\"><i class=\"icon ion-gear-a\"></i><span>New tabs</span></a>",
                 "targetSelector": "div.tabs"
             }
         ]

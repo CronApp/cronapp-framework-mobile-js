@@ -1,5 +1,7 @@
 {
   "name": "crn-mobile-menu",
+  "onDoubleClick": "openEditor",
+  "onDrop": "openEditor",
   "text_pt_BR": "Menu Dinâmico",
   "text_en_US": "Dynamic Menu",
   "class": "adjust-icon mdi mdi-menu",

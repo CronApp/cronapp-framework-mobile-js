@@ -57,11 +57,11 @@
 }
 
 .tabs {
-    height: calc(45px + var(--safe-area-inset-bottom, 19px)) !important;
-    min-height: 49px;
+    height: calc(44px + var(--safe-area-inset-bottom, 19px)) !important;
+    min-height: 44px;
 }
 
-bar .title+.button:last-child, .bar>.button+.button:last-child, .bar>.button.pull-right, .bar .buttons.pull-right, .bar .title+.buttons {
+.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     margin-right: calc(5px + var(--safe-area-inset-left));
 }
 
@@ -269,18 +269,18 @@ ion-header-bar.bar h1.title {
     display: table;
 }
 
-.tabs-striped .tabs .tab-item .icon {
+.tabs-striped .tabs .tab-item .icon{
     display: contents;
 }
 
-.tabs-striped .tabs .tab-item {
+.tabs-striped .tabs .tab-item{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.tabs-striped .tabs .tab-item span {
+.tabs-striped .tabs .tab-item span{
     margin: 0;
     padding: 0;
     font-size: 10px;
