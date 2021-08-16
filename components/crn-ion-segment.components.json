@@ -9,7 +9,6 @@
     "LAYOUTS"
   ],
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/crn-ion-segment.template.html",
-  "wrapper": false,
   "properties": {
     "class": {
       "order": 9999
@@ -678,10 +677,17 @@
   ],
   "childrenProperties": [
     {
+      "name": "theme-ion-segment",
+      "displayName_pt_BR": "Modelo das abas",
+      "displayName_en_US": "Tabs template",
+      "order": 1,
+      "selector": "div.crn-ion-segment"
+    },
+    {
       "name": "background-color",
       "displayName_pt_BR": "Cor do fundo",
       "displayName_en_US": "Background color",
-      "order": 1,
+      "order": 2,
       "selector": "ul"
     },
     {
@@ -689,49 +695,42 @@
       "displayName_pt_BR": "Cor do texto e ícone",
       "displayName_en_US": "Text color and icon",
       "selector": "div.crn-ion-segment-classic ul, div.crn-ion-segment-modern ul",
-      "order": 2
+      "order": 3
     },
     {
       "name": "icon-theme-light",
       "displayName_pt_BR": "Cor do texto e ícone",
       "displayName_en_US": "Text color and icon",
       "selector": "div.crn-ion-segment-light",
-      "order": 2
+      "order": 3
     },
     {
       "name": "background-color-active",
       "displayName_pt_BR": "Cor da aba ativa",
       "displayName_en_US": "Active tab color",
-      "order": 3,
+      "order": 4,
       "selector": "div.crn-ion-segment-classic ul, div.crn-ion-segment-modern ul"
     },
     {
       "name": "icon-size",
       "displayName_pt_BR": "Tamanho do ícone",
       "displayName_en_US": "Icon size",
-      "order": 4,
+      "order": 5,
       "selector": "ul"
     },
     {
       "name": "icon-orientation",
       "displayName_pt_BR": "Orientação do ícone",
       "displayName_en_US": "Icon orientation",
-      "order": 5,
+      "order": 6,
       "selector": "ul"
     },
     {
       "name": "tabs-template",
       "displayName_pt_BR": "Tamanho da abas",
       "displayName_en_US": "tab size",
-      "order": 6,
-      "selector": "div.crn-ion-segment-classic ul"
-    },
-    {
-      "name": "theme-ion-segment",
-      "displayName_pt_BR": "Modelo das abas",
-      "displayName_en_US": "Tabs template",
       "order": 7,
-      "selector": "div.tablist"
+      "selector": "div.crn-ion-segment-classic ul"
     }
   ]
 }
