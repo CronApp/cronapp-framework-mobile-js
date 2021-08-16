@@ -6,7 +6,7 @@
   "wrapper": false,
   "autoWrapper": true,
   "pallete": false,
-  "template": "<a class=\"tab-item\" title=\"New tabs\" data-component=\"crn-tabs-icon-only-item\" href=\"\"><i class=\"icon ion-gear-a\"></i></a>",
+  "template": "<a class=\"tab-item\" title=\"New tabs\" data-component=\"crn-tabs-icon-only-item\" contenttitle=\"\" href=\"\"><i class=\"icon ion-gear-a\"></i><span>New tabs</span></a>",
   "controls": {
     "ungroup": false,
     "resizable": false,
@@ -32,9 +32,6 @@
     },
     "id": {
       "order": 4
-    },
-    "class": {
-      "order": 9999
     },
     "ng-click": {
       "removable": false,
@@ -64,16 +61,25 @@
   "childrenProperties": [
     {
       "name": "class",
-      "selector": "i",
       "displayName_pt_BR": "Ícone",
       "displayName_en_US": "Icon",
+      "selector": "i",
       "type": "icon",
       "order": 1
     },
     {
-      "name": "title",
+      "name": "title",      
       "selector": "a",
-      "type": "text"
+      "type": "text",
+      "order": 2
+    },
+    {
+      "name": "content",
+      "displayName_pt_BR": "Título",
+      "displayName_en_US": "Title",
+      "selector": "span",
+      "type": "text",
+      "order": 3
     }
   ]
 }
