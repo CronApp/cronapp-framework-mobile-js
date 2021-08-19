@@ -8,10 +8,6 @@
     padding: 2.5px;
 }
 
-.crn-ion-segment-light ul {
-    height: 54px;
-}
-
 .crn-ion-segment-light ul li, .crn-ion-segment-modern ul li, .crn-ion-segment-classic ul li {
     background-color: transparent;
     border: none;
@@ -21,6 +17,7 @@
     text-align: center;
     line-height: 21px;
     padding-top: 2px;
+    min-width: 93px;
     width: -webkit-fill-available;
     height: 98%;
 }
@@ -29,8 +26,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
     width: 100%;
+}
+
+.crn-ion-segment-light ul {
+    min-height: 54px;
+}
+
+.crn-ion-segment-classic ul.icon-orientation-below, .crn-ion-segment-modern ul.icon-orientation-below, .crn-ion-segment-classic ul.icon-orientation-above, .crn-ion-segment-modern ul.icon-orientation-above {
+    min-height: 54px;
+    height: 100%;
+}
+
+.crn-ion-segment-light ul li a, .crn-ion-segment-modern ul li a, .crn-ion-segment-classic ul li a {
+    height: 100%;
+}
+
+.crn-ion-segment-modern ul.icon-orientation-left, .crn-ion-segment-classic ul.icon-orientation-left .crn-ion-segment-modern ul.icon-orientation-right, .crn-ion-segment-classic ul.icon-orientation-right {
+    min-height: auto;
 }
 
 .crn-ion-segment-light ul li a:hover, .crn-ion-segment-modern ul li a:hover, .crn-ion-segment-classic ul li a:hover {
@@ -397,6 +410,42 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active a, .ion-segment-
 
 /* background-color */
 
+.background-assertive {
+    background-color: #ef473a47;
+}
+
+.background-balanced {
+    background-color: #33cd5f47;
+}
+
+.background-energized {
+    background-color: #ffc90047;
+}
+
+.background-light {
+    background-color: #ffffff47;
+}
+
+.background-stable {
+    background-color: #f8f8f847;
+}
+
+.background-calm {
+    background-color: #11c1f347;
+}
+
+.background-positive {
+    background-color: #387ef547;
+}
+
+.background-royal {
+    background-color: #886aea47;
+}
+
+.background-dark {
+    background-color: #44444447;
+}
+
 .background-white {
     background-color: #ffffff47;
 }
@@ -698,4 +747,40 @@ div.crn-ion-segment-light.icon-theme-light-light-green li.active {
 
 div.crn-ion-segment-light.icon-theme-light-dark-green li.active {
     border-color: var(--dark-green);
+}
+
+div.crn-ion-segment-light.icon-theme-light-assertive li.active {
+    border-color: var(--assertive);
+}
+
+div.crn-ion-segment-light.icon-theme-light-balanced li.active {
+    border-color: var(--balanced);
+}
+
+div.crn-ion-segment-light.icon-theme-light-energized li.active {
+    border-color: var(--energized);
+}
+
+div.crn-ion-segment-light.icon-theme-light-light li.active {
+    border-color: var(--light);
+}
+
+div.crn-ion-segment-light.icon-theme-light-stable li.active {
+    border-color: var(--stable);
+}
+
+div.crn-ion-segment-light.icon-theme-light-calm li.active {
+    border-color: var(--calm);
+}
+
+div.crn-ion-segment-light.icon-theme-light-positive li.active {
+    border-color: var(--positive);
+}
+
+div.crn-ion-segment-light.icon-theme-light-royal li.active {
+    border-color: var(--royal);
+}
+
+div.crn-ion-segment-light.icon-theme-light-dark li.active {
+    border-color: var(--dark);
 }
