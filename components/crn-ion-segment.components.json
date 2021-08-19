@@ -943,7 +943,7 @@
     },
     {
       "name": "tabs-template",
-      "displayName_pt_BR": "Largura da abas",
+      "displayName_pt_BR": "Largura das abas",
       "displayName_en_US": "Tab width",
       "order": 7,
       "selector": "div.crn-ion-segment-classic ul"
