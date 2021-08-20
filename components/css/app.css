@@ -4,6 +4,16 @@
 @import 'crn-ion-segment.css';
 
 :root {
+    --assertive: #ef473a;
+    --balanced: #33cd5f;
+    --energized: #ffc900;
+    --light: #ffffff;
+    --stable: #f8f8f8;
+    --calm: #11c1f3;
+    --positive: #387ef5;
+    --royal: #886aea;
+    --dark: #444444;
+
     --white: #ffffff;
     --gray: #333333;
     --black: #000000;
