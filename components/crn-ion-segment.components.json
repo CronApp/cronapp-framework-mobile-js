@@ -43,6 +43,60 @@
       "target": "class",
       "values": [
         {
+          "key": "ion-segment-assertive",
+          "value_pt_BR": "Assertivo",
+          "value_en_US": "Assertive",
+          "color": "#ef473a"
+        },
+        {
+          "key": "ion-segment-balanced",
+          "value_pt_BR": "Equilibrado",
+          "value_en_US": "Balanced",
+          "color": "#33cd5f"
+        },
+        {
+          "key": "ion-segment-energized",
+          "value_pt_BR": "Energizado",
+          "value_en_US": "Energized",
+          "color": "#ffc900"
+        },
+        {
+          "key": "ion-segment-light",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light",
+          "color": "#fff"
+        },
+        {
+          "key": "ion-segment-stable",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable",
+          "color": "#f8f8f8"
+        },
+        {
+          "key": "ion-segment-calm",
+          "value_pt_BR": "Calmo",
+          "value_en_US": "Calm",
+          "color": "#11c1f3"
+        },
+        {
+          "key": "ion-segment-positive",
+          "value_pt_BR": "Positivo",
+          "value_en_US": "Positive",
+          "color": "#387ef5"
+        },
+        {
+          "key": "ion-segment-royal",
+          "value_pt_BR": "Real",
+          "value_en_US": "Royal",
+          "color": "#886aea"
+        },
+        {
+          "key": "ion-segment-dark",
+          "value_pt_BR": "Escuro",
+          "value_en_US": "Dark",
+          "color": "#444"
+        },
+        {
           "key": "ion-segment-white",
           "value_pt_BR": "Branco",
           "value_en_US": "White",
@@ -175,6 +229,60 @@
       "type": "options",
       "target": "class",
       "values": [
+        {
+          "key": "background-assertive",
+          "value_pt_BR": "Assertivo",
+          "value_en_US": "Assertive",
+          "color": "#ef473a"
+        },
+        {
+          "key": "background-balanced",
+          "value_pt_BR": "Equilibrado",
+          "value_en_US": "Balanced",
+          "color": "#33cd5f"
+        },
+        {
+          "key": "background-energized",
+          "value_pt_BR": "Energizado",
+          "value_en_US": "Energized",
+          "color": "#ffc900"
+        },
+        {
+          "key": "background-light",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light",
+          "color": "#fff"
+        },
+        {
+          "key": "background-stable",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable",
+          "color": "#f8f8f8"
+        },
+        {
+          "key": "background-calm",
+          "value_pt_BR": "Calmo",
+          "value_en_US": "Calm",
+          "color": "#11c1f3"
+        },
+        {
+          "key": "background-positive",
+          "value_pt_BR": "Positivo",
+          "value_en_US": "Positive",
+          "color": "#387ef5"
+        },
+        {
+          "key": "background-royal",
+          "value_pt_BR": "Real",
+          "value_en_US": "Royal",
+          "color": "#886aea"
+        },
+        {
+          "key": "background-dark",
+          "value_pt_BR": "Escuro",
+          "value_en_US": "Dark",
+          "color": "#444"
+        },
         {
           "key": "background-white",
           "value_pt_BR": "Branco",
@@ -309,6 +417,60 @@
       "target": "class",
       "values": [
         {
+          "key": "active-background-assertive",
+          "value_pt_BR": "Assertivo",
+          "value_en_US": "Assertive",
+          "color": "#ef473a"
+        },
+        {
+          "key": "active-background-balanced",
+          "value_pt_BR": "Equilibrado",
+          "value_en_US": "Balanced",
+          "color": "#33cd5f"
+        },
+        {
+          "key": "active-background-energized",
+          "value_pt_BR": "Energizado",
+          "value_en_US": "Energized",
+          "color": "#ffc900"
+        },
+        {
+          "key": "active-background-light",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light",
+          "color": "#fff"
+        },
+        {
+          "key": "active-background-stable",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable",
+          "color": "#f8f8f8"
+        },
+        {
+          "key": "active-background-calm",
+          "value_pt_BR": "Calmo",
+          "value_en_US": "Calm",
+          "color": "#11c1f3"
+        },
+        {
+          "key": "active-background-positive",
+          "value_pt_BR": "Positivo",
+          "value_en_US": "Positive",
+          "color": "#387ef5"
+        },
+        {
+          "key": "active-background-royal",
+          "value_pt_BR": "Real",
+          "value_en_US": "Royal",
+          "color": "#886aea"
+        },
+        {
+          "key": "active-background-dark",
+          "value_pt_BR": "Escuro",
+          "value_en_US": "Dark",
+          "color": "#444"
+        },
+        {
           "key": "active-background-white",
           "value_pt_BR": "Branco",
           "value_en_US": "White",
@@ -441,6 +603,60 @@
       "type": "options",
       "target": "class",
       "values": [
+        {
+          "key": "icon-theme-light-assertive",
+          "value_pt_BR": "Assertivo",
+          "value_en_US": "Assertive",
+          "color": "#ef473a"
+        },
+        {
+          "key": "icon-theme-light-balanced",
+          "value_pt_BR": "Equilibrado",
+          "value_en_US": "Balanced",
+          "color": "#33cd5f"
+        },
+        {
+          "key": "icon-theme-light-energized",
+          "value_pt_BR": "Energizado",
+          "value_en_US": "Energized",
+          "color": "#ffc900"
+        },
+        {
+          "key": "icon-theme-light-light",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light",
+          "color": "#fff"
+        },
+        {
+          "key": "icon-theme-light-stable",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable",
+          "color": "#f8f8f8"
+        },
+        {
+          "key": "icon-theme-light-calm",
+          "value_pt_BR": "Calmo",
+          "value_en_US": "Calm",
+          "color": "#11c1f3"
+        },
+        {
+          "key": "icon-theme-light-positive",
+          "value_pt_BR": "Positivo",
+          "value_en_US": "Positive",
+          "color": "#387ef5"
+        },
+        {
+          "key": "icon-theme-light-royal",
+          "value_pt_BR": "Real",
+          "value_en_US": "Royal",
+          "color": "#886aea"
+        },
+        {
+          "key": "icon-theme-light-dark",
+          "value_pt_BR": "Escuro",
+          "value_en_US": "Dark",
+          "color": "#444"
+        },
         {
           "key": "icon-theme-light-white",
           "value_pt_BR": "Branco",
@@ -669,7 +885,7 @@
         },
         {
           "key": "tabs-template-full",
-          "value_pt_BR": "Largura completa",
+          "value_pt_BR": "Completo",
           "value_en_US": "Full width"
         }
       ]
@@ -727,8 +943,8 @@
     },
     {
       "name": "tabs-template",
-      "displayName_pt_BR": "Tamanho da abas",
-      "displayName_en_US": "tab size",
+      "displayName_pt_BR": "Largura das abas",
+      "displayName_en_US": "Tab width",
       "order": 7,
       "selector": "div.crn-ion-segment-classic ul"
     }
