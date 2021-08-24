@@ -304,3 +304,8 @@ ion-header-bar.bar h1.title {
 .tab-content>.active {
     display: block
 }
+
+.crn-ion-header-bar h1.title{    
+    left: 40px; 
+    right: 40px;
+}
