@@ -213,6 +213,12 @@
       "file": "index.html",
       "script": "plugins/angular-translate/angular-translate.min.js",
       "type": "script"
+    },
+    {
+      "file": "index.html",
+      "script": "node_modules/signature_pad/dist/signature_pad.umd.min.js",
+      "type": "script",
+      "onTop": true
     }
   ],
   "replaces": [

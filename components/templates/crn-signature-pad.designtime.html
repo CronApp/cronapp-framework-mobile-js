@@ -1,0 +1,31 @@
+<style>
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .signature-pad {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100px;
+  }</style>
+  <div>
+  <div id="signaturepad" class="wrapper">  
+    <canvas id="crn-signature-pad" class="signature-pad" width="100%" height="100px"></canvas>
+  </div>
+  <div>
+    <button id="clear">{{'clear'|translate}}</button>
+  </div>
+ </div>
