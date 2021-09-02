@@ -12,9 +12,9 @@
       "INPUTS"
   ],
   "designTimeSelector": "signature-pad",
-  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/crn-signature-pad.template.html",
+  "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/crn-signature-pad.template.html",
   "designTimeDynamic": false,
-  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/crn-signature-pad.designtime.html",
+  "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/crn-signature-pad.designtime.html",
   "properties": {
     "class": {
       "order": 9999
