@@ -1740,6 +1740,101 @@ window.addEventListener('message', function(event) {
   }
 })
 
+.directive('signaturePad', function($compile, $window) {
+  'use strict';
+
+  var signaturePad, canvas, element, EMPTY_IMAGE = null;
+  return {
+      restrict: 'E',
+      require: "ngModel",
+      scope: true,
+      replace: true,
+      template: '<div>' +
+          '<canvas style="width:100%" ng-click="mouseup()" ng-mouseup="mouseup()"></canvas>' +
+          '<div>' +
+          '<button type="button" style="margin-right:5px;margin-bottom:5px;" ng-click="clear()">{{"clear"|translate}}</button>' +
+          '</div>' +
+          '</div>',
+      scope: {
+          clear: '=',
+          dataurl: '=',
+          height: '@',
+          width: '@',
+          ngClick: '@',
+          ngModel: '='
+      },
+      controller: [
+          '$scope',
+          function($scope) {
+
+              $scope.mouseup = function() {
+
+                  var signature = {};
+
+                  if (!$scope.signaturePad.isEmpty()) {
+                      signature.dataUrl = $scope.signaturePad.toDataURL();
+                      signature.isEmpty = false;
+
+                  } else {
+                      signature.dataUrl = EMPTY_IMAGE;
+                      signature.isEmpty = true;
+                  }
+
+                  if (signature.dataUrl == null) {
+                      return;
+                  }
+                  var binary = signature.dataUrl.split(',')[1];
+                  $scope.ngModel = binary;
+              };
+
+              $scope.$watch('ngModel', function(value, old) {
+
+                  var signature = $scope.signaturePad;
+                  var data = $scope.ngModel;
+
+                  if (value !== old) {
+
+                      signature.fromDataURL("data:image/png;base64," + value, {
+                          ratio: 1
+                      });
+                      $scope.ngModel = value;
+                      signature.clear();
+                  }
+              }, true);
+
+              $scope.clear = function() {
+                  $scope.signaturePad.clear();
+                  $scope.ngModel = null;
+              };
+
+          }
+      ],
+      link: function(scope, element, attrs, ngModelCtrl) {
+
+          canvas = element.find('canvas')[0];
+
+          scope.onResize = function() {
+
+              var canvas = element.find('canvas')[0];
+              var ratio = Math.max($window.devicePixelRatio || 1, 1);
+              canvas.width = canvas.offsetWidth * ratio;
+              canvas.height = canvas.offsetHeight * ratio;
+              canvas.getContext("2d").scale(ratio, ratio);
+          }
+
+          scope.onResize();
+
+          scope.signaturePad = new SignaturePad(canvas);
+
+          angular.element($window).bind('resize', function() {
+              scope.onResize();
+          });
+
+          $compile(element)(element.scope());                  
+      }
+  };
+})
+
 .directive('cronVideo', function ($compile) {
   return {
     restrict: 'AE',
