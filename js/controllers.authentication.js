@@ -332,12 +332,45 @@
                     $scope.modal.hide();
                 };
 
-                $scope.logout = function logout() {
-                    $rootScope.session = null;
+              $rootScope.logout = function logout() {
+                const logoutCallback = (result) => {
+                  $rootScope.session = {};
+                  $cookies.remove('_u', {path: '/'});
+
+                  if (typeof (Storage) !== "undefined") {
                     localStorage.removeItem("_u");
-                    $cookies.remove('_u', {path: '/'});
+                  }
+
+                  // In case a logoutUri is defined, after Cronapp logout user is redirected to the logoutUri
+                  if (result && result.logoutUri) {
+
+                    const ref = cordova.InAppBrowser.open(result.logoutUri, '_blank', 'location=no,footer=yes,zoom=no,enableViewportScale=yes,hidenavigationbuttons=yes,clearcache=yes');
+
+                    const handlerChange = (event) => {
+                      if (event.url === result.appBaseUrl) {
+                        ref.removeEventListener('loadstart', handlerChange);
+                        // close sso window
+                        ref.close();
+                        $state.go("login");
+                      }
+                    };
+
+                    ref.addEventListener('loadstart', handlerChange);
+
+                  } else {
                     $state.go("login");
-                }
+                  }
+                };
+
+                // Realiza logout
+                $http({
+                  method: 'GET',
+                  url: window.hostApp + 'logout',
+                  headers: {
+                    'Content-Type': 'application/json'
+                  }
+                }).success(logoutCallback).error(logoutCallback);
+              };
             }
 
 
