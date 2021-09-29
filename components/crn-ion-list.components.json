@@ -33,29 +33,6 @@
     "class": {
       "order": 9999
     },
-    "onclick": {
-      "type": "event"
-    },
-    "on-tap": {
-      "removable": true,
-      "type": "event"
-    },
-    "on-double-tap": {
-      "removable": true,
-      "type": "event"
-    },
-    "on-hold": {
-      "removable": false,
-      "type": "event"
-    },
-    "on-drag": {
-      "removable": false,
-      "type": "event"
-    },
-    "on-swipe": {
-      "removable": false,
-      "type": "event"
-    },
     "options": {
       "displayName_pt_BR": "Configuração",
       "displayName_en_US": "Configuration",
