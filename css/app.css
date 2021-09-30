@@ -57,8 +57,8 @@
 }
 
 .tabs {
-    height: calc(53px + var(--safe-area-inset-bottom, 19px)) !important;
-    min-height: 53px;
+    height: calc(44px + var(--safe-area-inset-bottom, 19px)) !important;
+    min-height: 44px;
 }
 
 .bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
