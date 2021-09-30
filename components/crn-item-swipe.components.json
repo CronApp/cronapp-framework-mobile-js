@@ -39,7 +39,7 @@
   ],
   "styles": [
     {
-      "selector": "div#{id} .item-content",
+      "selector": "div#{id} .item-content, div#{id} .item",
       "text_pt_BR": "Plano de fundo",
       "text_en_US": "Background"
     },
