@@ -6,6 +6,7 @@
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/item.slider.template.html",
   "wrapper": false,
   "pallete": false,
+  "forcedGroup": true,
   "properties": {
     "id": {
       "order": 2

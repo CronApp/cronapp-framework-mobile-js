@@ -309,3 +309,9 @@ ion-header-bar.bar h1.title {
     left: 40px; 
     right: 40px;
 }
+
+.crn-slider-item{
+    height: 200px; 
+    position: relative;
+    object-fit: cover;
+}
