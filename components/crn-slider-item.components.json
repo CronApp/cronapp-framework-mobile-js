@@ -117,14 +117,15 @@
   ],
   "childrenProperties": [
     {
-      "name":"src",
+      "name": "src",
       "type": "projectResource",
       "resourceType": "image/jpeg,image/gif,image/png,image/svg+xml",
       "displayName_pt_BR": "Imagem",
       "displayName_en_US": "Image",
       "selector": "img"
-    }, {
-      "name":"object-fit",
+    },
+    {
+      "name": "object-fit",
       "displayName_pt_BR": "Preenchimento da imagem",
       "displayName_en_US": "Image filling",
       "selector": "img"
