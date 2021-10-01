@@ -6,6 +6,7 @@
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/item.slider.template.html",
   "wrapper": false,
   "pallete": false,
+  "forcedGroup": true,
   "properties": {
     "id": {
       "order": 2
@@ -30,11 +31,6 @@
       "type": "options",
       "target": "class",
       "values": [
-        {
-          "key": "",
-          "value_pt_BR": "Padrão",
-          "value_en_US": "Default"
-        },
         {
           "key": "assertive-bg",
           "value_pt_BR": "Assertivo",
@@ -90,9 +86,50 @@
           "color": "#444"
         }
       ]
+    },
+    {
+      "name": "object-fit",
+      "target": "style",
+      "type": "options",
+      "values": [
+        {
+          "key": "object-fit: cover;",
+          "value_pt_BR": "Proporcional",
+          "value_en_US": "Proportional"
+        },
+        {
+          "key": "object-fit: contain;",
+          "value_pt_BR": "Ajustado",
+          "value_en_US": "Adjusted"
+        },
+        {
+          "key": "object-fit: fill;",
+          "value_pt_BR": "Preencher (padrão)",
+          "value_en_US": "Fill (default)"
+        },
+        {
+          "key": "object-fit: none;",
+          "value_pt_BR": "Nenhum",
+          "value_en_US": "None"
+        }
+      ]
     }
   ],
   "childrenProperties": [
+    {
+      "name": "src",
+      "type": "projectResource",
+      "resourceType": "image/jpeg,image/gif,image/png,image/svg+xml",
+      "displayName_pt_BR": "Imagem",
+      "displayName_en_US": "Image",
+      "selector": "img"
+    },
+    {
+      "name": "object-fit",
+      "displayName_pt_BR": "Preenchimento da imagem",
+      "displayName_en_US": "Image filling",
+      "selector": "img"
+    },
     {
       "name": "ng-click",
       "selector": "div",

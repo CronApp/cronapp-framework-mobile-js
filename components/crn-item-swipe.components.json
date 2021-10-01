@@ -12,7 +12,7 @@
   "forcedGroup": true,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/item.swipe.template.html",
   "properties": {
-    "onclick": {
+    "ng-click": {
       "type": "event"
     },
     "id":{
@@ -39,7 +39,7 @@
   ],
   "styles": [
     {
-      "selector": "div#{id} .item-content",
+      "selector": "div#{id} .item-content, div#{id} .item",
       "text_pt_BR": "Plano de fundo",
       "text_en_US": "Background"
     },
