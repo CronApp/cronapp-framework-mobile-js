@@ -61,7 +61,7 @@
     min-height: 53px;
 }
 
-.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+.bar .title, .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     margin-right: calc(5px + var(--safe-area-inset-left));
 }
 
@@ -310,13 +310,14 @@ ion-header-bar.bar h1.title {
     right: 40px;
 }
 
-
-
 /* ion-footer-bar */
 .bar-footer .button{
     border-color: #1659ca;
     margin: 0;
-    margin-right: 0px !important;
+}
+
+.button:last-child{
+    margin-right: 0;
 }
 
 .bar.bar-positive.bar-footer{
