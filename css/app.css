@@ -305,7 +305,31 @@ ion-header-bar.bar h1.title {
     display: block
 }
 
+.bar-footer{
+    height: 44px;
+}
+
 .crn-ion-header-bar h1.title{    
     left: 40px; 
     right: 40px;
+}
+
+/* ion-footer-bar */
+.bar-footer .button{
+    border-color: #1659ca;
+    margin: 0;
+    margin-right: 0px !important;
+}
+
+.bar.bar-positive.bar-footer{
+    padding: 5px;
+}
+
+.bar-footer{
+    height: 44px;
+}
+
+.bar-footer .buttonIonFooter{
+    left: 100px;
+    right: 100px;
 }
