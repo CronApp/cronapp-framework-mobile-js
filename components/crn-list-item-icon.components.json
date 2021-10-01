@@ -85,31 +85,18 @@
       "values": [
         {
           "key": "font-size:100%;",
-          "value": "100%"
+          "value_pt_BR": "Pequeno",
+          "value_en_US": "Small"
         },
         {
           "key": "font-size:200%;",
-          "value": "200%"
+          "value_pt_BR": "Médio",
+          "value_en_US": "Medium"
         },
         {
           "key": "font-size:300%;",
-          "value": "300%"
-        },
-        {
-          "key": "font-size:400%;",
-          "value": "400%"
-        },
-        {
-          "key": "font-size:500%;",
-          "value": "500%"
-        },
-        {
-          "key": "font-size:600%;",
-          "value": "600%"
-        },
-        {
-          "key": "font-size:700%;",
-          "value": "700%"
+          "value_pt_BR": "Grande",
+          "value_en_US": "Big"
         }
       ]
     },

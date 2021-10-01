@@ -31,20 +31,20 @@
   "childrenProperties": [
     {
       "name": "auto-play",
-      "selector": "ion-slide-box[auto-play]",
+      "selector": "ion-slide-box",
       "displayName_pt_BR": "Início automático",
       "displayName_en_US": "Auto play",
       "type": "logic"
     },
     {
       "name": "slide-interval",
-      "selector": "ion-slide-box[slide-interval]",
+      "selector": "ion-slide-box",
       "displayName_pt_BR": "Intervalo de transição (segundos)",
       "displayName_en_US": "Slide interval (seconds)"
     },
     {
       "name": "does-continue",
-      "selector": "ion-slide-box[does-continue]",
+      "selector": "ion-slide-box",
       "displayName_pt_BR": "Reprodução contínua?",
       "displayName_en_US": "Does continue?",
       "type": "logic"
@@ -89,7 +89,7 @@
       "selector": "div",
       "type": "event"
     }
-  ],  
+  ],
   "styles": [
     {
       "selector": "div#{id} .slider-pager .slider-pager-page.active ",
