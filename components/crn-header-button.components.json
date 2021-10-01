@@ -17,7 +17,7 @@
             "displayName_pt_BR": "Botão do cabeçalho",
             "displayName_en_US": "Header button"
         },
-        "onclick": {
+        "ng-click": {
             "removable": true,
             "type": "event"
         },

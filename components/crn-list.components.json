@@ -59,7 +59,7 @@
     "class": {
       "order": 9999
     },
-    "onclick": {
+    "ng-click": {
       "type": "event"
     }
   },
