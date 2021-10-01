@@ -305,10 +305,6 @@ ion-header-bar.bar h1.title {
     display: block
 }
 
-.bar-footer{
-    height: 44px;
-}
-
 .crn-ion-header-bar h1.title{    
     left: 40px; 
     right: 40px;
