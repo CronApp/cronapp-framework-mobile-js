@@ -9,6 +9,7 @@
     "LAYOUTS"
   ],
   "forcedGroup": true,
+  "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/slider.template.html",
   "properties": {
     "id": {
@@ -28,6 +29,27 @@
       }
     ]
   },
+  "attributesForPreview": [
+    {
+      "name": "text-position",
+      "type": "btngroup",
+      "target": "class",
+      "values": [
+        {
+          "key": "text-left",
+          "value_pt_BR": "Topo",
+          "value_en_US": "Top",
+          "icon": "mdi mdi-arrow-up-bold"
+        },
+        {
+          "key": "text-center",
+          "value_pt_BR": "Abaixo",
+          "value_en_US": "Bottom",
+          "icon": "mdi mdi-arrow-down-bold"
+        }
+      ]
+    }
+  ],
   "childrenProperties": [
     {
       "name": "auto-play",
