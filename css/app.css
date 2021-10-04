@@ -334,19 +334,29 @@ ion-header-bar.bar h1.title {
     right: 100px;
 }
 
+/* Carrossel */
+
 .crn-slider-item {
     height: 200px; 
     position: relative;
     object-fit: cover;
 }
 
-.crn-slider-item h2 {
-    text-align: center;
+.crn-slider-item h2 {    
     color: #ffffff;
     font-weight: bold;
-    top: 50%;
-    left: 50%;
     margin: 0;
     transform: translate(-50%, -50%);
     position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.slider-pager{
+    bottom: 5px;
+}
+
+.slider{
+    width: 100%;
 }
