@@ -342,14 +342,14 @@ ion-header-bar.bar h1.title {
     object-fit: cover;
 }
 
-.crn-slider-item h2 {    
+.crn-slider-item h2 {
+    text-align: center;
     color: #ffffff;
     font-weight: bold;
+    left: 50%;
     margin: 0;
     transform: translate(-50%, -50%);
     position: absolute;
-    left: 50%;
-    text-align: center;
     width: 100%;
 }
 
