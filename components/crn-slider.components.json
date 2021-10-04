@@ -9,6 +9,7 @@
     "LAYOUTS"
   ],
   "forcedGroup": true,
+  "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/slider.template.html",
   "properties": {
     "id": {
@@ -23,7 +24,7 @@
     "rules": [
       {
         "activeClass": "active",
-        "sourceHTML": "<ion-slide xattr-theme=\"dark-bg\" id=\"crn-slider-item-${RANDOM}-1\" data-component=\"crn-slider-item\" class=\"dark-bg\" style=\"width: 100%; height: 200px; position: relative\" data-container=\"true\" data-replace=\"true\"> <h2 data-component=\"crn-label\" style=\"color: white; font-weight: bold; top: 50%; left: 50%; margin: 0; transform: translate(-50%, -50%); position: absolute;\" data-container=\"true\" data-replace=\"true\">SLIDE TITLE</h2> </ion-slide>",
+        "sourceHTML": "<ion-slide xattr-theme=\"positive-bg\" id=\"crn-slider-item-${RANDOM}\" data-component=\"crn-slider-item\" class=\"positive-bg crn-slider-item\" data-container=\"true\" data-replace=\"true\"> <img alt=\"Placehold\" src=\"node_modules/cronapp-framework-mobile-js/img/placehold-300x200.png\" class=\"component-holder\" style=\"object-fit: cover;\" xattr-position=\"\" width=\"100%\" height=\"100%\" object-fit=\"object-fit: cover;\" data-component=\"crn-image\" id=\"crn-image-${RANDOM}\"> <h2 class=\"text-center top-50\" data-component=\"crn-label\" data-container=\"true\" data-replace=\"true\" horizontal-text-position=\"text-center\" vertical-text-position=\"top-50\">NEW SLIDE</h2> </ion-slide>",
         "targetSelector": "ion-slide-box"
       }
     ]
