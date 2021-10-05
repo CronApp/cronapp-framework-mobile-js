@@ -37,7 +37,7 @@
 }
 
 .bar-footer {
-    height: calc(54px + var(--safe-area-inset-bottom, 19px));
+    height: calc(44px + var(--safe-area-inset-bottom, 19px));
     padding-left: var(--safe-area-inset-left);
     padding-right: var(--safe-area-inset-right);
 }
@@ -311,26 +311,34 @@ ion-header-bar.bar h1.title {
 }
 
 /* ion-footer-bar */
-.bar-footer .button{
+
+.bar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bar-footer .button {
     border-color: #1659ca;
     margin: 0;
 }
 
-.button:last-child{
+.bar-footer .buttons:last-child {
     margin-right: 0;
 }
 
-.bar.bar-positive.bar-footer{
+.bar.bar-footer {
     padding: 5px;
 }
 
-.bar-footer{
-    height: 44px;
+.bar-footer.bar .title {
+    position: initial;
+    width: 45%;
 }
 
-.bar-footer .buttonIonFooter{
-    left: 100px;
-    right: 100px;
+.bar-footer .bar .title+.buttons{
+    position: initial;
 }
 
 /* Carrossel */
