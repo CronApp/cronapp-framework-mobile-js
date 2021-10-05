@@ -338,7 +338,7 @@ ion-header-bar.bar h1.title {
     width: 45%;
 }
 
-.bar-footer .bar .title+.buttons{
+.bar-footer.bar .title+.buttons{
     position: initial;
 }
 
