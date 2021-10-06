@@ -22,11 +22,6 @@
       "displayName_en_US": "Background theme",
       "order": 2
     },
-    "button-footer": {
-      "displayName_pt_BR": "Com botão",
-      "displayName_en_US": "With button",
-      "order": 3
-    },
     "on-tap": {
       "removable": true,
       "type": "event"
@@ -122,23 +117,6 @@
           "value_pt_BR": "Escuro",
           "value_en_US": "Dark",
           "color": "#444"
-        }
-      ]
-    },
-    {
-      "name": "button-footer",
-      "type": "options",
-      "target": "class",
-      "values": [
-        {
-          "key": "buttonIonFooter",
-          "value_pt_BR": "Sim",
-          "value_en_US": "Yes"
-        },
-        {
-          "key": "notButtonIonFooter",
-          "value_pt_BR": "Não",
-          "value_en_US": "No"
         }
       ]
     },
@@ -288,10 +266,6 @@
     }
   ],
   "childrenProperties": [
-    {
-      "name": "button-footer",
-      "selector": "h1"
-    },
     {
       "name": "content",
       "displayName_pt_BR": "Título",
