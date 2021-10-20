@@ -69,6 +69,7 @@
   "Permission.view.Exclude": "Exception",
   "General.RemoveData": "Do you whant to remove?",
   "General.ErrorNotSpecified": "Error not specified",
+  "General.ErrorOnServerCommunication": "Error connecting to server",
   "Login.view.invalidPassword": "Username or password invalid!",
   "LoginViewInvalidpassword": "Username or password invalid!",
   "Home.view.passwordChanged": "Password successfully changed!",
