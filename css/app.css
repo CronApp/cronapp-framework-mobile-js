@@ -37,7 +37,7 @@
 }
 
 .bar-footer {
-    height: calc(54px + var(--safe-area-inset-bottom, 19px));
+    height: calc(44px + var(--safe-area-inset-bottom, 19px));
     padding-left: var(--safe-area-inset-left);
     padding-right: var(--safe-area-inset-right);
 }
@@ -61,7 +61,7 @@
     min-height: 53px;
 }
 
-.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+.bar .title, .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     margin-right: calc(5px + var(--safe-area-inset-left));
 }
 
@@ -308,6 +308,37 @@ ion-header-bar.bar h1.title {
 .crn-ion-header-bar h1.title{    
     left: 40px; 
     right: 40px;
+}
+
+/* ion-footer-bar */
+
+.bar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bar-footer .button {
+    border-color: #1659ca;
+    margin: 0;
+}
+
+.bar-footer .buttons:last-child {
+    margin-right: 0;
+}
+
+.bar.bar-footer {
+    padding: 5px;
+}
+
+.bar-footer.bar .title {
+    position: initial;
+    width: 45%;
+}
+
+.bar-footer.bar .title+.buttons{
+    position: initial;
 }
 
 /* Carrossel */

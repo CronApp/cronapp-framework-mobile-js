@@ -28,30 +28,6 @@
                     <i class="icon ion-alert icon-designtime-ion-list" xattr-theme="dark"></i>
                 </div>
             </ion-item>
-
-            <ion-item class="item item-complex item-right-editable item-icon-right item-thumbnail-left">
-                <ul ng-if="options.allowMultiselect"
-                    class="checkbox-group component-holder cron-list-multiselect-thumbnail">
-                    <label class="checkbox">
-                        <input type="checkbox">
-                    </label>
-                </ul>
-                <div class="item-content">
-                    <img alt="Thumbnail" src="node_modules/cronapp-framework-mobile-js/img/user.svg">
-                    <div class="text-left ">
-                        <h2 class="ng-binding">admin@cronapp.io</h2>
-                        <p class="dark ng-binding">Administrator</p>
-                        <p class="dark ng-binding">admin</p>
-                    </div>
-                    <i ng-if="options.icon" class="icon ion-alert icon-designtime-ion-list" xattr-theme="dark"></i>
-                </div>
-                <div class="item-options invisible">
-                    <ion-option-button class="button-positive ion-edit button" ng-click="User.startEditing(rowData)"
-                        role="button" tabindex="0"><span class="ng-binding">Editar</span></ion-option-button>
-                    <ion-option-button class="button-assertive ion-trash-a button" ng-click="User.remove(rowData)"
-                        role="button" tabindex="0"><span class="ng-binding">Remover</span></ion-option-button>
-                </div>
-            </ion-item>
         </div>
     </ion-list>
 </div>

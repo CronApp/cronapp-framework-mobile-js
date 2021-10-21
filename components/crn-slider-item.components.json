@@ -113,6 +113,56 @@
           "value_en_US": "None"
         }
       ]
+    },
+    {
+      "name": "vertical-text-position",
+      "type": "btngroup",
+      "target": "class",
+      "values": [
+        {
+          "key": "top-13",
+          "value_pt_BR": "Topo",
+          "value_en_US": "Top",
+          "icon": "mdi mdi-arrow-up-bold"
+        },
+        {
+          "key": "top-50",
+          "value_pt_BR": "Centro",
+          "value_en_US": "Center",
+          "icon": "mdi mdi-ray-vertex"
+        },
+        {
+          "key": "top-78",
+          "value_pt_BR": "Abaixo",
+          "value_en_US": "Bottom",
+          "icon": "mdi mdi-arrow-down-bold"
+        }
+      ]
+    },
+    {
+      "name": "horizontal-text-position",
+      "type": "btngroup",
+      "target": "class",
+      "values": [
+        {
+          "key": "text-left",
+          "value_pt_BR": "Esquerda",
+          "value_en_US": "Left",
+          "icon": "mdi mdi-ray-start"
+        },
+        {
+          "key": "text-center",
+          "value_pt_BR": "Centro",
+          "value_en_US": "Center",
+          "icon": "mdi mdi-ray-vertex"
+        },
+        {
+          "key": "text-right",
+          "value_pt_BR": "Direita",
+          "value_en_US": "Right",
+          "icon": "mdi mdi-ray-end"
+        }
+      ]
     }
   ],
   "childrenProperties": [
@@ -129,6 +179,18 @@
       "displayName_pt_BR": "Preenchimento da imagem",
       "displayName_en_US": "Image filling",
       "selector": "img"
+    },
+    {
+      "name": "horizontal-text-position",
+      "selector": "h2",
+      "displayName_pt_BR": "Posição horizontal do texto",
+      "displayName_en_US": "Horizontal text position"
+    },
+    {
+      "name": "vertical-text-position",
+      "selector": "h2",
+      "displayName_pt_BR": "Posição vertical do texto",
+      "displayName_en_US": "Vertical text position"
     },
     {
       "name": "ng-click",
