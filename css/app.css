@@ -361,6 +361,18 @@ ion-header-bar.bar h1.title {
     width: 100%;
 }
 
+.crn-slider-item h2.text-center{
+    text-align: center !important;
+}
+
+.crn-slider-item h2.text-left{
+    text-align: left !important;
+}
+
+.crn-slider-item h2.text-right{
+    text-align: right !important;
+}
+
 .slider-pager{
     bottom: 5px;
 }
