@@ -8,10 +8,10 @@
   "category": [
     "INPUTS", "FORMS"
   ],
-  "wrapper": false,
+  "wrapper": true,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/floattextinput.template.html",
   "designTimeHTMLURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/floattextinput.designtime.html",
-  "designTimeSelector": ":self",
+  "designTimeSelector": "label",
   "designTimeDynamic": true,
   "properties": {
     "id": {
@@ -161,7 +161,7 @@
   ],
   "styles": [
     {
-      "selector": "#{id} .input-label",
+      "selector": "#{id} span",
       "text_pt_BR": "Título",
       "text_en_US": "Title"
     },
