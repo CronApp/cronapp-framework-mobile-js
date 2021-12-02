@@ -67,6 +67,15 @@
   },
   "childrenProperties": [
     {
+      "name": "ng-model",
+      "selector": "div[dynamic-image]",
+      "onSave": "javascript:function() { var result = arguments[0]; if (result.indexOf('.') == -1 && result.trim().length > 0 ) { result = 'vars.'+result;  }  return result; }",
+      "onDisplay": "javascript:function() { return arguments[0].replace('vars.',''); }",
+      "type": "text",
+      "order": 2,
+      "mandatory": true
+    },
+    {
       "name": "content",
       "displayName_pt_BR": "Título",
       "displayName_en_US": "Title",
