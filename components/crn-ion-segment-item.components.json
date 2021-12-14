@@ -15,6 +15,9 @@
             "order": 1
         }
     },
+    "handleRules": {
+        "useParentDataComponentRulesOnActive": "crn-ion-segment"
+    },
     "childrenProperties": [
         {
             "name": "class",
