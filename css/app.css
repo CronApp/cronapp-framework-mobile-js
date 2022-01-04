@@ -381,6 +381,11 @@ ion-header-bar.bar h1.title {
     width: 100%;
 }
 
-.item-input input.ng-invalid-minlength, textarea.ng-invalid-minlength {
+.item-input input.ng-invalid{
     border-bottom: 1px solid red;
+}
+
+textarea.ng-invalid, textarea.ng-invalid-minlength{
+    border-bottom: 1px solid red;
+    margin-bottom: 0;
 }
