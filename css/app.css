@@ -380,3 +380,7 @@ ion-header-bar.bar h1.title {
 .slider{
     width: 100%;
 }
+
+.item-input input.ng-invalid-minlength, textarea.ng-invalid-minlength {
+    border-bottom: 1px solid red;
+}
