@@ -59,11 +59,6 @@
     },
     {
       "file": "index.html",
-      "script": "js/dataSourceMap.js",
-      "type": "script"
-    },
-    {
-      "file": "index.html",
       "script": "node_modules/cronapp-framework-mobile-js/lib/ionic/js/ionic.bundle.js",
       "type": "script",
 	  "onTop": true
@@ -179,6 +174,11 @@
     }
   ],
   "removes": [
+    {
+      "file": "index.html",
+      "script": "js/dataSourceMap.js",
+      "type": "script"
+    },
     {
       "file": "index.html",
       "script": "lib/ionic/js/ionic.bundle.js",
