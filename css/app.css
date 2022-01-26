@@ -70,7 +70,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--backgroundColor40);
 }
 
 .text-left {
@@ -148,7 +148,7 @@ body {
 }
 
 .menu-view {
-    background-color: #1d4f9e;
+    background-color: var(--colorDefault40);
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -235,8 +235,8 @@ kendo-chat .k-bubble {
 }
 
 .selected-designtime-list .checkbox input:checked:before, .selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
-    background: #2B71E8;
-    border-color: #2B71E8;
+    background: var(--colorPrimary40);
+    border-color: var(--colorPrimary40);
 }
 
 .bar .title {
@@ -321,7 +321,7 @@ ion-header-bar.bar h1.title {
 }
 
 .bar-footer .button {
-    border-color: #1659ca;
+    border-color: var(--colorPrimary40);
     margin: 0;
 }
 
@@ -352,7 +352,7 @@ ion-header-bar.bar h1.title {
 
 .crn-slider-item h2 {
     text-align: center;
-    color: #ffffff;
+    color: var(--colorNeutral00);
     font-weight: bold;
     left: 50%;
     margin: 0;
@@ -382,10 +382,10 @@ ion-header-bar.bar h1.title {
 }
 
 .item-input input.ng-invalid{
-    border-bottom: 1px solid #f15858;
+    border-bottom: 1px solid var(--colorDanger40);
 }
 
 textarea.ng-invalid, textarea.ng-invalid-minlength{
-    border-bottom: 1px solid #f15858;
+    border-bottom: 1px solid var(--colorDanger40);
     margin-bottom: 0;
 }

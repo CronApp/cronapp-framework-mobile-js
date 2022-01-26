@@ -109,7 +109,7 @@
 /* icon-theme */
 
 div.crn-ion-segment-light.icon-theme-light-assertive li a, .ion-segment-assertive li a {
-    color: var(--assertive);
+    color: var(--colorDanger40);
     opacity: 0.64;
 }
 
@@ -118,7 +118,7 @@ div.crn-ion-segment-light.icon-theme-light-assertive li.active a, .ion-segment-a
 }
 
 div.crn-ion-segment-light.icon-theme-light-balanced li a, .ion-segment-balanced li a {
-    color: var(--balanced);
+    color: var(--colorSuccess40);
     opacity: 0.64;
 }
 
@@ -127,7 +127,7 @@ div.crn-ion-segment-light.icon-theme-light-balanced li.active a, .ion-segment-ba
 }
 
 div.crn-ion-segment-light.icon-theme-light-energized li a, .ion-segment-energized li a {
-    color: var(--energized);
+    color: var(--colorWarning40);
     opacity: 0.64;
 }
 
@@ -154,7 +154,7 @@ div.crn-ion-segment-light.icon-theme-light-stable li.active a, .ion-segment-stab
 }
 
 div.crn-ion-segment-light.icon-theme-light-calm li a, .ion-segment-calm li a {
-    color: var(--calm);
+    color: var(--colorCalm40);
     opacity: 0.64;
 }
 
@@ -163,7 +163,7 @@ div.crn-ion-segment-light.icon-theme-light-calm li.active a, .ion-segment-calm l
 }
 
 div.crn-ion-segment-light.icon-theme-light-positive li a, .ion-segment-positive li a {
-    color: var(--positive);
+    color: var(--colorPrimary40);
     opacity: 0.64;
 }
 
@@ -172,7 +172,7 @@ div.crn-ion-segment-light.icon-theme-light-positive li.active a, .ion-segment-po
 }
 
 div.crn-ion-segment-light.icon-theme-light-royal li a, .ion-segment-royal li a {
-    color: var(--royal);
+    color: var(--colorRoyal40);
     opacity: 0.64;
 }
 
@@ -181,7 +181,7 @@ div.crn-ion-segment-light.icon-theme-light-royal li.active a, .ion-segment-royal
 }
 
 div.crn-ion-segment-light.icon-theme-light-dark li a, .ion-segment-dark li a {
-    color: var(--dark);
+    color: var(--colorNeutral140);
     opacity: 0.64;
 }
 
@@ -190,7 +190,7 @@ div.crn-ion-segment-light.icon-theme-light-dark li.active a, .ion-segment-dark l
 }
 
 div.crn-ion-segment-light.icon-theme-light-white li a, .ion-segment-white li a {
-    color: var(--white);
+    color: var(--colorNeutral00);
     opacity: 0.64;
 }
 
@@ -533,15 +533,15 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active a, .ion-segment-
 /* background-color-active */
 
 div.crn-ion-segment-classic ul.active-background-assertive li.active, div.crn-ion-segment-modern ul.active-background-assertive li.active {
-    background-color: var(--assertive);
+    background-color: var(--colorDanger40);
 }
 
 div.crn-ion-segment-classic ul.active-background-balanced li.active, div.crn-ion-segment-modern ul.active-background-balanced li.active {
-    background-color: var(--balanced);
+    background-color: var(--colorSuccess40);
 }
 
 div.crn-ion-segment-classic ul.active-background-energized li.active, div.crn-ion-segment-modern ul.active-background-energized li.active {
-    background-color: var(--energized);
+    background-color: var(--colorWarning40);
 }
 
 div.crn-ion-segment-classic ul.active-background-light li.active, div.crn-ion-segment-modern ul.active-background-light li.active {
@@ -553,15 +553,15 @@ div.crn-ion-segment-classic ul.active-background-stable li.active, div.crn-ion-s
 }
 
 div.crn-ion-segment-classic ul.active-background-calm li.active, div.crn-ion-segment-modern ul.active-background-calm li.active {
-    background-color: var(--calm);
+    background-color: var(--colorCalm40);
 }
 
 div.crn-ion-segment-classic ul.active-background-positive li.active, div.crn-ion-segment-modern ul.active-background-positive li.active {
-    background-color: var(--positive);
+    background-color: var(--colorPrimary40);
 }
 
 div.crn-ion-segment-classic ul.active-background-royal li.active, div.crn-ion-segment-modern ul.active-background-royal li.active {
-    background-color: var(--royal);
+    background-color: var(--colorRoyal40);
 }
 
 div.crn-ion-segment-classic ul.active-background-dark li.active, div.crn-ion-segment-modern ul.active-background-dark li.active {
@@ -569,7 +569,7 @@ div.crn-ion-segment-classic ul.active-background-dark li.active, div.crn-ion-seg
 }
 
 div.crn-ion-segment-classic ul.active-background-white li.active, div.crn-ion-segment-modern ul.active-background-white li.active {
-    background-color: var(--white);
+    background-color: var(--colorNeutral00);
 }
 
 div.crn-ion-segment-classic ul.active-background-gray li.active, div.crn-ion-segment-modern ul.active-background-gray li.active {
@@ -577,7 +577,7 @@ div.crn-ion-segment-classic ul.active-background-gray li.active, div.crn-ion-seg
 }
 
 div.crn-ion-segment-classic ul.active-background-black li.active, div.crn-ion-segment-modern ul.active-background-black li.active {
-    background-color: var(--black);
+    background-color: var(--colorNeutral220);
 }
 
 div.crn-ion-segment-classic ul.active-background-blue li.active, div.crn-ion-segment-modern ul.active-background-blue li.active {
@@ -666,7 +666,7 @@ div.crn-ion-segment-light ul li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-white li.active {
-    border-color: var(--white);
+    border-color: var(--colorNeutral00);
 }
 
 div.crn-ion-segment-light.icon-theme-light-gray li.active {
@@ -674,7 +674,7 @@ div.crn-ion-segment-light.icon-theme-light-gray li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-black li.active {
-    border-color: var(--black);
+    border-color: var(--colorNeutral220);
 }
 
 div.crn-ion-segment-light.icon-theme-light-blue li.active {
@@ -750,15 +750,15 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-assertive li.active {
-    border-color: var(--assertive);
+    border-color: var(--colorDanger40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-balanced li.active {
-    border-color: var(--balanced);
+    border-color: var(--colorSuccess40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-energized li.active {
-    border-color: var(--energized);
+    border-color: var(--colorWarning40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-light li.active {
@@ -770,17 +770,17 @@ div.crn-ion-segment-light.icon-theme-light-stable li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-calm li.active {
-    border-color: var(--calm);
+    border-color: var(--colorCalm40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-positive li.active {
-    border-color: var(--positive);
+    border-color: var(--colorPrimary40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-royal li.active {
-    border-color: var(--royal);
+    border-color: var(--colorRoyal40);
 }
 
 div.crn-ion-segment-light.icon-theme-light-dark li.active {
-    border-color: var(--dark);
+    border-color: var(--colorDark40);
 }

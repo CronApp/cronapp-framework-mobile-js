@@ -111,9 +111,6 @@
 }
 
 .pace .pace-activity {
-    position: fixed;
-    height: 90px;
-    width: 90px;
     margin: auto;
     top: 0;
     left: 0;

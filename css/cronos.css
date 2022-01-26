@@ -36,7 +36,7 @@
   width: 96%;
   text-align: center;
   background-color: #f4f4f4;
-  color: #fff;
+  color: var(--colorNeutral00);
   border-radius: 20px;
 }
 

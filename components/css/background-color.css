@@ -1,5 +1,5 @@
 .tabs-striped.background-white .tabs {
-    background-color: var(--white);
+    background-color: var(--colorNeutral00);
 }
 
 .tabs-striped.background-gray .tabs {
@@ -7,7 +7,7 @@
 }
 
 .tabs-striped.background-black .tabs {
-    background-color: var(--black);
+    background-color: var(--colorNeutral220);
 }
 
 .tabs-striped.background-blue .tabs {
