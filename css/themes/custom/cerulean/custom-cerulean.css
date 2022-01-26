@@ -1,0 +1,154 @@
+/* ==== FONTS ====*/
+@import url("font/fonts.css");
+
+/* ==== VARIABLES ==== */
+:root {
+
+    /* Font */
+    --fontFamily: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+    --textColor: #111;
+
+    --textNormalSize: 14px;
+
+    --textColor10: #dadada;
+    --textColor20: #b8b8b8;
+    --textColor30: #909090;
+    --textColor40: #555555;
+    --textColor50: #4a4a4a;
+    --textColor60: #3e3e3e;
+    --textColor70: #2f2f2f;
+
+    /* Menus - Sizes and Distances */
+    --menuVerticalWidth: 270px;
+    --menuSideSize: 20px;
+    --menuItemBarSize: 6px;
+    --menuElementOverallPadding: 10px;
+    --menuItemPaddingSize: calc(var(--menuElementOverallPadding) + 5px);
+    --menuItemIconWidth: 25px;
+
+    /* Background */
+    --backgroundColor10: #ffffff;
+    --backgroundColor20: #ffffff;
+    --backgroundColor30: #ffffff;
+    --backgroundColor40: #ffffff;
+    --backgroundColor50: #dfdfdf;
+    --backgroundColor60: #bbbbbb;
+    --backgroundColor70: #8c8c8c;
+
+    /* Distances */
+    --distanceNone: 0;
+    --distanceSmallest: 5px;
+    --distanceExtraSmall: 10px;
+    --distanceSmall: 15px;
+    --distanceMedium: 20px;
+    --distanceBig: 30px;
+    --distanceGiant: 40px;
+    --distanceTitan: 60px;
+
+    /* Border Radius */
+    --borderRadiusNone: 0;
+    --borderRadiusSmallest: 5px;
+    --borderRadiusExtraSmall: 10px;
+    --borderRadiusSmall: 15px;
+    --borderRadiusBig: 30px;
+    --borderRadiusGiant: 40px;
+    --borderRadiusTitan: 60px;
+    --borderRadiusFull: 99999px;
+
+    /* Color - Theme default */
+    --colorDefault10: #d7e7f8;
+    --colorDefault20: #b1d3f2;
+    --colorDefault30: #82bded;
+    --colorDefault40: #2fa4e7;
+    --colorDefault50: #2990ca;
+    --colorDefault60: #2278a9;
+    --colorDefault70: #1a5a7f;
+
+    /* Color - Primary - positive */
+    --colorPrimary10: #d7e7f8;
+    --colorPrimary20: #b1d3f2;
+    --colorPrimary30: #82bded;
+    --colorPrimary40: #2fa4e7;
+    --colorPrimary50: #2990ca;
+    --colorPrimary60: #2278a9;
+    --colorPrimary70: #1a5a7f;
+
+    /* Color - Success - balanced */
+    --colorSuccess10: #dee8d8;
+    --colorSuccess20: #c1d5b3;
+    --colorSuccess30: #9fc085;
+    --colorSuccess40: #73a839;
+    --colorSuccess50: #659332;
+    --colorSuccess60: #547b2a;
+    --colorSuccess70: #3f5c1f;
+
+    /* Color - Warning - energized */
+    --colorWarning10: #f5dad5;
+    --colorWarning20: #edb9ae;
+    --colorWarning30: #e5907b;
+    --colorWarning40: #dd5600;
+    --colorWarning50: #c24b00;
+    --colorWarning60: #a23f00;
+    --colorWarning70: #792f00;
+
+    /* Color - Danger - assertive */
+    --colorDanger10: #f0d6d6;
+    --colorDanger20: #e3afaf;
+    --colorDanger30: #d57e7f;
+    --colorDanger40: #c71c22;
+    --colorDanger50: #ae191e;
+    --colorDanger60: #921519;
+    --colorDanger70: #6d0f13;
+
+    /* Color - Royal */
+    --colorRoyal10: #e2ddf9;
+    --colorRoyal20: #c8bef4;
+    --colorRoyal30: #ab9aef;
+    --colorRoyal40: #886aea;
+    --colorRoyal50: #775dcd;
+    --colorRoyal60: #644eab;
+    --colorRoyal70: #4a3a80;
+
+    /* Color - Calm */
+    --colorCalm10: #d6eefb;
+    --colorCalm20: #aee0f9;
+    --colorCalm30: #7cd1f6;
+    --colorCalm40: #11c1f3;
+    --colorCalm50: #0fa9d5;
+    --colorCalm60: #0c8db2;
+    --colorCalm70: #096a85;
+
+    /* Color - Dark */
+    --colorDark10: #d9d9d9;
+    --colorDark20: #b5b5b5;
+    --colorDark30: #898989;
+    --colorDark40: #444444;
+    --colorDark50: #3c3c3c;
+    --colorDark60: #323232;
+    --colorDark70: #252525;
+
+    /* Color - Neutral */
+    --colorNeutral00: #FFFFFF;
+    --colorNeutral10: #F1F1F1;
+    --colorNeutral20: #E3E3E3;
+    --colorNeutral30: #D5D5D5;
+    --colorNeutral40: #C7C7C7;
+    --colorNeutral50: #B9B9B9;
+    --colorNeutral60: #ACACAC;
+    --colorNeutral70: #9E9E9E;
+    --colorNeutral80: #909090;
+    --colorNeutral90: #828282;
+    --colorNeutral100: #747474;
+    --colorNeutral110: #666666;
+    --colorNeutral120: #5D5D5D;
+    --colorNeutral130: #535353;
+    --colorNeutral140: #4A4A4A;
+    --colorNeutral150: #414141;
+    --colorNeutral160: #383838;
+    --colorNeutral170: #2E2E2E;
+    --colorNeutral180: #252525;
+    --colorNeutral190: #1C1C1C;
+    --colorNeutral200: #131313;
+    --colorNeutral210: #090909;
+    --colorNeutral220: #000000;
+}
