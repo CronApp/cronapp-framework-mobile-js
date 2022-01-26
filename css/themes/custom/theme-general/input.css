@@ -1,0 +1,29 @@
+.item-input {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+.item-input input,
+.item-input textarea {
+    color: var(--textColor);
+    font-size: var(--textNormalSize);
+}
+
+.item-input input::placeholder,
+.item-input textarea::placeholder {
+    color: var(--colorNeutral50);
+    font-size: var(--textNormalSize);
+}
+
+.input-label {
+    color: var(--textColor);
+    font-size: var(--textNormalSize);
+}
+
+.item-input .icon.placeholder-icon {
+    color: var(--colorNeutral60);
+}
+
+.item-input-wrapper{
+    background: var(--colorNeutral10);
+}

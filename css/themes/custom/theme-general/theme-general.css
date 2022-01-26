@@ -1,0 +1,15 @@
+@import 'button.css';
+@import 'input.css';
+
+* {
+    font-family: var(--fontFamily);
+    color: var(--colorNeutral160);
+}
+
+a {
+    color: var(--colorDefault40);
+}
+
+.has-header .scroll {
+    background-color: var(--backgroundColor);
+}

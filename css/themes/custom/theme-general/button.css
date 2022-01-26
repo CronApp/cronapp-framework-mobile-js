@@ -1,0 +1,410 @@
+button,
+.button {
+    background-color: var(--colorDefault40);
+    text-align: center;
+    /* padding: 5px 35px; */
+    color: var(--colorNeutral00);
+    border: 0;
+}
+
+.button span {
+    font-weight: 500;
+}
+
+.button span,
+.button i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-outline span,
+.button.button-outline i {
+    color: var(--colorNeutral220);
+}
+
+.button.button-outline {
+    border: 1px solid;
+}
+
+/* Theme default */
+.button.button-theme-default {
+    background-color: var(--colorDefault40);
+}
+
+.button.button-theme-default span,
+.button.button-theme-default i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-theme-default:active,
+.button.button-theme-default.activated {
+    background-color: var(--colorDefault60);
+}
+
+/* Theme default - Outline */
+.button.button-theme-default.button-outline {
+    border-color: var(--colorDefault40);
+    background-color: transparent;
+}
+
+.button.button-theme-default.button-outline span,
+.button.button-theme-default.button-outline i {
+    color: var(--colorDefault40);
+}
+
+.button.button-theme-default.button-outline:active,
+.button.button-theme-default.button-outline.activated {
+    background-color: var(--colorDefault40);
+}
+
+.button.button-theme-default.button-outline:active span,
+.button.button-theme-default.button-outline.activated span,
+.button.button-theme-default.button-outline:active i,
+.button.button-theme-default.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Positive */
+.button.button-positive {
+    background-color: var(--colorPrimary40);
+}
+
+.button.button-positive span,
+.button.button-positive i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-positive:active,
+.button.button-positive.activated {
+    background-color: var(--colorPrimary60);
+}
+
+/* Positive - Outline */
+
+.button.button-positive.button-outline {
+    border-color: var(--colorPrimary40);
+}
+
+.button.button-positive.button-outline span,
+.button.button-positive.button-outline i {
+    color: var(--colorPrimary40);
+}
+
+.button.button-positive.button-outline:active,
+.button.button-positive.button-outline.activated {
+    background-color: var(--colorPrimary40);
+}
+
+.button.button-positive.button-outline:active span,
+.button.button-positive.button-outline.activated span,
+.button.button-positive.button-outline:active i,
+.button.button-positive.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Calm */
+.button.button-calm {
+    background-color: var(--colorCalm40);
+}
+
+.button.button-calm span,
+.button.button-calm i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-calm:active,
+.button.button-calm.activated {
+    background-color: var(--colorCalm60);
+}
+
+/* Calm - Outline */
+.button.button-calm.button-outline {
+    border-color: var(--colorCalm40);
+}
+
+.button.button-calm.button-outline span,
+.button.button-calm.button-outline i {
+    color: var(--colorCalm40);
+}
+
+.button.button-calm.button-outline:active,
+.button.button-calm.button-outline.activated {
+    background-color: var(--colorCalm40);
+}
+
+.button.button-calm.button-outline:active span,
+.button.button-calm.button-outline.activated span,
+.button.button-calm.button-outline:active i,
+.button.button-calm.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Assertive */
+.button.button-assertive {
+    background-color: var(--colorDanger40);
+}
+
+.button.button-assertive span,
+.button.button-assertive i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-assertive:active,
+.button.button-assertive.activated {
+    background-color: var(--colorDanger60);
+}
+
+/* Assertive - Outline */
+
+.button.button-assertive.button-outline {
+    border-color: var(--colorDanger40);
+}
+
+.button.button-assertive.button-outline span,
+.button.button-assertive.button-outline i {
+    color: var(--colorDanger40);
+}
+
+.button.button-assertive.button-outline:active,
+.button.button-assertive.button-outline.activated {
+    background-color: var(--colorDanger40);
+}
+
+.button.button-assertive.button-outline:active span,
+.button.button-assertive.button-outline.activated span,
+.button.button-assertive.button-outline:active i,
+.button.button-assertive.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Energized */
+.button.button-energized {
+    background-color: var(--colorWarning40);
+}
+
+.button.button-energized span,
+.button.button-energized i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-energized:active,
+.button.button-energized.activated {
+    background-color: var(--colorWarning60);
+}
+
+/* Energized - Outline */
+
+.button.button-energized.button-outline {
+    border-color: var(--colorWarning40);
+}
+
+.button.button-energized.button-outline span,
+.button.button-energized.button-outline i {
+    color: var(--colorWarning40);
+}
+
+.button.button-energized.button-outline:active,
+.button.button-energized.button-outline.activated {
+    background-color: var(--colorWarning40);
+}
+
+.button.button-energized.button-outline:active span,
+.button.button-energized.button-outline.activated span,
+.button.button-energized.button-outline:active i,
+.button.button-energized.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Balanced */
+.button.button-balanced {
+    background-color: var(--colorSuccess40);
+}
+
+.button.button-balanced span,
+.button.button-balanced i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-balanced:active,
+.button.button-balanced.activated {
+    background-color: var(--colorSuccess60);
+}
+
+/* Balanced - Outline */
+
+.button.button-balanced.button-outline {
+    border-color: var(--colorSuccess40);
+}
+
+.button.button-balanced.button-outline span,
+.button.button-balanced.button-outline i {
+    color: var(--colorSuccess40);
+}
+
+.button.button-balanced.button-outline:active,
+.button.button-balanced.button-outline.activated {
+    background-color: var(--colorSuccess40);
+}
+
+.button.button-balanced.button-outline:active span,
+.button.button-balanced.button-outline.activated span,
+.button.button-balanced.button-outline:active i,
+.button.button-balanced.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Royal */
+.button.button-royal {
+    border-color: var(--colorDefault40);
+    color: var(--colorNeutral00);
+}
+
+.button.button-royal span,
+.button.button-royal i {
+    color: var(--colorNeutral00);
+}
+
+.button.button-royal:active,
+.button.button-royal.activated {
+    background-color: var(--colorDefault60);
+}
+
+/* Royal - Outline */
+
+.button.button-royal.button-outline {
+    border-color: var(--colorDefault40);
+}
+
+.button.button-royal.button-outline span,
+.button.button-royal.button-outline i {
+    color: var(--colorDefault40);
+}
+
+.button.button-royal.button-outline:active,
+.button.button-royal.button-outline.activated {
+    background-color: var(--colorDefault40);
+}
+
+.button.button-royal.button-outline:active span,
+.button.button-royal.button-outline.activated span,
+.button.button-royal.button-outline:active i,
+.button.button-royal.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Light */
+.button.button-light {
+    border-color: var(--colorNeutral110);
+}
+
+.button.button-light span,
+.button.button-light i {
+    color: var(--colorNeutral110);
+}
+
+.button.button-light:active,
+.button.button-light.activated {
+    background-color: var(--colorNeutral30);
+    color: var(--colorNeutral220);
+}
+
+/* Light - Outline */
+
+.button.button-light.button-outline {
+    border-color: var(--colorNeutral110);
+}
+
+.button.button-light.button-outline span,
+.button.button-light.button-outline i {
+    color: var(--colorNeutral110);
+}
+
+.button.button-light.button-outline:active,
+.button.button-light.button-outline.activated {
+    background-color: var(--colorNeutral110);
+}
+
+.button.button-light.button-outline:active span,
+.button.button-light.button-outline.activated span,
+.button.button-light.button-outline:active i,
+.button.button-light.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Stable */
+.button.button-stable {
+    background-color: var(--colorNeutral00);
+    border-color: var(--colorPrimary40);
+}
+
+.button.button-stable span,
+.button.button-stable i {
+    color: var(--colorPrimary40);
+}
+
+.button.button-stable:active,
+.button.button-stable.activated {
+    background-color: var(--colorNeutral30);
+    color: var(--colorNeutral220);
+}
+
+/* Stable - Outline */
+.button.button-stable.button-outline {
+    border-color: var(--colorPrimary40);
+}
+
+.button.button-stable.button-outline span,
+.button.button-stable.button-outline i {
+    color: var(--colorPrimary40);
+}
+
+.button.button-stable.button-outline:active,
+.button.button-stable.button-outline.activated {
+    background-color: var(--colorPrimary40);
+}
+
+.button.button-stable.button-outline:active span,
+.button.button-stable.button-outline.activated span,
+.button.button-stable.button-outline:active i,
+.button.button-stable.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
+
+/* Dark */
+.button.button-positive i.dark,
+.button.button-positive i.dark+span {
+    color: var(--colorNeutral00);
+}
+
+.button.button-dark,
+.button.button-dark {
+    background-color: var(--colorNeutral190);
+    color: var(--colorNeutral00);
+}
+
+.button.button-dark:active,
+.button.button-dark.activated {
+    background-color: var(--colorNeutral150);
+    color: var(--colorNeutral220);
+}
+
+/* Dark - Outline */
+.button.button-dark.button-outline {
+    border-color: var(--colorNeutral190);
+}
+
+.button.button-dark.button-outline span,
+.button.button-dark.button-outline i {
+    color: var(--colorNeutral190);
+}
+
+.button.button-dark.button-outline:active,
+.button.button-dark.button-outline.activated {
+    background-color: var(--colorNeutral190);
+}
+
+.button.button-dark.button-outline:active span,
+.button.button-dark.button-outline.activated span,
+.button.button-dark.button-outline:active i,
+.button.button-dark.button-outline.activated i {
+    color: var(--colorNeutral00);
+}
