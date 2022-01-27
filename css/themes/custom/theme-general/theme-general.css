@@ -1,15 +1,29 @@
 @import 'button.css';
 @import 'input.css';
+@import 'login.css';
+@import 'signup.css';
+@import 'reset-password.css';
+@import 'crn-ion-header-bar.css';
 
 * {
     font-family: var(--fontFamily);
     color: var(--colorNeutral160);
+    font-size: var(--textNormalSize);
 }
 
 a {
     color: var(--colorDefault40);
+    font-size: var(--textNormalSize);
 }
 
 .has-header .scroll {
     background-color: var(--backgroundColor);
+}
+
+p {
+    font-size: var(--textNormalSize);
+}
+
+h1 {
+    font-size: var(--textExtraBigSize);
 }

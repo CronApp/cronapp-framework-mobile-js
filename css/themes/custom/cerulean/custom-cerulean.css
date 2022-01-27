@@ -8,7 +8,11 @@
     --fontFamily: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
     --textColor: #111;
 
+    --textSmallSize: 12px;
     --textNormalSize: 14px;
+    --textMediumSize: 16px;
+    --textBigSize: 18px;
+    --textExtraBigSize: 23px;
 
     --textColor10: #dadada;
     --textColor20: #b8b8b8;
@@ -117,6 +121,12 @@
     --colorCalm50: #0fa9d5;
     --colorCalm60: #0c8db2;
     --colorCalm70: #096a85;
+
+    /* Color - Light (mobile) */
+
+
+    /* Color - Stable (mobile) */
+
 
     /* Color - Dark */
     --colorDark10: #d9d9d9;

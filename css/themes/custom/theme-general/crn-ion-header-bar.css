@@ -1,0 +1,164 @@
+/* Default */
+.bar.bar-default {
+    border-color: var(--colorDefault40);
+    background-color: var(--colorDefault40);
+    background-image: linear-gradient(0deg, var(--colorDefault40), var(--colorDefault40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-default .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-default.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorDefault40), var(--colorDefault40) 50%, transparent 50%);
+}
+
+/* Light */
+.bar.bar-light {
+    border-color: var(--colorNeutral20);
+    background-color: var(--colorNeutral00);
+    background-image: linear-gradient(0deg, var(--colorNeutral20), var(--colorNeutral20) 50%, transparent 50%);
+    color: #444;
+}
+
+.bar.bar-light .title {
+    color: #444;
+}
+
+.bar.bar-light.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorNeutral20), var(--colorNeutral20) 50%, transparent 50%);
+}
+
+/* Stable */
+.bar.bar-stable {
+    border-color: var(--colorStable40);
+    background-color: var(--colorStable40);
+    background-image: linear-gradient(0deg, var(--colorStable40), var(--colorStable40) 50%, transparent 50%);
+    color: #444;
+}
+
+.bar.bar-stable .title {
+    color: #444;
+}
+
+.bar.bar-stable.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorStable40), var(--colorStable40) 50%, transparent 50%);
+}
+
+/* Positive */
+.bar.bar-positive {
+    border-color: var(--colorPrimary40);
+    background-color: var(--colorPrimary40);
+    background-image: linear-gradient(0deg, var(--colorPrimary40), var(--colorPrimary40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-positive .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-positive.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorPrimary40), var(--colorPrimary40) 50%, transparent 50%);
+}
+
+/* Calm */
+.bar.bar-calm {
+    border-color: var(--colorCalm40);
+    background-color: #11c1f3;
+    background-image: linear-gradient(0deg, var(--colorCalm40), var(--colorCalm40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-calm .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-calm.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorCalm40), var(--colorCalm40) 50%, transparent 50%);
+}
+
+/* Assertive */
+.bar.bar-assertive {
+    border-color: var(--colorDanger40);
+    background-color: var(--colorDanger40);
+    background-image: linear-gradient(0deg, var(--colorDanger40), var(--colorDanger40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-assertive .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-assertive.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorDanger40), var(--colorDanger40) 50%, transparent 50%);
+}
+
+/* Balanced */
+.bar.bar-balanced {
+    border-color: var(--colorSuccess40);
+    background-color: var(--colorSuccess40);
+    background-image: linear-gradient(0deg, var(--colorSuccess40), var(--colorSuccess40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-balanced .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-balanced.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorSuccess40), var(--colorSuccess40) 50%, transparent 50%);
+}
+
+/* Energized */
+.bar.bar-energized {
+    border-color: var(--colorWarning40);
+    background-color: var(--colorWarning40);
+    background-image: linear-gradient(0deg, var(--colorWarning40), var(--colorWarning40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-energized .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-energized.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorWarning40), var(--colorWarning40) 50%, transparent 50%);
+}
+
+/* Royal */
+.bar.bar-royal {
+    border-color: var(--colorRoyal40);
+    background-color: var(--colorRoyal40);
+    background-image: linear-gradient(0deg, var(--colorRoyal40), var(--colorRoyal40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-royal .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-royal.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorRoyal40), var(--colorRoyal40) 50%, transparent 50%);
+}
+
+/* Dark */
+.bar.bar-dark {
+    border-color: var(--colorDark40);
+    background-color: var(--colorDark40);
+    background-image: linear-gradient(0deg, var(--colorDark40), var(--colorDark40) 50%, transparent 50%);
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-dark .title {
+    color: var(--colorNeutral00);
+}
+
+.bar.bar-dark.bar-footer {
+    background-image: linear-gradient(180deg, var(--colorDark40), var(--colorDark40) 50%, transparent 50%);
+}
+
+.bar .title,
+.platform-android .bar .title{
+    font-size: var(--textBigSize);
+}

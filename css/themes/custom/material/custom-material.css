@@ -8,7 +8,11 @@
     --fontFamily: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
     --textColor: #111;
 
+    --textSmallSize: 12px;
     --textNormalSize: 14px;
+    --textMediumSize: 16px;
+    --textBigSize: 18px;
+    --textExtraBigSize: 23px;
 
     --textColor10: #d6d6d6;
     --textColor20: #aeaeae;
@@ -64,7 +68,7 @@
     --colorDefault60: #2b3268;
     --colorDefault70: #20254e;
 
-    /* Color - Primary - positive */
+    /* Color - Primary (web) - Positive (mobile) */
     --colorPrimary10: #d8e0fc;
     --colorPrimary20: #b2c5fa;
     --colorPrimary30: #85a5f7;
@@ -73,7 +77,7 @@
     --colorPrimary60: #295cb3;
     --colorPrimary70: #1f4586;
 
-    /* Color - Success - balanced */
+    /* Color - Success (web) - Balanced (mobile) */
     --colorSuccess10: #d7f1dc;
     --colorSuccess20: #b2e6bb;
     --colorSuccess30: #83da95;
@@ -82,7 +86,7 @@
     --colorSuccess60: #259646;
     --colorSuccess70: #1c7034;
 
-    /* Color - Warning - energized */
+    /* Color - Warning (web) - energized (mobile) */
     --colorWarning10: #fff0d5;
     --colorWarning20: #ffe4ae;
     --colorWarning30: #ffd77b;
@@ -91,7 +95,7 @@
     --colorWarning60: #bb9300;
     --colorWarning70: #8c6e00;
 
-    /* Color - Danger - assertive */
+    /* Color - Danger (web) - assertive (mobile) */
     --colorDanger10: #fad9d8;
     --colorDanger20: #f7b5b3;
     --colorDanger30: #f38a85;
@@ -100,7 +104,7 @@
     --colorDanger60: #af342a;
     --colorDanger70: #832720;
 
-    /* Color - Royal */
+    /* Color - Royal (mobile) */
     --colorRoyal10: #e2ddf9;
     --colorRoyal20: #c8bef4;
     --colorRoyal30: #ab9aef;
@@ -109,7 +113,7 @@
     --colorRoyal60: #644eab;
     --colorRoyal70: #4a3a80;
 
-    /* Color - Calm */
+    /* Color - Calm (mobile) */
     --colorCalm10: #d6eefb;
     --colorCalm20: #aee0f9;
     --colorCalm30: #7cd1f6;
@@ -118,7 +122,14 @@
     --colorCalm60: #0c8db2;
     --colorCalm70: #096a85;
 
-    /* Color - Dark */
+    /* Color - Light (mobile) */
+
+
+    /* Color - Stable (mobile) */
+
+
+
+    /* Color - Dark (mobile) */
     --colorDark10: #d9d9d9;
     --colorDark20: #b5b5b5;
     --colorDark30: #898989;
@@ -127,7 +138,7 @@
     --colorDark60: #323232;
     --colorDark70: #252525;
 
-    /* Color - Neutral */
+    /* Color - Neutral (web e mobile) */
     --colorNeutral00: #FFFFFF;
     --colorNeutral10: #F1F1F1;
     --colorNeutral20: #E3E3E3;
