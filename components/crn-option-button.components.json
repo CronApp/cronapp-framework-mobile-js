@@ -18,8 +18,9 @@
       "target": "class",
       "values": [
         {
-          "key": "",
-          "value": "Default"
+          "key": "default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
         },
         {
           "key": "button-assertive",

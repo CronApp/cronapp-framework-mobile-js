@@ -79,6 +79,11 @@
             "target": "class",
             "values": [
                 {
+                    "key": "tabs-icon-default",
+                    "value_pt_BR": "Padrão do tema",
+                    "value_en_US": "Default theme"
+                },
+                {
                     "key": "tabs-icon-white",
                     "value_pt_BR": "Branco",
                     "value_en_US": "White",
@@ -211,6 +216,11 @@
             "type": "options",
             "target": "class",
             "values": [
+                {
+                    "key": "background-default",
+                    "value_pt_BR": "Padrão do tema",
+                    "value_en_US": "Default theme"
+                },
                 {
                     "key": "background-white",
                     "value_pt_BR": "Branco",

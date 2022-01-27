@@ -43,6 +43,11 @@
       "target": "class",
       "values": [
         {
+          "key": "ion-segment-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
+        {
           "key": "ion-segment-assertive",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive",
@@ -229,6 +234,11 @@
       "type": "options",
       "target": "class",
       "values": [
+        {
+          "key": "background-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
         {
           "key": "background-assertive",
           "value_pt_BR": "Assertivo",
@@ -417,6 +427,11 @@
       "target": "class",
       "values": [
         {
+          "key": "active-background-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
+        {
           "key": "active-background-assertive",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive",
@@ -603,6 +618,11 @@
       "type": "options",
       "target": "class",
       "values": [
+        {
+          "key": "icon-theme-light-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
         {
           "key": "icon-theme-light-assertive",
           "value_pt_BR": "Assertivo",
