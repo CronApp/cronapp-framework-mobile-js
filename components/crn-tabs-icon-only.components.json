@@ -84,51 +84,6 @@
                     "value_en_US": "Default theme"
                 },
                 {
-                    "key": "tabs-icon-assertive",
-                    "value_pt_BR": "Assertivo",
-                    "value_en_US": "Assertive"
-                },
-                {
-                    "key": "tabs-icon-balanced",
-                    "value_pt_BR": "Equilibrado",
-                    "value_en_US": "Balanced"
-                },
-                {
-                    "key": "tabs-icon-energized",
-                    "value_pt_BR": "Energizado",
-                    "value_en_US": "Energized"
-                },
-                {
-                    "key": "tabs-icon-light",
-                    "value_pt_BR": "Claro",
-                    "value_en_US": "Light"
-                },
-                {
-                    "key": "tabs-icon-stable",
-                    "value_pt_BR": "Estável",
-                    "value_en_US": "Stable"
-                },
-                {
-                    "key": "tabs-icon-calm",
-                    "value_pt_BR": "Calmo",
-                    "value_en_US": "Calm"
-                },
-                {
-                    "key": "tabs-icon-positive",
-                    "value_pt_BR": "Positivo",
-                    "value_en_US": "Positive"
-                },
-                {
-                    "key": "tabs-icon-royal",
-                    "value_pt_BR": "Real",
-                    "value_en_US": "Royal"
-                },
-                {
-                    "key": "tabs-icon-dark",
-                    "value_pt_BR": "Escuro",
-                    "value_en_US": "Dark"
-                },
-                {
                     "key": "tabs-icon-white",
                     "value_pt_BR": "Branco",
                     "value_en_US": "White",
@@ -267,6 +222,7 @@
                     "value_en_US": "Default theme"
                 },
                 {
+<<<<<<< HEAD
                     "key": "background-assertive",
                     "value_pt_BR": "Assertivo",
                     "value_en_US": "Assertive"
@@ -312,6 +268,8 @@
                     "value_en_US": "Dark"
                 },
                 {
+=======
+>>>>>>> e0de100... CRONAPP-5263 - [mobile] Adicionar nas propriedades de cores o item "Padrão do tema"
                     "key": "background-white",
                     "value_pt_BR": "Branco",
                     "value_en_US": "White",

@@ -90,6 +90,11 @@
       "target": "class",
       "values": [
         {
+          "key": "toggle-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
+        {
           "key": "toggle-assertive",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive",

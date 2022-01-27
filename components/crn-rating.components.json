@@ -54,6 +54,11 @@
       "target": "class",
       "values": [
         {
+          "key": "default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
+        {
           "key": "assertive",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive",
