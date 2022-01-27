@@ -142,7 +142,7 @@
       "target": "class",
       "values": [
         {
-          "key": "button-default",
+          "key": "button-theme-default",
           "value_pt_BR": "Padrão do tema",
           "value_en_US": "Default theme"
         },
