@@ -66,9 +66,17 @@
 .button:last-child,
 .bar>.button+.button:last-child,
 .bar>.button.pull-right,
+<<<<<<< HEAD
 .bar .buttons.pull-right,
 .bar .title+.buttons {
+=======
+.bar .buttons.pull-right {
+>>>>>>> 73402aa... identação
     margin-right: calc(5px + var(--safe-area-inset-left));
+}
+
+.bar .title+.buttons{
+    margin: calc(5px + var(--safe-area-inset-left));
 }
 
 .has-header {
@@ -392,12 +400,20 @@ ion-header-bar.bar h1.title {
 }
 
 .item-input input.ng-invalid {
+<<<<<<< HEAD
     border-bottom: 1px solid var(--colorDanger40, #ef473a);
+=======
+    border-bottom: 1px solid #f15858;
+>>>>>>> 73402aa... identação
 }
 
 textarea.ng-invalid,
 textarea.ng-invalid-minlength {
+<<<<<<< HEAD
     border-bottom: 1px solid var(--colorDanger40, #ef473a);
+=======
+    border-bottom: 1px solid #f15858;
+>>>>>>> 73402aa... identação
     margin-bottom: 0;
 }
 
