@@ -1,0 +1,39 @@
+i.default {
+    color: var(--colorDefault40);
+}
+
+i.light {
+    color: var(--colorLight40);
+}
+
+i.stable {
+    color: var(--colorStable40);
+}
+
+i.positive {
+    color: var(--colorPrimary40);
+}
+
+i.calm {
+    color: var(--colorCalm40);
+}
+
+i.assertive {
+    color: var(--colorDanger40);
+}
+
+i.balanced {
+    color: var(--colorSuccess40);
+}
+
+i.energized {
+    color: var(--colorWarning40);
+}
+
+i.royal {
+    color: var(--colorRoyal40);
+}
+
+i.dark {
+    color: var(--colorDark40);
+}

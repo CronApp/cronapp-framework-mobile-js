@@ -4,6 +4,7 @@
 @import 'signup.css';
 @import 'reset-password.css';
 @import 'crn-ion-header-bar.css';
+@import 'icon.css';
 
 * {
     font-family: var(--fontFamily);
@@ -26,4 +27,137 @@ p {
 
 h1 {
     font-size: var(--textExtraBigSize);
+}
+
+
+/* Colors */
+
+.default,
+a.default {
+    color: var(--colorDefault40);
+}
+
+.default-bg {
+    background-color: var(--colorDefault40);
+}
+
+.default-border {
+    border-color: var(--colorDefault50);
+}
+
+.light,
+a.light {
+    color: var(--colorLight40);
+}
+
+.light-bg {
+    background-color: var(--colorLight40);
+}
+
+.light-border {
+    border-color: var(--colorLight50);
+}
+
+.stable,
+a.stable {
+    color: var(--colorStable40);
+}
+
+.stable-bg {
+    background-color: var(--colorStable40);
+}
+
+.stable-border {
+    border-color: var(--colorStable50);
+}
+
+.positive,
+a.positive {
+    color: var(--colorPrimary40);
+}
+
+.positive-bg {
+    background-color: var(--colorPrimary40);
+}
+
+.positive-border {
+    border-color: var(--colorPrimary50);
+}
+
+.calm,
+a.calm {
+    color: var(--colorCalm40);
+}
+
+.calm-bg {
+    background-color: var(--colorCalm40);
+}
+
+.calm-border {
+    border-color: var(--colorCalm50);
+}
+
+.assertive,
+a.assertive {
+    color: var(--colorDanger40);
+}
+
+.assertive-bg {
+    background-color: var(--colorDanger40);
+}
+
+.assertive-border {
+    border-color: var(--colorDanger50);
+}
+
+.balanced,
+a.balanced {
+    color: var(--colorSuccess40);
+}
+
+.balanced-bg {
+    background-color: var(--colorSuccess40);
+}
+
+.balanced-border {
+    border-color: var(--colorSuccess50);
+}
+
+.energized,
+a.energized {
+    color: var(--colorWarning40);
+}
+
+.energized-bg {
+    background-color: var(--colorWarning40);
+}
+
+.energized-border {
+    border-color: var(--colorWarning50);
+}
+
+.royal,
+a.royal {
+    color: var(--colorRoyal40);
+}
+
+.royal-bg {
+    background-color: var(--colorRoyal40);
+}
+
+.royal-border {
+    border-color: var(--colorRoyal50);
+}
+
+.dark,
+a.dark {
+    color: var(--colorDark40);
+}
+
+.dark-bg {
+    background-color: var(--colorDark40);
+}
+
+.dark-border {
+    border-color: var(--colorDark50);
 }

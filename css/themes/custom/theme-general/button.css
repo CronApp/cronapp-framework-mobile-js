@@ -2,7 +2,6 @@ button,
 .button {
     background-color: var(--colorDefault40);
     text-align: center;
-    /* padding: 5px 35px; */
     color: var(--colorNeutral00);
     border: 0;
 }
@@ -36,6 +35,7 @@ button,
 }
 
 .button.button-theme-default:active,
+.button.button-theme-default.active,
 .button.button-theme-default.activated {
     background-color: var(--colorDefault60);
 }
@@ -407,4 +407,9 @@ button,
 .button.button-dark.button-outline:active i,
 .button.button-dark.button-outline.activated i {
     color: var(--colorNeutral00);
+}
+
+/* Clear */
+.button-clear{
+    background-color: transparent;
 }
