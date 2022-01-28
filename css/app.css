@@ -30,7 +30,8 @@
     */
 }
 
-.platform-ios.platform-cordova:not(.fullscreen) .has-header, .platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
+.platform-ios.platform-cordova:not(.fullscreen) .has-header,
+.platform-ios.platform-cordova:not(.fullscreen) .bar-subheader {
     padding-left: calc(0px + var(--safe-area-inset-left));
     padding-right: calc(0px + var(--safe-area-inset-right));
     padding-bottom: calc(0px + var(--safe-area-inset-bottom));
@@ -61,8 +62,16 @@
     min-height: 53px;
 }
 
-.bar .title, .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+.bar .title,
+.button:last-child,
+.bar>.button+.button:last-child,
+.bar>.button.pull-right,
+.bar .buttons.pull-right {
     margin-right: calc(5px + var(--safe-area-inset-left));
+}
+
+.bar .title+.buttons{
+    margin: calc(5px + var(--safe-area-inset-left));
 }
 
 .has-header {
@@ -100,7 +109,8 @@ body {
     line-height: 0px;
 }
 
-.list .item.item-accordion.ng-hide-add, .list .item.item-accordion.ng-hide-remove {
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
     display: block !important;
 }
 
@@ -117,7 +127,8 @@ body {
     border-bottom: 2px solid red !important;
 }
 
-.menu-view .user-button, .login-bg .user-button {
+.menu-view .user-button,
+.login-bg .user-button {
     border: 1px solid #aaa;
     color: #aaa;
     border-radius: 100%;
@@ -127,7 +138,8 @@ body {
     transition: 400ms;
 }
 
-.menu-view .user-button p, .login-bg .user-button p {
+.menu-view .user-button p,
+.login-bg .user-button p {
     color: #aaa;
 }
 
@@ -234,7 +246,8 @@ kendo-chat .k-bubble {
     right: 18px;
 }
 
-.selected-designtime-list .checkbox input:checked:before, .selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
+.selected-designtime-list .checkbox input:checked:before,
+.selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
     background: #2B71E8;
     border-color: #2B71E8;
 }
@@ -269,18 +282,18 @@ ion-header-bar.bar h1.title {
     display: table;
 }
 
-.tabs-striped .tabs .tab-item .icon{
+.tabs-striped .tabs .tab-item .icon {
     display: contents;
 }
 
-.tabs-striped .tabs .tab-item{
+.tabs-striped .tabs .tab-item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.tabs-striped .tabs .tab-item span{
+.tabs-striped .tabs .tab-item span {
     margin: 0;
     padding: 0;
     font-size: 10px;
@@ -305,8 +318,8 @@ ion-header-bar.bar h1.title {
     display: block
 }
 
-.crn-ion-header-bar h1.title{    
-    left: 40px; 
+.crn-ion-header-bar h1.title {
+    left: 40px;
     right: 40px;
 }
 
@@ -338,14 +351,14 @@ ion-header-bar.bar h1.title {
     width: 45%;
 }
 
-.bar-footer.bar .title+.buttons{
+.bar-footer.bar .title+.buttons {
     position: initial;
 }
 
 /* Carrossel */
 
 .crn-slider-item {
-    height: 200px; 
+    height: 200px;
     position: relative;
     object-fit: cover;
 }
@@ -361,31 +374,32 @@ ion-header-bar.bar h1.title {
     width: 100%;
 }
 
-.crn-slider-item h2.text-center{
+.crn-slider-item h2.text-center {
     text-align: center !important;
 }
 
-.crn-slider-item h2.text-left{
+.crn-slider-item h2.text-left {
     text-align: left !important;
 }
 
-.crn-slider-item h2.text-right{
+.crn-slider-item h2.text-right {
     text-align: right !important;
 }
 
-.slider-pager{
+.slider-pager {
     bottom: 5px;
 }
 
-.slider{
+.slider {
     width: 100%;
 }
 
-.item-input input.ng-invalid{
+.item-input input.ng-invalid {
     border-bottom: 1px solid #f15858;
 }
 
-textarea.ng-invalid, textarea.ng-invalid-minlength{
+textarea.ng-invalid,
+textarea.ng-invalid-minlength {
     border-bottom: 1px solid #f15858;
     margin-bottom: 0;
 }
