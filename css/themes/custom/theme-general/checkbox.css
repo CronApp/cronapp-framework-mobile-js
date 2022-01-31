@@ -1,0 +1,141 @@
+.checkbox input:before,
+.checkbox .checkbox-icon:before {
+    border-color: #ddd;
+}
+
+.checkbox input:checked:before,
+.checkbox input:checked+.checkbox-icon:before {
+    background: #2B71E8;
+    border-color: #2B71E8;
+}
+
+/* Default */
+.checkbox-default input:before,
+.checkbox-default .checkbox-icon:before {
+    border-color: var(--colorDefault40);
+}
+
+.checkbox-default input:checked:before,
+.checkbox-default input:checked+.checkbox-icon:before {
+    background: var(--colorDefault40);
+    border-color: var(--colorDefault40);
+}
+
+/* Light */
+.checkbox-light input:before,
+.checkbox-light .checkbox-icon:before {
+    border-color: var(--colorLight40);
+}
+
+.checkbox-light input:checked:before,
+.checkbox-light input:checked+.checkbox-icon:before {
+    background: var(--colorLight40);
+    border-color: var(--colorLight40);
+}
+
+/* Stable */
+.checkbox-stable input:before,
+.checkbox-stable .checkbox-icon:before {
+    border-color: #b2b2b2;
+}
+
+.checkbox-stable input:checked:before,
+.checkbox-stable input:checked+.checkbox-icon:before {
+    background: #b2b2b2;
+    border-color: #b2b2b2;
+}
+
+/* Positive */
+.checkbox-positive input:before,
+.checkbox-positive .checkbox-icon:before {
+    border-color: var(--colorPrimary40);
+}
+
+.checkbox-positive input:checked:before,
+.checkbox-positive input:checked+.checkbox-icon:before {
+    background: var(--colorPrimary40);
+    border-color: var(--colorPrimary40);
+}
+
+/* Calm */
+.checkbox-calm input:before,
+.checkbox-calm .checkbox-icon:before {
+    border-color: var(--colorCalm40);
+}
+
+.checkbox-calm input:checked:before,
+.checkbox-calm input:checked+.checkbox-icon:before {
+    background: var(--colorCalm40);
+    border-color: var(--colorCalm40);
+}
+
+/* Assertive */
+.checkbox-assertive input:before,
+.checkbox-assertive .checkbox-icon:before {
+    border-color: var(--colorDanger40);
+}
+
+.checkbox-assertive input:checked:before,
+.checkbox-assertive input:checked+.checkbox-icon:before {
+    background: var(--colorDanger40);
+    border-color: var(--colorDanger40);
+}
+
+/* Balanced */
+.checkbox-balanced input:before,
+.checkbox-balanced .checkbox-icon:before {
+    border-color: var(--colorSuccess40);
+}
+
+.checkbox-balanced input:checked:before,
+.checkbox-balanced input:checked+.checkbox-icon:before {
+    background: var(--colorSuccess40);
+    border-color: var(--colorSuccess40);
+}
+
+/* Energized */
+.checkbox-energized input:before,
+.checkbox-energized .checkbox-icon:before {
+    border-color: var(--colorWarning40);
+}
+
+.checkbox-energized input:checked:before,
+.checkbox-energized input:checked+.checkbox-icon:before {
+    background: var(--colorWarning40);
+    border-color: var(--colorWarning40);
+}
+
+/* Royal */
+.checkbox-royal input:before,
+.checkbox-royal .checkbox-icon:before {
+    border-color: var(--colorRoyal40);
+}
+
+.checkbox-royal input:checked:before,
+.checkbox-royal input:checked+.checkbox-icon:before {
+    background: var(--colorRoyal40);
+    border-color: var(--colorRoyal40);
+}
+
+/* Dark */
+.checkbox-dark input:before,
+.checkbox-dark .checkbox-icon:before {
+    border-color: var(--colorDark40);
+}
+
+.checkbox-dark input:checked:before,
+.checkbox-dark input:checked+.checkbox-icon:before {
+    background: var(--colorDark40);
+    border-color: var(--colorDark40);
+}
+
+/* Disabled */
+.checkbox input:disabled:before,
+.checkbox input:disabled+.checkbox-icon:before {
+    border-color: #ddd;
+}
+
+.checkbox input:disabled:checked:before,
+.checkbox input:disabled:checked+.checkbox-icon:before {
+    background: #ddd;
+}

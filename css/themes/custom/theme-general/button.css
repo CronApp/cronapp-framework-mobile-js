@@ -183,7 +183,7 @@ button,
 
 .button.button-energized span,
 .button.button-energized i {
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral110);
 }
 
 .button.button-energized:active,

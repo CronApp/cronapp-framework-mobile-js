@@ -1,5 +1,5 @@
 .color-white {
-    color: var(--colorNeutral00);
+    color: var(--white);
 }
 
 .color-gray {
@@ -7,7 +7,7 @@
 }
 
 .color-black {
-    color: var(--colorNeutral220);
+    color: var(--black);
 }
 
 .color-blue {

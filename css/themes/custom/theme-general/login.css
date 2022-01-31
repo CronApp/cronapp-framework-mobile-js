@@ -141,6 +141,10 @@ div.nav>a.item-avatar-left>div.item-content {
     padding: 0px;
 }
 
+.menu-view .user-avatar i {
+    color: var(--colorLight40);
+}
+
 .menu-view .input-default input,
 .login-bg .input-default input {
     border-bottom: 1px solid var(--colorNeutral60);

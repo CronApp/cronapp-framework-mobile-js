@@ -5,8 +5,10 @@
 @import 'reset-password.css';
 @import 'crn-ion-header-bar.css';
 @import 'icon.css';
+@import 'checkbox.css';
+@import 'toggle.css';
 
-* {
+body {
     font-family: var(--fontFamily);
     color: var(--colorNeutral160);
     font-size: var(--textNormalSize);

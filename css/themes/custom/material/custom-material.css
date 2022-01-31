@@ -123,7 +123,13 @@
     --colorCalm70: #096a85;
 
     /* Color - Light (mobile) */
-
+    --colorLight10: #ffffff;
+    --colorLight20: #ffffff;
+    --colorLight30: #ffffff;
+    --colorLight40: #ffffff;
+    --colorLight50: #dfdfdf;
+    --colorLight60: #bbbbbb;
+    --colorLight70: #8c8c8c;
 
     /* Color - Stable (mobile) */
 

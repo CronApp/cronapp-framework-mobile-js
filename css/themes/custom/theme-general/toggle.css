@@ -1,0 +1,64 @@
+.toggle input:checked+.track {
+    border-color: #4cd964;
+    background-color: #4cd964;
+}
+
+/* Light */
+.toggle.toggle-default input:checked+.track {
+    border-color: var(--colorDefault40);
+    background-color: var(--colorDefault40);
+}
+
+/* Light */
+.toggle.toggle-light input:checked+.track {
+    border-color: var(--colorLight40);
+    background-color: var(--colorLight40);
+}
+
+/* Stable */
+.toggle.toggle-stable input:checked+.track {
+    border-color: var(--colorStable40);
+    background-color: var(--colorStable40);
+}
+
+/* Positive */
+.toggle.toggle-positive input:checked+.track {
+    border-color: var(--colorPrimary40);
+    background-color: var(--colorPrimary40);
+}
+
+/* Calm */
+.toggle.toggle-calm input:checked+.track {
+    border-color: var(--colorCalm40);
+    background-color: var(--colorCalm40);
+}
+
+/* Assertive */
+.toggle.toggle-assertive input:checked+.track {
+    border-color: var(--colorDanger40);
+    background-color: var(--colorDanger40);
+}
+
+/* Balanced */
+.toggle.toggle-balanced input:checked+.track {
+    border-color: var(--colorSuccess40);
+    background-color: var(--colorSuccess40);
+}
+
+/* Energized */
+.toggle.toggle-energized input:checked+.track {
+    border-color: var(--colorWarning40);
+    background-color: var(--colorWarning40);
+}
+
+/* Royal */
+.toggle.toggle-royal input:checked+.track {
+    border-color: var(--colorRoyal40);
+    background-color: var(--colorRoyal40);
+}
+
+/* Dark */
+.toggle.toggle-dark input:checked+.track {
+    border-color: var(--colorDark40);
+    background-color: var(--colorDark40);
+}

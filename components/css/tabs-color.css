@@ -1,3 +1,17 @@
+/* Default */
+
+.tabs-striped.tabs-icon-default .tab-item {
+    color: var(--colorDefault40);
+    opacity: 0.5;
+}
+
+.tabs-striped.tabs-icon-default .tab-item.active,
+.tabs-striped.tabs-icon-default .tab-item.activated {
+    color: var(--colorDefault40);
+    border-color: var(--colorDefault40);
+    opacity: 1;
+}
+
 /* white */
 
 .tabs-striped.tabs-icon-white .tab-item {
