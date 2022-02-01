@@ -81,3 +81,45 @@
 .color-dark-green {
     color: var(--dark-green);
 }
+
+/* cores primárias */
+
+.color-default {
+    color: var(--colorDefault40);
+}
+
+.color-positive {
+    color: var(--colorPrimary40);
+}
+
+.color-balanced {
+    color: var(--colorSuccess40);
+}
+
+.color-energized {
+    color: var(--colorWarning40);
+}
+
+.color-assertive {
+    color: var(--colorDanger40);
+}
+
+.color-royal {
+    color: var(--colorRoyal40);
+}
+
+.color-calm {
+    color: var(--colorCalm40);
+}
+
+.color-light {
+    color: var(--colorLight40);
+}
+
+.color-stable {
+    color: var(--colorStable40);
+}
+
+.color-dark {
+    color: var(--colorDark40);
+}

@@ -126,58 +126,49 @@
       "target": "style",
       "values": [
         {
-          "key": "background-color: #ef473a;",
-          "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "key": "background-color: var(--colorDefault4);",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
         },
         {
-          "key": "background-color: #33cd5f;",
-          "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
-        },
-        {
-          "key": "background-color: #ffc900;",
-          "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
-        },
-        {
-          "key": "background-color: #fff;",
-          "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
-        },
-        {
-          "key": "background-color: #f8f8f8;",
-          "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
-        },
-        {
-          "key": "background-color: #11c1f3;",
-          "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
-        },
-        {
-          "key": "background-color: #387ef5;",
+          "key": "background-color: var(--colorPrimary40);",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
-          "key": "background-color: #886aea;",
+          "key": "background-color: var(--colorSuccess40);",
+          "value_pt_BR": "Equilibrado",
+          "value_en_US": "Balanced"
+        },
+        {
+          "key": "background-color: var(--colorWarning40);",
+          "value_pt_BR": "Energizado",
+          "value_en_US": "Energized"
+        },
+        {
+          "key": "background-color: var(--colorDanger40);",
+          "value_pt_BR": "Assertivo",
+          "value_en_US": "Assertive"
+        },
+        {
+          "key": "background-color: var(--colorRoyal40);",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
-          "key": "background-color: #444;",
+          "key": "background-color: var(--colorLight40);",
+          "value_pt_BR": "Claro",
+          "value_en_US": "Light"
+        },
+        {
+          "key": "background-color: var(--colorStable40);",
+          "value_pt_BR": "Estável",
+          "value_en_US": "Stable"
+        },
+        {
+          "key": "background-color: var(--colorDark40);",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         }
       ]
     },

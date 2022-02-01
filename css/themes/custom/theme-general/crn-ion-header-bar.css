@@ -1,4 +1,4 @@
-.button .icon{
+.button .icon {
     font-size: var(--textBigSize);
 }
 
@@ -6,170 +6,170 @@
 .bar.bar-default {
     border-color: var(--colorDefault40);
     background-color: var(--colorDefault40);
-    background-image: linear-gradient(0deg, var(--colorDefault40), var(--colorDefault40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorDefault40);
 }
 
 .bar.bar-default .button .icon,
 .bar.bar-default .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40);
 }
 
 .bar.bar-default.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorDefault40), var(--colorDefault40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Light */
 .bar.bar-light {
-    border-color: var(--colorNeutral20);
-    background-color: var(--colorNeutral00);
-    background-image: linear-gradient(0deg, var(--colorNeutral20), var(--colorNeutral20) 50%, transparent 50%);
-    color: #444;
+    border-color: var(--colorLight40);
+    background-color: var(--colorLight40);
+    background-image: none;
+    color: var(--textColorLight40);
 }
 
 .bar.bar-light .button .icon,
 .bar.bar-light .title {
-    color: #444;
+    color: var(--textColorLight40);
 }
 
 .bar.bar-light.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorNeutral20), var(--colorNeutral20) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Stable */
 .bar.bar-stable {
     border-color: var(--colorStable40);
     background-color: var(--colorStable40);
-    background-image: linear-gradient(0deg, var(--colorStable40), var(--colorStable40) 50%, transparent 50%);
-    color: #444;
+    background-image: none;
+    color: var(--textColorStable40);
 }
 
 .bar.bar-stable .button .icon,
 .bar.bar-stable .title {
-    color: #444;
+    color: var(--textColorStable40);
 }
 
 .bar.bar-stable.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorStable40), var(--colorStable40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Positive */
 .bar.bar-positive {
     border-color: var(--colorPrimary40);
     background-color: var(--colorPrimary40);
-    background-image: linear-gradient(0deg, var(--colorPrimary40), var(--colorPrimary40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorPrimary40);
 }
 
 .bar.bar-positive .button .icon,
 .bar.bar-positive .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorPrimary40);
 }
 
 .bar.bar-positive.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorPrimary40), var(--colorPrimary40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Calm */
 .bar.bar-calm {
     border-color: var(--colorCalm40);
-    background-color: #11c1f3;
-    background-image: linear-gradient(0deg, var(--colorCalm40), var(--colorCalm40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-color: var(--colorCalm40);
+    background-image: none;
+    color: var(--textColorCalm40);
 }
 
 .bar.bar-calm .button .icon,
 .bar.bar-calm .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorCalm40);
 }
 
 .bar.bar-calm.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorCalm40), var(--colorCalm40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Assertive */
 .bar.bar-assertive {
     border-color: var(--colorDanger40);
     background-color: var(--colorDanger40);
-    background-image: linear-gradient(0deg, var(--colorDanger40), var(--colorDanger40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorDanger40);
 }
 
 .bar.bar-assertive .button .icon,
 .bar.bar-assertive .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorDanger40);
 }
 
 .bar.bar-assertive.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorDanger40), var(--colorDanger40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Balanced */
 .bar.bar-balanced {
     border-color: var(--colorSuccess40);
     background-color: var(--colorSuccess40);
-    background-image: linear-gradient(0deg, var(--colorSuccess40), var(--colorSuccess40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorSuccess40);
 }
 
 .bar.bar-balanced .button .icon,
 .bar.bar-balanced .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorSuccess40);
 }
 
 .bar.bar-balanced.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorSuccess40), var(--colorSuccess40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Energized */
 .bar.bar-energized {
     border-color: var(--colorWarning40);
     background-color: var(--colorWarning40);
-    background-image: linear-gradient(0deg, var(--colorWarning40), var(--colorWarning40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorWarning40);
 }
 
 .bar.bar-energized .button .icon,
 .bar.bar-energized .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorWarning40);
 }
 
 .bar.bar-energized.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorWarning40), var(--colorWarning40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Royal */
 .bar.bar-royal {
     border-color: var(--colorRoyal40);
     background-color: var(--colorRoyal40);
-    background-image: linear-gradient(0deg, var(--colorRoyal40), var(--colorRoyal40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorRoyal40);
 }
 
 .bar.bar-royal .button .icon,
 .bar.bar-royal .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorRoyal40);
 }
 
 .bar.bar-royal.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorRoyal40), var(--colorRoyal40) 50%, transparent 50%);
+    background-image: none;
 }
 
 /* Dark */
 .bar.bar-dark {
     border-color: var(--colorDark40);
     background-color: var(--colorDark40);
-    background-image: linear-gradient(0deg, var(--colorDark40), var(--colorDark40) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    background-image: none;
+    color: var(--textColorDark40);
 }
 
 .bar.bar-dark .button .icon,
 .bar.bar-dark .title {
-    color: var(--colorNeutral00);
+    color: var(--textColorDark40);
 }
 
 .bar.bar-dark.bar-footer {
-    background-image: linear-gradient(180deg, var(--colorDark40), var(--colorDark40) 50%, transparent 50%);
+    background-image: none;
 }
 
 .bar .title,

@@ -1,7 +1,3 @@
-.tabs-striped.background-theme-default .tabs {
-    background-color: var(--colorDefault40);
-}
-
 .tabs-striped.background-white .tabs {
     background-color: var(--white);
 }
@@ -88,38 +84,42 @@
 
 /* Cores primárias */
 
+.tabs-striped.background-default .tabs {
+    background-color: var(--colorDefault40);
+}
+
 .tabs-striped.background-assertive .tabs {
-    background-color: var(--assertive);
+    background-color: var(--colorDanger40);
 }
 
 .tabs-striped.background-balanced .tabs {
-    background-color: var(--balanced);
+    background-color: var(--colorSuccess40);
 }
 
 .tabs-striped.background-energized .tabs {
-    background-color: var(--energized);
+    background-color: var(--colorWarning40);
 }
 
 .tabs-striped.background-light .tabs {
-    background-color: var(--light);
+    background-color: var(--colorLight40);
 }
 
 .tabs-striped.background-stable .tabs {
-    background-color: var(--stable);
+    background-color: var(--colorStable40);
 }
 
 .tabs-striped.background-calm .tabs {
-    background-color: var(--calm);
+    background-color: var(--colorCalm40);
 }
 
 .tabs-striped.background-positive .tabs {
-    background-color: var(--positive);
+    background-color: var(--colorPrimary40);
 }
 
 .tabs-striped.background-royal .tabs {
-    background-color: var(--royal);
+    background-color: var(--colorRoyal40);
 }
 
 .tabs-striped.background-dark .tabs {
-    background-color: var(--dark);
+    background-color: var(--colorDark40);
 }

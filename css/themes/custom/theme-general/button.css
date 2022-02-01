@@ -2,7 +2,7 @@ button,
 .button {
     background-color: var(--colorDefault40);
     text-align: center;
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40);
     border: 0;
 }
 
@@ -12,12 +12,12 @@ button,
 
 .button span,
 .button i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40);
 }
 
 .button.button-outline span,
 .button.button-outline i {
-    color: var(--colorNeutral220);
+    color: var(--colorDefault40);
 }
 
 .button.button-outline {
@@ -31,13 +31,20 @@ button,
 
 .button.button-theme-default span,
 .button.button-theme-default i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40);
 }
 
 .button.button-theme-default:active,
 .button.button-theme-default.active,
 .button.button-theme-default.activated {
     background-color: var(--colorDefault60);
+}
+
+.button.button-theme-default:active i,
+.button.button-theme-default:active span,
+.button.button-theme-default.activated i,
+.button.button-theme-default.activated span {
+    color: var(--textColorDefault40);
 }
 
 /* Theme default - Outline */
@@ -60,7 +67,7 @@ button,
 .button.button-theme-default.button-outline.activated span,
 .button.button-theme-default.button-outline:active i,
 .button.button-theme-default.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40);
 }
 
 /* Positive */
@@ -70,12 +77,19 @@ button,
 
 .button.button-positive span,
 .button.button-positive i {
-    color: var(--colorNeutral00);
+    color: var(--textColorPrimary40);
 }
 
 .button.button-positive:active,
 .button.button-positive.activated {
     background-color: var(--colorPrimary60);
+}
+
+.button.button-positive:active i,
+.button.button-positive:active span,
+.button.button-positive.activated i,
+.button.button-positive.activated span {
+    color: var(--textColorPrimary60);
 }
 
 /* Positive - Outline */
@@ -98,7 +112,7 @@ button,
 .button.button-positive.button-outline.activated span,
 .button.button-positive.button-outline:active i,
 .button.button-positive.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorPrimary40);
 }
 
 /* Calm */
@@ -108,12 +122,19 @@ button,
 
 .button.button-calm span,
 .button.button-calm i {
-    color: var(--colorNeutral00);
+    color: var(--textColorCalm40);
 }
 
 .button.button-calm:active,
 .button.button-calm.activated {
     background-color: var(--colorCalm60);
+}
+
+.button.button-calm:active i,
+.button.button-calm:active span,
+.button.button-calm.activated i,
+.button.button-calm.activated span {
+    color: var(--textColorCalm60);
 }
 
 /* Calm - Outline */
@@ -135,7 +156,7 @@ button,
 .button.button-calm.button-outline.activated span,
 .button.button-calm.button-outline:active i,
 .button.button-calm.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorCalm40);
 }
 
 /* Assertive */
@@ -145,13 +166,21 @@ button,
 
 .button.button-assertive span,
 .button.button-assertive i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDanger40);
 }
 
 .button.button-assertive:active,
 .button.button-assertive.activated {
     background-color: var(--colorDanger60);
 }
+
+.button.button-assertive:active i,
+.button.button-assertive:active span,
+.button.button-assertive.activated i,
+.button.button-assertive.activated span {
+    color: var(--textColorDanger60);
+}
+
 
 /* Assertive - Outline */
 
@@ -173,7 +202,7 @@ button,
 .button.button-assertive.button-outline.activated span,
 .button.button-assertive.button-outline:active i,
 .button.button-assertive.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDanger40);
 }
 
 /* Energized */
@@ -183,12 +212,19 @@ button,
 
 .button.button-energized span,
 .button.button-energized i {
-    color: var(--colorNeutral110);
+    color: var(--textColorWarning40);
 }
 
 .button.button-energized:active,
 .button.button-energized.activated {
     background-color: var(--colorWarning60);
+}
+
+.button.button-energized:active i,
+.button.button-energized:active span,
+.button.button-energized.activated i,
+.button.button-energized.activated span {
+    color: var(--textColorWarning60);
 }
 
 /* Energized - Outline */
@@ -211,7 +247,7 @@ button,
 .button.button-energized.button-outline.activated span,
 .button.button-energized.button-outline:active i,
 .button.button-energized.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorWarning40);
 }
 
 /* Balanced */
@@ -221,12 +257,19 @@ button,
 
 .button.button-balanced span,
 .button.button-balanced i {
-    color: var(--colorNeutral00);
+    color: var(--textColorSuccess40);
 }
 
 .button.button-balanced:active,
 .button.button-balanced.activated {
     background-color: var(--colorSuccess60);
+}
+
+.button.button-balanced:active i,
+.button.button-balanced:active span,
+.button.button-balanced.activated i,
+.button.button-balanced.activated span {
+    color: var(--textColorSuccess60);
 }
 
 /* Balanced - Outline */
@@ -249,23 +292,29 @@ button,
 .button.button-balanced.button-outline.activated span,
 .button.button-balanced.button-outline:active i,
 .button.button-balanced.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorSuccess40);
 }
 
 /* Royal */
 .button.button-royal {
     border-color: var(--colorDefault40);
-    color: var(--colorNeutral00);
 }
 
 .button.button-royal span,
 .button.button-royal i {
-    color: var(--colorNeutral00);
+    color: var(--textColorRoyal40);
 }
 
 .button.button-royal:active,
 .button.button-royal.activated {
     background-color: var(--colorDefault60);
+}
+
+.button.button-royal:active i,
+.button.button-royal:active span,
+.button.button-royal.activated i,
+.button.button-royal.activated span {
+    color: var(--textColorRoyal60);
 }
 
 /* Royal - Outline */
@@ -288,128 +337,134 @@ button,
 .button.button-royal.button-outline.activated span,
 .button.button-royal.button-outline:active i,
 .button.button-royal.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorRoyal40);
 }
 
 /* Light */
 .button.button-light {
-    border-color: var(--colorNeutral110);
+    border-color: var(--colorLight40);
 }
 
 .button.button-light span,
 .button.button-light i {
-    color: var(--colorNeutral110);
+    color: var(--textColorLight40);
 }
 
 .button.button-light:active,
 .button.button-light.activated {
-    background-color: var(--colorNeutral30);
-    color: var(--colorNeutral220);
+    background-color: var(--colorLight60);
+    color: var(--textColorLight60);
 }
 
 /* Light - Outline */
 
 .button.button-light.button-outline {
-    border-color: var(--colorNeutral110);
+    border-color: var(--colorLight40);
 }
 
 .button.button-light.button-outline span,
 .button.button-light.button-outline i {
-    color: var(--colorNeutral110);
+    color: var(--colorLight40);
 }
 
 .button.button-light.button-outline:active,
 .button.button-light.button-outline.activated {
-    background-color: var(--colorNeutral110);
+    background-color: var(--colorLight40);
 }
 
 .button.button-light.button-outline:active span,
 .button.button-light.button-outline.activated span,
 .button.button-light.button-outline:active i,
 .button.button-light.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorLight40);
 }
 
 /* Stable */
 .button.button-stable {
-    background-color: var(--colorNeutral00);
-    border-color: var(--colorPrimary40);
+    background-color: var(--colorStable40);
+    border-color: var(--colorStable40);
 }
 
 .button.button-stable span,
 .button.button-stable i {
-    color: var(--colorPrimary40);
+    color: var(--textColorStable40);
 }
 
 .button.button-stable:active,
 .button.button-stable.activated {
-    background-color: var(--colorNeutral30);
-    color: var(--colorNeutral220);
+    background-color: var(--colorStable60);
+    color: var(--textColorStable60);
 }
 
 /* Stable - Outline */
 .button.button-stable.button-outline {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorStable40);
 }
 
 .button.button-stable.button-outline span,
 .button.button-stable.button-outline i {
-    color: var(--colorPrimary40);
+    color: var(--colorStable40);
 }
 
 .button.button-stable.button-outline:active,
 .button.button-stable.button-outline.activated {
-    background-color: var(--colorPrimary40);
+    background-color: var(--colorStable40);
 }
 
 .button.button-stable.button-outline:active span,
 .button.button-stable.button-outline.activated span,
 .button.button-stable.button-outline:active i,
 .button.button-stable.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorStable40);
 }
 
 /* Dark */
 .button.button-positive i.dark,
 .button.button-positive i.dark+span {
-    color: var(--colorNeutral00);
+    color: var(--textColorDark40);
 }
 
 .button.button-dark,
 .button.button-dark {
-    background-color: var(--colorNeutral190);
-    color: var(--colorNeutral00);
+    background-color: var(--colorDark40);
+    color: var(--textColorDark40);
 }
 
 .button.button-dark:active,
 .button.button-dark.activated {
-    background-color: var(--colorNeutral150);
-    color: var(--colorNeutral220);
+    background-color: var(--colorDark70);
+}
+
+.button.button-dark:active i.dark,
+.button.button-dark:active i.dark+span,
+.button.button-dark.activated i.dark,
+.button.button-dark.activated i.dark+span {
+    color: var(--textColorDark70);
 }
 
 /* Dark - Outline */
 .button.button-dark.button-outline {
-    border-color: var(--colorNeutral190);
+    border-color: var(--colorDark40);
 }
 
 .button.button-dark.button-outline span,
 .button.button-dark.button-outline i {
-    color: var(--colorNeutral190);
+    color: var(--colorDark40);
 }
 
 .button.button-dark.button-outline:active,
 .button.button-dark.button-outline.activated {
-    background-color: var(--colorNeutral190);
+    background-color: var(--colorDark40);
 }
 
 .button.button-dark.button-outline:active span,
 .button.button-dark.button-outline.activated span,
 .button.button-dark.button-outline:active i,
 .button.button-dark.button-outline.activated i {
-    color: var(--colorNeutral00);
+    color: var(--textColorDark40);
 }
 
 /* Clear */
-.button-clear{
+.button-clear {
     background-color: transparent;
 }

@@ -83,19 +83,29 @@
       "target": "style",
       "values": [
         {
-          "key": "font-size: 14px;",
+          "key": "font-size: var(--textSmallSize);",
+          "value_pt_BR": "Pequena",
+          "value_en_US": "Small"
+        },
+        {
+          "key": "font-size: var(--textNormalSize);",
           "value_pt_BR": "Padrão",
           "value_en_US": "Default"
         },
         {
-          "key": "font-size: 18px;",
-          "value_pt_BR": "Texto médio",
-          "value_en_US": "Medium text"
+          "key": "font-size: var(--textMediumSize);",
+          "value_pt_BR": "Média",
+          "value_en_US": "Medium"
         },
         {
-          "key": "font-size: 25px;",
-          "value_pt_BR": "Texto grande",
-          "value_en_US": "Large text"
+          "key": "font-size: var(--textBigSize);",
+          "value_pt_BR": "Grande",
+          "value_en_US": "Big"
+        },
+        {
+          "key": "font-size: var(--textExtraBigSize);",
+          "value_pt_BR": "Extra grande",
+          "value_en_US": "Extra big"
         }
       ]
     }
