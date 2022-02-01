@@ -50,56 +50,47 @@
         {
           "key": "ion-segment-assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "ion-segment-balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "ion-segment-energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "ion-segment-light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "ion-segment-stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "ion-segment-calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "ion-segment-positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "ion-segment-royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "ion-segment-dark",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         },
         {
           "key": "ion-segment-white",
@@ -242,56 +233,47 @@
         {
           "key": "background-assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "background-balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "background-energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "background-light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "background-stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "background-calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "background-positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "background-royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "background-dark",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         },
         {
           "key": "background-white",
@@ -434,56 +416,47 @@
         {
           "key": "active-background-assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "active-background-balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "active-background-energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "active-background-light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "active-background-stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "active-background-calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "active-background-positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "active-background-royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "active-background-dark",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         },
         {
           "key": "active-background-white",
@@ -626,56 +599,47 @@
         {
           "key": "icon-theme-light-assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "icon-theme-light-balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "icon-theme-light-energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "icon-theme-light-light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "icon-theme-light-stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "icon-theme-light-calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "icon-theme-light-positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "icon-theme-light-royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "icon-theme-light-dark",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         },
         {
           "key": "icon-theme-light-white",
