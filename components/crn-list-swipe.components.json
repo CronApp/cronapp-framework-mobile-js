@@ -22,14 +22,14 @@
     },
     {
       "name": "ng-click",
-      "selector": "ion-option-button.button-positive",
+      "selector": "ion-option-button.button-edit",
       "type": "event",
       "displayName_pt_BR": "Ao Clicar em Editar",
       "displayName_en_US": "On Edit Click"
     },
     {
       "name": "ng-click",
-      "selector": "ion-option-button.button-assertive",
+      "selector": "ion-option-button.button-delete",
       "type": "event",
       "displayName_pt_BR": "Ao Clicar em Deletar",
       "displayName_en_US": "On Delete Click"
@@ -75,7 +75,7 @@
     "canIncrement": true,
     "rules": [
       {
-        "sourceHTML": "<ion-item class=\"item\" id=\"crn-list-item-swipe-${RANDOM}\" data-component=\"crn-item-swipe\"><h2 style=\"display: inline;\">Item</h2><div id=\"crn-item-options${RANDOM}\" class=\"component-holder\" data-component=\"crn-item-options\"><div class=\"crn-item-options\" data-item=\"true\"><ion-option-button id=\"crn-button-${RANDOM}\" data-component=\"crn-button\" class=\"button-positive button\"><i class=\"ion ion-edit\"></i><span>Edit</span></ion-option-button><ion-option-button id=\"crn-option-button-${RANDOM}-2\" data-component=\"crn-button\" class=\"button-assertive button\"><i class=\"ion ion-trash-a\"></i><span>Delete</span></ion-option-button></div></div></ion-item>",
+        "sourceHTML": "<ion-item class=\"item\" id=\"crn-list-item-swipe-${RANDOM}\" data-component=\"crn-item-swipe\"><h2 style=\"display: inline;\">Item</h2><div id=\"crn-item-options${RANDOM}\" class=\"component-holder\" data-component=\"crn-item-options\"><div class=\"crn-item-options\" data-item=\"true\"><ion-option-button id=\"crn-button-${RANDOM}\" data-component=\"crn-button\" class=\"button-default button\"><i class=\"ion ion-edit\"></i><span>Edit</span></ion-option-button><ion-option-button id=\"crn-option-button-${RANDOM}-2\" data-component=\"crn-button\" class=\"button-assertive button\"><i class=\"ion ion-trash-a\"></i><span>Delete</span></ion-option-button></div></div></ion-item>",
         "targetSelector": ".to-repeat"
       }
     ]

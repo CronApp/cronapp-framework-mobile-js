@@ -23,7 +23,7 @@
     "canIncrement": true,
     "rules": [
       {
-        "sourceHTML": "<ion-option-button class=\"button-positive button\" data-component=\"crn-button\"><i class=\"ion ion-home\"></i><span>Home</span></ion-option-button>",
+        "sourceHTML": "<ion-option-button class=\"button-default button\" data-component=\"crn-button\"><i class=\"ion ion-home\"></i><span>Home</span></ion-option-button>",
         "targetSelector": ".crn-item-options"
       }
     ]
