@@ -35,8 +35,8 @@
 .progress{
   width: 96%;
   text-align: center;
-  background-color: var(--textColorSuccess30);
-  color: var(--colorNeutral00);
+  background-color: #f4f4f4;
+  color: #fff;
   border-radius: 20px;
 }
 

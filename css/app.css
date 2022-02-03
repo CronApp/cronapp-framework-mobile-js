@@ -1,6 +1,6 @@
 @import 'custom-ionic.css';
 @import 'signup.css';
-/* @import "groupingOfCss/import_groupingOfCss.css"; */
+@import "groupingOfCss/import_groupingOfCss.css";
 @import '../components/css/app.css';
 /* Empty. Add your own CSS if you like */
 
@@ -245,8 +245,8 @@ kendo-chat .k-bubble {
 
 .selected-designtime-list .checkbox input:checked:before,
 .selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
-    background: var(--colorPrimary40);
-    border-color: var(--colorPrimary40);
+    background: var(--colorDefault40);
+    border-color: var(--colorDefault40);
 }
 
 .bar .title {
@@ -331,7 +331,7 @@ ion-header-bar.bar h1.title {
 }
 
 .bar-footer .button {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorDefault40);
     margin: 0;
 }
 
@@ -362,7 +362,7 @@ ion-header-bar.bar h1.title {
 
 .crn-slider-item h2 {
     text-align: center;
-    color: var(--colorNeutral00);
+    color: #ffffff;
     font-weight: bold;
     left: 50%;
     margin: 0;
@@ -399,4 +399,8 @@ textarea.ng-invalid,
 textarea.ng-invalid-minlength {
     border-bottom: 1px solid var(--colorDanger40);
     margin-bottom: 0;
+}
+
+textarea.item{
+    white-space: break-spaces;
 }
