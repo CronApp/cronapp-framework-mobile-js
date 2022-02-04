@@ -181,7 +181,7 @@ window.addEventListener('message', function(event) {
                <div aria-label="$closeAriaText$" class="remove-image-button button button-assertive" ng-if="$ngModel$" ng-click="$ngModel$=null">\
                  <span class="icon ion-android-close"></span>\
                </div>\
-               <div aria-label="$videocamAriaText$" class="button button-positive buttomImage" ng-if="!$ngModel$" ng-click="cronapi.internal.startCamera(\'$ngModel$\',\'$quality$\',\'$allowEdit$\',\'$targetWidth$\',\'$targetHeight$\')">\
+               <div aria-label="$videocamAriaText$" class="button button-default buttomImage" ng-if="!$ngModel$" ng-click="cronapi.internal.startCamera(\'$ngModel$\',\'$quality$\',\'$allowEdit$\',\'$targetWidth$\',\'$targetHeight$\')">\
                  <span class="icon ion-ios-videocam"></span>\
                </div>\
              </div>';

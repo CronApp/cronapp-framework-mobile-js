@@ -24,13 +24,18 @@
 /* Light */
 .checkbox-light input:before,
 .checkbox-light .checkbox-icon:before {
-    border-color: var(--colorLight40);
+    border-color: var(--colorLight50);
 }
 
 .checkbox-light input:checked:before,
 .checkbox-light input:checked+.checkbox-icon:before {
-    background: var(--colorLight40);
-    border-color: var(--colorLight40);
+    background: var(--colorLight50);
+    border-color: var(--colorLight50);
+}
+
+.checkbox-light input:checked:after,
+.checkbox-light input:checked+.checkbox-icon:after {
+    border-color: var(--textColorDark10);
 }
 
 /* Stable */

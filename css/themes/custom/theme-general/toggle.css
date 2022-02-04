@@ -11,14 +11,14 @@
 
 /* Light */
 .toggle.toggle-light input:checked+.track {
-    border-color: var(--colorLight40);
-    background-color: var(--colorLight40);
+    border-color: var(--colorLight50);
+    background-color: var(--colorLight50);
 }
 
 /* Stable */
 .toggle.toggle-stable input:checked+.track {
-    border-color: var(--colorStable40);
-    background-color: var(--colorStable40);
+    border-color: var(--colorStable50);
+    background-color: var(--colorStable50);
 }
 
 /* Positive */

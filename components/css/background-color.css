@@ -85,41 +85,41 @@
 /* Cores primárias */
 
 .tabs-striped.background-default .tabs {
-    background-color: var(--colorDefault40);
+    background-color: var(--textColorDefault40);
 }
 
 .tabs-striped.background-assertive .tabs {
-    background-color: var(--colorDanger40);
+    background-color: var(--textColorDanger40);
 }
 
 .tabs-striped.background-balanced .tabs {
-    background-color: var(--colorSuccess40);
+    background-color: var(--textColorSuccess40);
 }
 
 .tabs-striped.background-energized .tabs {
-    background-color: var(--colorWarning40);
+    background-color: var(--textColorWarning40);
 }
 
 .tabs-striped.background-light .tabs {
-    background-color: var(--colorLight40);
+    background-color: var(--textColorLight40);
 }
 
 .tabs-striped.background-stable .tabs {
-    background-color: var(--colorStable40);
+    background-color: var(--textColorStable40);
 }
 
 .tabs-striped.background-calm .tabs {
-    background-color: var(--colorCalm40);
+    background-color: var(--textColorCalm40);
 }
 
 .tabs-striped.background-positive .tabs {
-    background-color: var(--colorPrimary40);
+    background-color: var(--textColorPrimary40);
 }
 
 .tabs-striped.background-royal .tabs {
-    background-color: var(--colorRoyal40);
+    background-color: var(--textColorRoyal40);
 }
 
 .tabs-striped.background-dark .tabs {
-    background-color: var(--colorDark40);
+    background-color: var(--textColorDark40);
 }
