@@ -133,7 +133,7 @@ section, summary, time, mark, audio, video {
 }
 
 a {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 p, .item p,
@@ -180,7 +180,7 @@ h6, .h6 {
 }
 
 .login-bg .form-validation .list .item.item-input input::placeholder {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .login-bg .form-validation .list .item .button {
@@ -287,24 +287,24 @@ textarea {
 /* ==== STATUS ==== */
 .positive,
 .royal {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .calm,
 .stable {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
 }
 
 .assertive {
-    color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
 }
 
 .energized {
-    color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
 }
 
 .balanced {
-    color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
 }
 
 .light {
@@ -318,24 +318,24 @@ textarea {
 /* ==== Backgrounds ==== */
 .positive-bg,
 .royal-bg {
-    background: var(--colorDefault40);
+    background: var(--colorDefault40, #3b448e);
 }
 
 .calm-bg,
 .stable-bg {
-    background: var(--colorPrimary40);
+    background: var(--colorPrimary40, #387ef5);
 }
 
 .assertive-bg {
-    background: var(--colorDanger40);
+    background: var(--colorDanger40, #ef473a);
 }
 
 .energized-bg {
-    background: var(--colorWarning40);
+    background: var(--colorWarning40, #ffc900);
 }
 
 .balanced-bg {
-    background: var(--colorSuccess40);
+    background: var(--colorSuccess40, #33cd5f);
 }
 
 .light-bg {
@@ -356,7 +356,7 @@ textarea {
 /* Buttons */
 button,
 .button {
-    background: linear-gradient(90deg, var(--colorDefault40) 0%, var(--colorDefault30) 100%);
+    background: linear-gradient(90deg, var(--colorDefault40, #3b448e) 0%, var(--colorDefault30) 100%);
     border-radius: var(--borderRadiusSmall);
     text-align: center;
     display: unset;
@@ -366,23 +366,23 @@ button,
 }
 
 .button.button-positive {
-    background: linear-gradient(90deg, var(--colorDefault40) 0%, var(--colorDefault30) 100%);
+    background: linear-gradient(90deg, var(--colorDefault40, #3b448e) 0%, var(--colorDefault30) 100%);
 }
 
 .button.button-calm {
-    background: linear-gradient(90deg, var(--colorPrimary40) 0%, var(--colorPrimary30) 100%);
+    background: linear-gradient(90deg, var(--colorPrimary40, #387ef5) 0%, var(--colorPrimary30) 100%);
 }
 
 .button.button-assertive {
-    background: linear-gradient(90deg, var(--colorDanger40) 0%, var(--colorDanger30) 100%);
+    background: linear-gradient(90deg, var(--colorDanger40, #ef473a) 0%, var(--colorDanger30) 100%);
 }
 
 .button.button-energized {
-    background: linear-gradient(90deg, var(--colorWarning40) 0%, var(--colorWarning30) 100%);
+    background: linear-gradient(90deg, var(--colorWarning40, #ffc900) 0%, var(--colorWarning30) 100%);
 }
 
 .button.button-balanced {
-    background: linear-gradient(90deg, var(--colorSuccess40) 0%, var(--colorSuccess30) 100%);
+    background: linear-gradient(90deg, var(--colorSuccess40, #33cd5f) 0%, var(--colorSuccess30) 100%);
 }
 
 .button.button-royal,
@@ -393,8 +393,8 @@ button,
 }
 
 .button.button-royal {
-    border-color: var(--colorDefault40);
-    color: var(--colorDefault40);
+    border-color: var(--colorDefault40, #3b448e);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .button.button-light {
@@ -402,7 +402,7 @@ button,
 }
 
 .button.button-stable {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
 }
 
 .button span {
@@ -416,12 +416,12 @@ button,
 
 .button.button-royal span,
 .button.button-royal i {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .button.button-stable span,
 .button.button-stable i {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
 }
 
 .button.button-light span,
@@ -470,7 +470,7 @@ button,
 }
 
 *[id^="crn-input-button"] button.button.button-outline {
-    background: linear-gradient(90deg, var(--colorDefault40) 0%, var(--colorDefault30) 100%);
+    background: linear-gradient(90deg, var(--colorDefault40, #3b448e) 0%, var(--colorDefault30) 100%);
     border: 0;
 }
 
@@ -508,8 +508,8 @@ button,
 .checkbox-group .item.checkbox-stable .checkbox input:checked:before,
 .checkbox-group .item.checkbox-stable .checkbox input:checked + .checkbox-group .item.checkbox-stable .checkbox .checkbox-icon:before,
 .checkbox-group .checkbox input:checked:before {
-    background: var(--colorDefault40);
-    border-color: var(--colorDefault40);
+    background: var(--colorDefault40, #3b448e);
+    border-color: var(--colorDefault40, #3b448e);
 }
 
 .checkbox-group .item span {
@@ -569,7 +569,7 @@ button,
 }
 
 .dynamic-image-container .btn {
-    background: linear-gradient(90deg, var(--colorDefault40) 0%, var(--colorDefault30) 100%);
+    background: linear-gradient(90deg, var(--colorDefault40, #3b448e) 0%, var(--colorDefault30) 100%);
     padding: var(--distanceSmall) var(--distanceMedium);
     border-radius: var(--borderRadiusMedium);
     color: var(--colorNeutral00);
@@ -611,8 +611,8 @@ button,
 }
 
 *[id^="crn-toggle"] .toggle.toggle-balanced input:checked + .track {
-    border-color: var(--colorDefault40);
-    background-color: var(--colorDefault40);
+    border-color: var(--colorDefault40, #3b448e);
+    background-color: var(--colorDefault40, #3b448e);
 }
 
 /* Container */
@@ -638,7 +638,7 @@ button,
 
 *[id^="crn-radio"] .item i {
     border-radius: var(--borderRadiusFull);
-    border: 2px solid var(--colorDefault40);
+    border: 2px solid var(--colorDefault40, #3b448e);
     padding: 0;
     height: 40px;
     width: 40px;
@@ -649,7 +649,7 @@ button,
 
 *[id^="crn-radio"] .item i.ion-checkmark:before {
     margin-top: 5px;
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 /* Items */
@@ -698,7 +698,7 @@ button,
 
 div.crn-ion-segment-classic ul.active-background-positive li.active,
 div.crn-ion-segment-modern ul.active-background-positive li.active {
-    background: var(--colorPrimary40);
+    background: var(--colorPrimary40, #387ef5);
 }
 
 div.crn-ion-segment-classic ul.active-background-positive li.active a,

@@ -20,23 +20,23 @@
 }
 
 .checkbox input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorDefault40);
-    border-color: var(--colorDefault40);
+    background: var(--colorDefault40, #3b448e);
+    border-color: var(--colorDefault40, #3b448e);
 }
 
 .checkbox-light input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorLight40);
-    border-color: var(--colorLight40);
+    background: var(--colorLight40, #ffffff);
+    border-color: var(--colorLight40, #ffffff);
 }
 
 .checkbox-stable input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorStable40);
-    border-color: var(--colorStable40);
+    background: var(--colorStable40, #f8f8f8);
+    border-color: var(--colorStable40, #f8f8f8);
 }
 
 .checkbox-positive input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorPrimary40);
-    border-color: var(--colorPrimary40);
+    background: var(--colorPrimary40, #387ef5);
+    border-color: var(--colorPrimary40, #387ef5);
 }
 
 .checkbox-calm input[indeterminate="true"]:not(:checked):before{
@@ -45,28 +45,28 @@
 }
 
 .checkbox-assertive input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorDanger40);
-    border-color: var(--colorDanger40);
+    background: var(--colorDanger40, #ef473a);
+    border-color: var(--colorDanger40, #ef473a);
 }
 
 .checkbox-balanced input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorSuccess40);
-    border-color: var(--colorSuccess40);
+    background: var(--colorSuccess40, #33cd5f);
+    border-color: var(--colorSuccess40, #33cd5f);
 }
 
 .checkbox-energized input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorWarning40);
-    border-color: var(--colorWarning40);
+    background: var(--colorWarning40, #ffc900);
+    border-color: var(--colorWarning40, #ffc900);
 }
 
 .checkbox-royal input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorRoyal40);
-    border-color: var(--colorRoyal40);
+    background: var(--colorRoyal40, #886aea);
+    border-color: var(--colorRoyal40, #886aea);
 }
 
 .checkbox-dark input[indeterminate="true"]:not(:checked):before{
-    background: var(--colorDark40);
-    border-color: var(--colorDark40);
+    background: var(--colorDark40, #444444);
+    border-color: var(--colorDark40, #444444);
 }
 
 .checkbox-dark input[indeterminate="true"]:disabled:not(:checked):before{

@@ -5,8 +5,8 @@
 
 /* Light */
 .toggle.toggle-default input:checked+.track {
-    border-color: var(--colorDefault40);
-    background-color: var(--colorDefault40);
+    border-color: var(--colorDefault40, #3b448e);
+    background-color: var(--colorDefault40, #3b448e);
 }
 
 /* Light */
@@ -23,8 +23,8 @@
 
 /* Positive */
 .toggle.toggle-positive input:checked+.track {
-    border-color: var(--colorPrimary40);
-    background-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
+    background-color: var(--colorPrimary40, #387ef5);
 }
 
 /* Calm */
@@ -35,30 +35,30 @@
 
 /* Assertive */
 .toggle.toggle-assertive input:checked+.track {
-    border-color: var(--colorDanger40);
-    background-color: var(--colorDanger40);
+    border-color: var(--colorDanger40, #ef473a);
+    background-color: var(--colorDanger40, #ef473a);
 }
 
 /* Balanced */
 .toggle.toggle-balanced input:checked+.track {
-    border-color: var(--colorSuccess40);
-    background-color: var(--colorSuccess40);
+    border-color: var(--colorSuccess40, #33cd5f);
+    background-color: var(--colorSuccess40, #33cd5f);
 }
 
 /* Energized */
 .toggle.toggle-energized input:checked+.track {
-    border-color: var(--colorWarning40);
-    background-color: var(--colorWarning40);
+    border-color: var(--colorWarning40, #ffc900);
+    background-color: var(--colorWarning40, #ffc900);
 }
 
 /* Royal */
 .toggle.toggle-royal input:checked+.track {
-    border-color: var(--colorRoyal40);
-    background-color: var(--colorRoyal40);
+    border-color: var(--colorRoyal40, #886aea);
+    background-color: var(--colorRoyal40, #886aea);
 }
 
 /* Dark */
 .toggle.toggle-dark input:checked+.track {
-    border-color: var(--colorDark40);
-    background-color: var(--colorDark40);
+    border-color: var(--colorDark40, #444444);
+    background-color: var(--colorDark40, #444444);
 }

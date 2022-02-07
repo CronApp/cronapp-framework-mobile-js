@@ -11,9 +11,9 @@
 
 .menu-view .bar.bar-positive,
 .login-bg .bar.bar-positive {
-    border-color: var(--colorPrimary40);
-    background-color: var(--colorPrimary40);
-    background-image: linear-gradient(0deg, var(--colorPrimary40), var(--colorPrimary40) 50%, transparent 50%);
+    border-color: var(--colorPrimary40, #387ef5);
+    background-color: var(--colorPrimary40, #387ef5);
+    background-image: linear-gradient(0deg, var(--colorPrimary40, #387ef5), var(--colorPrimary40, #387ef5) 50%, transparent 50%);
     color: var(--textColorPrimary40);
 }
 
@@ -151,9 +151,9 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .menu-view .input-default input:focus,
 .login-bg .input-default input:focus {
-    border-bottom: 1px solid var(--colorDefault40);
+    border-bottom: 1px solid var(--colorDefault40, #3b448e);
     transition: 400ms;
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .menu-view .input-default .item-input i,
@@ -194,7 +194,7 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .login-mobile .button.button-positive {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
     background-color: transparent;
     color: var(--textColorPrimary40);
     border-radius: 2px;
@@ -259,7 +259,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-bg .button.button-positive {
     border-color: #ffffff;
     background-color: #ffffff;
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
     border-radius: 7px;
     transition: 400ms;
 }

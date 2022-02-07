@@ -1,5 +1,5 @@
 .login-bg {
-    background: -webkit-linear-gradient(45deg, var(--colorDefault50) 0, var(--colorDefault40) 76%, var(--colorDefault40) 95%);
+    background: -webkit-linear-gradient(45deg, var(--colorDefault50) 0, var(--colorDefault40, #3b448e) 76%, var(--colorDefault40, #3b448e) 95%);
 }
 
 .login-mobile input[type="email"]::-webkit-input-placeholder,
@@ -10,9 +10,9 @@
 }
 
 .login-bg .bar.bar-positive {
-    border-color: var(--colorDefault40);
-    background-color: var(--colorDefault40);
-    background-image: linear-gradient(0deg, var(--colorDefault40), var(--colorDefault40) 50%, transparent 50%);
+    border-color: var(--colorDefault40, #3b448e);
+    background-color: var(--colorDefault40, #3b448e);
+    background-image: linear-gradient(0deg, var(--colorDefault40, #3b448e), var(--colorDefault40, #3b448e) 50%, transparent 50%);
     color: var(--colorNeutral00);
 }
 
@@ -142,7 +142,7 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .menu-view .user-avatar i {
-    color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
 }
 
 .menu-view .input-default input,
@@ -156,9 +156,9 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .menu-view .input-default input:focus,
 .login-bg .input-default input:focus {
-    border-bottom: 1px solid var(--colorDefault40);
+    border-bottom: 1px solid var(--colorDefault40, #3b448e);
     transition: 400ms;
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .menu-view .input-default .item-input i,
@@ -178,7 +178,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-bg .item {
     border-color: transparent;
     background-color: transparent;
-    color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
     position: relative;
     z-index: 2;
     display: block;
@@ -195,7 +195,7 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .login-mobile .button.button-positive {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
     background-color: transparent;
     color: var(--colorNeutral00);
     border-radius: 2px;
@@ -260,7 +260,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-bg .button.button-positive {
     border-color: var(--colorNeutral00);
     background-color: var(--colorNeutral00);
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
     border-radius: 7px;
     transition: 400ms;
 }
@@ -269,7 +269,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-bg .button.button-positive span,
 .menu-view .button.button-positive i,
 .login-bg .button.button-positive i {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
     font-size: var(--textNormalSize);
 }
 

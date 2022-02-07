@@ -1,17 +1,17 @@
 i.default {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 i.light {
-    color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
 }
 
 i.stable {
-    color: var(--colorStable40);
+    color: var(--colorStable40, #f8f8f8);
 }
 
 i.positive {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
 }
 
 i.calm {
@@ -19,21 +19,21 @@ i.calm {
 }
 
 i.assertive {
-    color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
 }
 
 i.balanced {
-    color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
 }
 
 i.energized {
-    color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
 }
 
 i.royal {
-    color: var(--colorRoyal40);
+    color: var(--colorRoyal40, #886aea);
 }
 
 i.dark {
-    color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
 }

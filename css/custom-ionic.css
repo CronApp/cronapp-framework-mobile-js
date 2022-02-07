@@ -65,7 +65,7 @@
 
 .cron-list-selected,
 .cron-list-selected>div.item-content {
-    background-color: var(--backgroundColor40);
+    background-color: var(--backgroundColor40, #ffffff);
 }
 
 .cron-list-button-clean {

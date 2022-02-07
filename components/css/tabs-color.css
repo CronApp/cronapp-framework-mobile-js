@@ -1,14 +1,14 @@
 /* Default */
 
 .tabs-striped.tabs-icon-default .tab-item {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-default .tab-item.active,
 .tabs-striped.tabs-icon-default .tab-item.activated {
-    color: var(--colorDefault40);
-    border-color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
+    border-color: var(--colorDefault40, #3b448e);
     opacity: 1;
 }
 
@@ -16,28 +16,28 @@
 /* Positive */
 
 .tabs-striped.tabs-icon-positive .tab-item {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-positive .tab-item.active,
 .tabs-striped.tabs-icon-positive .tab-item.activated {
-    color: var(--colorPrimary40);
-    border-color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
+    border-color: var(--colorPrimary40, #387ef5);
     opacity: 1;
 }
 
 /* Assertive */
 
 .tabs-striped.tabs-icon-assertive .tab-item {
-    color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-assertive .tab-item.active,
 .tabs-striped.tabs-icon-assertive .tab-item.activated {
-    color: var(--colorDanger40);
-    border-color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
+    border-color: var(--colorDanger40, #ef473a);
     opacity: 1;
 }
 
@@ -45,42 +45,42 @@
 /* Energized */
 
 .tabs-striped.tabs-icon-energized .tab-item {
-    color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-energized .tab-item.active,
 .tabs-striped.tabs-icon-energized .tab-item.activated {
-    color: var(--colorWarning40);
-    border-color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
+    border-color: var(--colorWarning40, #ffc900);
     opacity: 1;
 }
 
 /* Balanced */
 
 .tabs-striped.tabs-icon-balanced .tab-item {
-    color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-balanced .tab-item.active,
 .tabs-striped.tabs-icon-balanced .tab-item.activated {
-    color: var(--colorSuccess40);
-    border-color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
+    border-color: var(--colorSuccess40, #33cd5f);
     opacity: 1;
 }
 
 /* Balanced */
 
 .tabs-striped.tabs-icon-light .tab-item {
-    color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-light .tab-item.active,
 .tabs-striped.tabs-icon-light .tab-item.activated {
-    color: var(--colorLight40);
-    border-color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
+    border-color: var(--colorLight40, #ffffff);
     opacity: 1;
 }
 
@@ -88,14 +88,14 @@
 /* Stable */
 
 .tabs-striped.tabs-icon-stable .tab-item {
-    color: var(--colorStable40);
+    color: var(--colorStable40, #f8f8f8);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-stable .tab-item.active,
 .tabs-striped.tabs-icon-stable .tab-item.activated {
-    color: var(--colorStable40);
-    border-color: var(--colorStable40);
+    color: var(--colorStable40, #f8f8f8);
+    border-color: var(--colorStable40, #f8f8f8);
     opacity: 1;
 }
 
@@ -116,28 +116,28 @@
 /* Royal */
 
 .tabs-striped.tabs-icon-royal .tab-item {
-    color: var(--colorRoyal40);
+    color: var(--colorRoyal40, #886aea);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-royal .tab-item.active,
 .tabs-striped.tabs-icon-royal .tab-item.activated {
-    color: var(--colorRoyal40);
-    border-color: var(--colorRoyal40);
+    color: var(--colorRoyal40, #886aea);
+    border-color: var(--colorRoyal40, #886aea);
     opacity: 1;
 }
 
 /* Dark */
 
 .tabs-striped.tabs-icon-dark .tab-item {
-    color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-dark .tab-item.active,
 .tabs-striped.tabs-icon-dark .tab-item.activated {
-    color: var(--colorDark40);
-    border-color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
+    border-color: var(--colorDark40, #444444);
     opacity: 1;
 }
 

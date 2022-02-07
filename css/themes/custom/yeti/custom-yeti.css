@@ -2,8 +2,8 @@
 :root {
 
     /* Font */
-    --fontFamily: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
-    --textColor: #111;
+    --fontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --textColor: #222222;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -11,13 +11,13 @@
     --textBigSize: 18px;
     --textExtraBigSize: 23px;
 
-    --textColor10: #dadada;
-    --textColor20: #b8b8b8;
-    --textColor30: #909090;
-    --textColor40: #555555;
-    --textColor50: #4a4a4a;
-    --textColor60: #3e3e3e;
-    --textColor70: #2f2f2f;
+    --textColor10: #d6d6d6;
+    --textColor20: #afafaf;
+    --textColor30: #7f7f7f;
+    --textColor40: #222222;
+    --textColor50: #1e1e1e;
+    --textColor60: #191919;
+    --textColor70: #131313;
 
     /* Menus - Sizes and Distances */
     --menuVerticalWidth: 270px;
@@ -57,31 +57,29 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d7e7f8;
-    --colorDefault20: #b1d3f2;
-    --colorDefault30: #82bded;
-    --colorDefault40: #2fa4e7;
-    --colorDefault50: #2990ca;
-    --colorDefault60: #2278a9;
-    --colorDefault70: #1a5a7f;
-
-    --textColorDefault10: #8c8c8c;
-    --textColorDefault20: #bbbbbb;
-    --textColorDefault30: #dfdfdf;
-    --textColorDefault40: #ffffff;
-    --textColorDefault50: #ffffff;
-    --textColorDefault60: #ffffff;
-    --textColorDefault70: #ffffff;
+    --colorDefault10: #f8f8f8;
+    --colorDefault20: #f2f2f2;
+    --colorDefault30: #ededed;
+    --colorDefault40: #e7e7e7;
+    --colorDefault50: #cacaca;
+    --colorDefault60: #a9a9a9;
+    --colorDefault70: #7f7f7f;
+    --textColorDefault10: #1c1c1c;
+    --textColorDefault20: #252525;
+    --textColorDefault30: #2d2d2d;
+    --textColorDefault40: #333333;
+    --textColorDefault50: #838383;
+    --textColorDefault60: #b2b2b2;
+    --textColorDefault70: #d7d7d7;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #d7e7f8;
-    --colorPrimary20: #b1d3f2;
-    --colorPrimary30: #82bded;
-    --colorPrimary40: #2fa4e7;
-    --colorPrimary50: #2990ca;
-    --colorPrimary60: #2278a9;
-    --colorPrimary70: #1a5a7f;
-
+    --colorPrimary10: #d5e3ec;
+    --colorPrimary20: #aecadd;
+    --colorPrimary30: #7baecc;
+    --colorPrimary40: #008cba;
+    --colorPrimary50: #007ba3;
+    --colorPrimary60: #006788;
+    --colorPrimary70: #004d66;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;
@@ -91,14 +89,13 @@
     --textColorPrimary70: #ffffff;
 
     /* Color - Success - balanced */
-    --colorSuccess10: #dee8d8;
-    --colorSuccess20: #c1d5b3;
-    --colorSuccess30: #9fc085;
-    --colorSuccess40: #73a839;
-    --colorSuccess50: #659332;
-    --colorSuccess60: #547b2a;
-    --colorSuccess70: #3f5c1f;
-
+    --colorSuccess10: #d8e9dd;
+    --colorSuccess20: #b4d6be;
+    --colorSuccess30: #88c39a;
+    --colorSuccess40: #43ac6a;
+    --colorSuccess50: #3b975d;
+    --colorSuccess60: #317e4e;
+    --colorSuccess70: #255e3a;
     --textColorSuccess10: #8c8c8c;
     --textColorSuccess20: #bbbbbb;
     --textColorSuccess30: #dfdfdf;
@@ -108,14 +105,13 @@
     --textColorSuccess70: #ffffff;
 
     /* Color - Warning (web) - energized (mobile) */
-    --colorWarning10: #f5dad5;
-    --colorWarning20: #edb9ae;
-    --colorWarning30: #e5907b;
-    --colorWarning40: #dd5600;
-    --colorWarning50: #c24b00;
-    --colorWarning60: #a23f00;
-    --colorWarning70: #792f00;
-
+    --colorWarning10: #f9e3d5;
+    --colorWarning20: #f3cbae;
+    --colorWarning30: #eeb07b;
+    --colorWarning40: #e99002;
+    --colorWarning50: #cc7e02;
+    --colorWarning60: #ab6901;
+    --colorWarning70: #804f01;
     --textColorWarning10: #8c8c8c;
     --textColorWarning20: #bbbbbb;
     --textColorWarning30: #dfdfdf;
@@ -125,14 +121,13 @@
     --textColorWarning70: #ffffff;
 
     /* Color - Danger (web) - assertive (mobile) */
-    --colorDanger10: #f0d6d6;
-    --colorDanger20: #e3afaf;
-    --colorDanger30: #d57e7f;
-    --colorDanger40: #c71c22;
-    --colorDanger50: #ae191e;
-    --colorDanger60: #921519;
-    --colorDanger70: #6d0f13;
-
+    --colorDanger10: #fbd8d6;
+    --colorDanger20: #f7b4b0;
+    --colorDanger30: #f4887f;
+    --colorDanger40: #f04124;
+    --colorDanger50: #d23920;
+    --colorDanger60: #b0301a;
+    --colorDanger70: #832414;
     --textColorDanger10: #8c8c8c;
     --textColorDanger20: #bbbbbb;
     --textColorDanger30: #dfdfdf;

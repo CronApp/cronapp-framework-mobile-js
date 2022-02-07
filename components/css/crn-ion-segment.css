@@ -137,7 +137,7 @@
 
 div.crn-ion-segment-light.icon-theme-light-default li a,
 .ion-segment-default li a {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
     opacity: 0.64;
 }
 
@@ -153,7 +153,7 @@ div.crn-ion-segment-light.icon-theme-light-default li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-assertive li a,
 .ion-segment-assertive li a {
-    color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
     opacity: 0.64;
 }
 
@@ -164,7 +164,7 @@ div.crn-ion-segment-light.icon-theme-light-assertive li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-balanced li a,
 .ion-segment-balanced li a {
-    color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
     opacity: 0.64;
 }
 
@@ -175,7 +175,7 @@ div.crn-ion-segment-light.icon-theme-light-balanced li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-energized li a,
 .ion-segment-energized li a {
-    color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
     opacity: 0.64;
 }
 
@@ -186,7 +186,7 @@ div.crn-ion-segment-light.icon-theme-light-energized li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-light li a,
 .ion-segment-light li a {
-    color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
     opacity: 0.64;
 }
 
@@ -197,7 +197,7 @@ div.crn-ion-segment-light.icon-theme-light-light li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-stable li a,
 .ion-segment-stable li a {
-    color: var(--colorStable40);
+    color: var(--colorStable40, #f8f8f8);
     opacity: 0.64;
 }
 
@@ -219,7 +219,7 @@ div.crn-ion-segment-light.icon-theme-light-calm li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-positive li a,
 .ion-segment-positive li a {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
     opacity: 0.64;
 }
 
@@ -230,7 +230,7 @@ div.crn-ion-segment-light.icon-theme-light-positive li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-royal li a,
 .ion-segment-royal li a {
-    color: var(--colorRoyal40);
+    color: var(--colorRoyal40, #886aea);
     opacity: 0.64;
 }
 
@@ -241,7 +241,7 @@ div.crn-ion-segment-light.icon-theme-light-royal li.active a,
 
 div.crn-ion-segment-light.icon-theme-light-dark li a,
 .ion-segment-dark li a {
-    color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
     opacity: 0.64;
 }
 
@@ -640,32 +640,32 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active a,
 /* background-color-active */
 div.crn-ion-segment-classic ul.active-background-default li.active,
 div.crn-ion-segment-modern ul.active-background-default li.active {
-    background-color: var(--colorDefault40);
+    background-color: var(--colorDefault40, #3b448e);
 }
 
 div.crn-ion-segment-classic ul.active-background-assertive li.active,
 div.crn-ion-segment-modern ul.active-background-assertive li.active {
-    background-color: var(--colorDanger40);
+    background-color: var(--colorDanger40, #ef473a);
 }
 
 div.crn-ion-segment-classic ul.active-background-balanced li.active,
 div.crn-ion-segment-modern ul.active-background-balanced li.active {
-    background-color: var(--colorSuccess40);
+    background-color: var(--colorSuccess40, #33cd5f);
 }
 
 div.crn-ion-segment-classic ul.active-background-energized li.active,
 div.crn-ion-segment-modern ul.active-background-energized li.active {
-    background-color: var(--colorWarning40);
+    background-color: var(--colorWarning40, #ffc900);
 }
 
 div.crn-ion-segment-classic ul.active-background-light li.active,
 div.crn-ion-segment-modern ul.active-background-light li.active {
-    background-color: var(--colorLight40);
+    background-color: var(--colorLight40, #ffffff);
 }
 
 div.crn-ion-segment-classic ul.active-background-stable li.active,
 div.crn-ion-segment-modern ul.active-background-stable li.active {
-    background-color: var(--colorStable40);
+    background-color: var(--colorStable40, #f8f8f8);
 }
 
 div.crn-ion-segment-classic ul.active-background-calm li.active,
@@ -675,17 +675,17 @@ div.crn-ion-segment-modern ul.active-background-calm li.active {
 
 div.crn-ion-segment-classic ul.active-background-positive li.active,
 div.crn-ion-segment-modern ul.active-background-positive li.active {
-    background-color: var(--colorPrimary40);
+    background-color: var(--colorPrimary40, #387ef5);
 }
 
 div.crn-ion-segment-classic ul.active-background-royal li.active,
 div.crn-ion-segment-modern ul.active-background-royal li.active {
-    background-color: var(--colorRoyal40);
+    background-color: var(--colorRoyal40, #886aea);
 }
 
 div.crn-ion-segment-classic ul.active-background-dark li.active,
 div.crn-ion-segment-modern ul.active-background-dark li.active {
-    background-color: var(--colorDark40);
+    background-color: var(--colorDark40, #444444);
 }
 
 div.crn-ion-segment-classic ul.active-background-white li.active,
@@ -891,23 +891,23 @@ div.crn-ion-segment-light.icon-theme-light-dark-green li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-assertive li.active {
-    border-color: var(--colorDanger40);
+    border-color: var(--colorDanger40, #ef473a);
 }
 
 div.crn-ion-segment-light.icon-theme-light-balanced li.active {
-    border-color: var(--colorSuccess40);
+    border-color: var(--colorSuccess40, #33cd5f);
 }
 
 div.crn-ion-segment-light.icon-theme-light-energized li.active {
-    border-color: var(--colorWarning40);
+    border-color: var(--colorWarning40, #ffc900);
 }
 
 div.crn-ion-segment-light.icon-theme-light-light li.active {
-    border-color: var(--colorLight40);
+    border-color: var(--colorLight40, #ffffff);
 }
 
 div.crn-ion-segment-light.icon-theme-light-stable li.active {
-    border-color: var(--colorStable40);
+    border-color: var(--colorStable40, #f8f8f8);
 }
 
 div.crn-ion-segment-light.icon-theme-light-calm li.active {
@@ -915,13 +915,13 @@ div.crn-ion-segment-light.icon-theme-light-calm li.active {
 }
 
 div.crn-ion-segment-light.icon-theme-light-positive li.active {
-    border-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
 }
 
 div.crn-ion-segment-light.icon-theme-light-royal li.active {
-    border-color: var(--colorRoyal40);
+    border-color: var(--colorRoyal40, #886aea);
 }
 
 div.crn-ion-segment-light.icon-theme-light-dark li.active {
-    border-color: var(--colorDark40);
+    border-color: var(--colorDark40, #444444);
 }

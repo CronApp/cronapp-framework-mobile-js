@@ -15,7 +15,7 @@ body {
 }
 
 a {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
     font-size: var(--textNormalSize);
 }
 
@@ -36,11 +36,11 @@ h1 {
 
 .default,
 a.default {
-    color: var(--colorDefault40);
+    color: var(--colorDefault40, #3b448e);
 }
 
 .default-bg {
-    background-color: var(--colorDefault40);
+    background-color: var(--colorDefault40, #3b448e);
 }
 
 .default-border {
@@ -49,11 +49,11 @@ a.default {
 
 .light,
 a.light {
-    color: var(--colorLight40);
+    color: var(--colorLight40, #ffffff);
 }
 
 .light-bg {
-    background-color: var(--colorLight40);
+    background-color: var(--colorLight40, #ffffff);
 }
 
 .light-border {
@@ -62,11 +62,11 @@ a.light {
 
 .stable,
 a.stable {
-    color: var(--colorStable40);
+    color: var(--colorStable40, #f8f8f8);
 }
 
 .stable-bg {
-    background-color: var(--colorStable40);
+    background-color: var(--colorStable40, #f8f8f8);
 }
 
 .stable-border {
@@ -75,11 +75,11 @@ a.stable {
 
 .positive,
 a.positive {
-    color: var(--colorPrimary40);
+    color: var(--colorPrimary40, #387ef5);
 }
 
 .positive-bg {
-    background-color: var(--colorPrimary40);
+    background-color: var(--colorPrimary40, #387ef5);
 }
 
 .positive-border {
@@ -101,11 +101,11 @@ a.calm {
 
 .assertive,
 a.assertive {
-    color: var(--colorDanger40);
+    color: var(--colorDanger40, #ef473a);
 }
 
 .assertive-bg {
-    background-color: var(--colorDanger40);
+    background-color: var(--colorDanger40, #ef473a);
 }
 
 .assertive-border {
@@ -114,11 +114,11 @@ a.assertive {
 
 .balanced,
 a.balanced {
-    color: var(--colorSuccess40);
+    color: var(--colorSuccess40, #33cd5f);
 }
 
 .balanced-bg {
-    background-color: var(--colorSuccess40);
+    background-color: var(--colorSuccess40, #33cd5f);
 }
 
 .balanced-border {
@@ -127,11 +127,11 @@ a.balanced {
 
 .energized,
 a.energized {
-    color: var(--colorWarning40);
+    color: var(--colorWarning40, #ffc900);
 }
 
 .energized-bg {
-    background-color: var(--colorWarning40);
+    background-color: var(--colorWarning40, #ffc900);
 }
 
 .energized-border {
@@ -140,11 +140,11 @@ a.energized {
 
 .royal,
 a.royal {
-    color: var(--colorRoyal40);
+    color: var(--colorRoyal40, #886aea);
 }
 
 .royal-bg {
-    background-color: var(--colorRoyal40);
+    background-color: var(--colorRoyal40, #886aea);
 }
 
 .royal-border {
@@ -153,11 +153,11 @@ a.royal {
 
 .dark,
 a.dark {
-    color: var(--colorDark40);
+    color: var(--colorDark40, #444444);
 }
 
 .dark-bg {
-    background-color: var(--colorDark40);
+    background-color: var(--colorDark40, #444444);
 }
 
 .dark-border {

@@ -4,8 +4,8 @@
 
 /* Default */
 .bar.bar-default {
-    border-color: var(--colorDefault40);
-    background-color: var(--colorDefault40);
+    border-color: var(--colorDefault40, #3b448e);
+    background-color: var(--colorDefault40, #3b448e);
     background-image: none;
     color: var(--textColorDefault40);
 }
@@ -21,8 +21,8 @@
 
 /* Light */
 .bar.bar-light {
-    border-color: var(--colorLight40);
-    background-color: var(--colorLight40);
+    border-color: var(--colorLight40, #ffffff);
+    background-color: var(--colorLight40, #ffffff);
     background-image: none;
     color: var(--textColorLight40);
 }
@@ -38,8 +38,8 @@
 
 /* Stable */
 .bar.bar-stable {
-    border-color: var(--colorStable40);
-    background-color: var(--colorStable40);
+    border-color: var(--colorStable40, #f8f8f8);
+    background-color: var(--colorStable40, #f8f8f8);
     background-image: none;
     color: var(--textColorStable40);
 }
@@ -55,8 +55,8 @@
 
 /* Positive */
 .bar.bar-positive {
-    border-color: var(--colorPrimary40);
-    background-color: var(--colorPrimary40);
+    border-color: var(--colorPrimary40, #387ef5);
+    background-color: var(--colorPrimary40, #387ef5);
     background-image: none;
     color: var(--textColorPrimary40);
 }
@@ -89,8 +89,8 @@
 
 /* Assertive */
 .bar.bar-assertive {
-    border-color: var(--colorDanger40);
-    background-color: var(--colorDanger40);
+    border-color: var(--colorDanger40, #ef473a);
+    background-color: var(--colorDanger40, #ef473a);
     background-image: none;
     color: var(--textColorDanger40);
 }
@@ -106,8 +106,8 @@
 
 /* Balanced */
 .bar.bar-balanced {
-    border-color: var(--colorSuccess40);
-    background-color: var(--colorSuccess40);
+    border-color: var(--colorSuccess40, #33cd5f);
+    background-color: var(--colorSuccess40, #33cd5f);
     background-image: none;
     color: var(--textColorSuccess40);
 }
@@ -123,8 +123,8 @@
 
 /* Energized */
 .bar.bar-energized {
-    border-color: var(--colorWarning40);
-    background-color: var(--colorWarning40);
+    border-color: var(--colorWarning40, #ffc900);
+    background-color: var(--colorWarning40, #ffc900);
     background-image: none;
     color: var(--textColorWarning40);
 }
@@ -140,8 +140,8 @@
 
 /* Royal */
 .bar.bar-royal {
-    border-color: var(--colorRoyal40);
-    background-color: var(--colorRoyal40);
+    border-color: var(--colorRoyal40, #886aea);
+    background-color: var(--colorRoyal40, #886aea);
     background-image: none;
     color: var(--textColorRoyal40);
 }
@@ -157,8 +157,8 @@
 
 /* Dark */
 .bar.bar-dark {
-    border-color: var(--colorDark40);
-    background-color: var(--colorDark40);
+    border-color: var(--colorDark40, #444444);
+    background-color: var(--colorDark40, #444444);
     background-image: none;
     color: var(--textColorDark40);
 }

@@ -76,7 +76,7 @@
 }
 
 body {
-    background-color: var(--backgroundColor40);
+    background-color: var(--backgroundColor40, #ffffff);
 }
 
 .text-left {
@@ -117,11 +117,11 @@ body {
 }
 
 .dragover {
-    border: 2px dashed var(--colorDefault40);
+    border: 2px dashed var(--colorDefault40, #3b448e);
 }
 
 .input-validation-error {
-    border-bottom: 2px solid var(--colorDanger40) !important;
+    border-bottom: 2px solid var(--colorDanger40, #ef473a) !important;
 }
 
 .menu-view .user-button,
@@ -157,7 +157,7 @@ body {
 }
 
 .menu-view {
-    background-color: var(--colorDefault40);
+    background-color: var(--colorDefault40, #3b448e);
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
@@ -245,8 +245,8 @@ kendo-chat .k-bubble {
 
 .selected-designtime-list .checkbox input:checked:before,
 .selected-designtime-list input:checked+.selected-designtime-list .checkbox-icon:before {
-    background: var(--colorDefault40);
-    border-color: var(--colorDefault40);
+    background: var(--colorDefault40, #3b448e);
+    border-color: var(--colorDefault40, #3b448e);
 }
 
 .bar .title {
@@ -331,7 +331,7 @@ ion-header-bar.bar h1.title {
 }
 
 .bar-footer .button {
-    border-color: var(--colorDefault40);
+    border-color: var(--colorDefault40, #3b448e);
     margin: 0;
 }
 
@@ -392,12 +392,12 @@ ion-header-bar.bar h1.title {
 }
 
 .item-input input.ng-invalid {
-    border-bottom: 1px solid var(--colorDanger40);
+    border-bottom: 1px solid var(--colorDanger40, #ef473a);
 }
 
 textarea.ng-invalid,
 textarea.ng-invalid-minlength {
-    border-bottom: 1px solid var(--colorDanger40);
+    border-bottom: 1px solid var(--colorDanger40, #ef473a);
     margin-bottom: 0;
 }
 

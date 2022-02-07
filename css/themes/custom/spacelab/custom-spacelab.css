@@ -2,8 +2,8 @@
 :root {
 
     /* Font */
-    --fontFamily: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
-    --textColor: #111;
+    --fontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --textColor: #2d2d2d;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -11,13 +11,13 @@
     --textBigSize: 18px;
     --textExtraBigSize: 23px;
 
-    --textColor10: #dadada;
-    --textColor20: #b8b8b8;
-    --textColor30: #909090;
-    --textColor40: #555555;
-    --textColor50: #4a4a4a;
-    --textColor60: #3e3e3e;
-    --textColor70: #2f2f2f;
+    --textColor10: #d7d7d7;
+    --textColor20: #b1b1b1;
+    --textColor30: #818181;
+    --textColor40: #2d2d2d;
+    --textColor50: #272727;
+    --textColor60: #212121;
+    --textColor70: #191919;
 
     /* Menus - Sizes and Distances */
     --menuVerticalWidth: 270px;
@@ -57,14 +57,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d7e7f8;
-    --colorDefault20: #b1d3f2;
-    --colorDefault30: #82bded;
-    --colorDefault40: #2fa4e7;
-    --colorDefault50: #2990ca;
-    --colorDefault60: #2278a9;
-    --colorDefault70: #1a5a7f;
-
+    --colorDefault10: #d9d9d9;
+    --colorDefault20: #b5b6b6;
+    --colorDefault30: #8a8b8b;
+    --colorDefault40: #474949;
+    --colorDefault50: #3e4040;
+    --colorDefault60: #343535;
+    --colorDefault70: #272828;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -74,14 +73,13 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #d7e7f8;
-    --colorPrimary20: #b1d3f2;
-    --colorPrimary30: #82bded;
-    --colorPrimary40: #2fa4e7;
-    --colorPrimary50: #2990ca;
-    --colorPrimary60: #2278a9;
-    --colorPrimary70: #1a5a7f;
-
+    --colorPrimary10: #d9dee6;
+    --colorPrimary20: #b5bfcf;
+    --colorPrimary30: #899cb7;
+    --colorPrimary40: #446e9b;
+    --colorPrimary50: #3c6088;
+    --colorPrimary60: #325172;
+    --colorPrimary70: #253c55;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;
@@ -91,14 +89,13 @@
     --textColorPrimary70: #ffffff;
 
     /* Color - Success - balanced */
-    --colorSuccess10: #dee8d8;
-    --colorSuccess20: #c1d5b3;
-    --colorSuccess30: #9fc085;
-    --colorSuccess40: #73a839;
-    --colorSuccess50: #659332;
-    --colorSuccess60: #547b2a;
-    --colorSuccess70: #3f5c1f;
-
+    --colorSuccess10: #d8ebd6;
+    --colorSuccess20: #b3daaf;
+    --colorSuccess30: #86c97f;
+    --colorSuccess40: #3cb521;
+    --colorSuccess50: #359e1d;
+    --colorSuccess60: #2c8518;
+    --colorSuccess70: #216312;
     --textColorSuccess10: #8c8c8c;
     --textColorSuccess20: #bbbbbb;
     --textColorSuccess30: #dfdfdf;
@@ -108,14 +105,13 @@
     --textColorSuccess70: #ffffff;
 
     /* Color - Warning (web) - energized (mobile) */
-    --colorWarning10: #f5dad5;
-    --colorWarning20: #edb9ae;
-    --colorWarning30: #e5907b;
-    --colorWarning40: #dd5600;
-    --colorWarning50: #c24b00;
-    --colorWarning60: #a23f00;
-    --colorWarning70: #792f00;
-
+    --colorWarning10: #f3dfd5;
+    --colorWarning20: #e9c2ae;
+    --colorWarning30: #dfa07b;
+    --colorWarning40: #d47500;
+    --colorWarning50: #ba6600;
+    --colorWarning60: #9b5600;
+    --colorWarning70: #744000;
     --textColorWarning10: #8c8c8c;
     --textColorWarning20: #bbbbbb;
     --textColorWarning30: #dfdfdf;
@@ -125,14 +121,13 @@
     --textColorWarning70: #ffffff;
 
     /* Color - Danger (web) - assertive (mobile) */
-    --colorDanger10: #f0d6d6;
-    --colorDanger20: #e3afaf;
-    --colorDanger30: #d57e7f;
-    --colorDanger40: #c71c22;
-    --colorDanger50: #ae191e;
-    --colorDanger60: #921519;
-    --colorDanger70: #6d0f13;
-
+    --colorDanger10: #f1d5d5;
+    --colorDanger20: #e6aeae;
+    --colorDanger30: #da7b7b;
+    --colorDanger40: #cd0200;
+    --colorDanger50: #b30200;
+    --colorDanger60: #960100;
+    --colorDanger70: #700100;
     --textColorDanger10: #8c8c8c;
     --textColorDanger20: #bbbbbb;
     --textColorDanger30: #dfdfdf;
