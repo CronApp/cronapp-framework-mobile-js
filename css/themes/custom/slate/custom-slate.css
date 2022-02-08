@@ -1,9 +1,12 @@
+@import 'button-slate.css';
+@import 'crn-ion-segment-slate.css';
+
 /* ==== VARIABLES ==== */
 :root {
 
     /* Font */
     --fontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --textColor: #c8c8c8;
+    --textColor: #aaaaaa;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -11,14 +14,13 @@
     --textBigSize: 18px;
     --textExtraBigSize: 23px;
 
-
-    --textColor10: #f0f0f0;
-    --textColor20: #e3e3e3;
-    --textColor30: #d6d6d6;
-    --textColor40: #c8c8c8;
-    --textColor50: #afafaf;
-    --textColor60: #939393;
-    --textColor70: #6e6e6e;
+    --textColor10: #e9e9e9;
+    --textColor20: #d6d6d6;
+    --textColor30: #c1c1c1;
+    --textColor40: #aaaaaa;
+    --textColor50: #959595;
+    --textColor60: #7d7d7d;
+    --textColor70: #5d5d5d;
 
     /* Menus - Sizes and Distances */
     --menuVerticalWidth: 270px;
@@ -69,7 +71,7 @@
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
     --textColorDefault40: #ffffff;
-    --textColorDefault50: #d3bbbb;
+    --textColorDefault50: #ffffff;
     --textColorDefault60: #ffffff;
     --textColorDefault70: #ffffff;
 
@@ -122,13 +124,13 @@
     --textColorWarning70: #ffffff;
 
     /* Color - Danger (web) - assertive (mobile) */
-    --colorDanger10: #f9d7d7;
-    --colorDanger20: #f3b1b1;
-    --colorDanger30: #ee8381;
-    --colorDanger40: #e9322d;
-    --colorDanger50: #cc2c27;
-    --colorDanger60: #ab2521;
-    --colorDanger70: #801b19;
+    --colorDanger10: #fadcdb;
+    --colorDanger20: #f6bbba;
+    --colorDanger30: #f29593;
+    --colorDanger40: #ee5f5b;
+    --colorDanger50: #d05350;
+    --colorDanger60: #ae4643;
+    --colorDanger70: #823432;
     --textColorDanger10: #8c8c8c;
     --textColorDanger20: #bbbbbb;
     --textColorDanger30: #dfdfdf;
@@ -156,14 +158,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #dbeef6;
+    --colorCalm20: #badfee;
+    --colorCalm30: #93d0e6;
+    --colorCalm40: #5bc0de;
+    --colorCalm50: #50a8c2;
+    --colorCalm60: #438da3;
+    --colorCalm70: #32697a;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;
@@ -173,21 +174,20 @@
     --textColorCalm70: #ffffff;
 
     /* Color - Light (mobile) */
-    --colorLight10: #ffffff;
-    --colorLight20: #ffffff;
-    --colorLight30: #ffffff;
-    --colorLight40: #ffffff;
-    --colorLight50: #dfdfdf;
-    --colorLight60: #bbbbbb;
-    --colorLight70: #8c8c8c;
-
-    --textColorLight10: #252525;
-    --textColorLight20: #323232;
-    --textColorLight30: #3c3c3c;
-    --textColorLight40: #444444;
-    --textColorLight50: #898989;
-    --textColorLight60: #b5b5b5;
-    --textColorLight70: #d9d9d9;
+    --colorLight10: #f9f9fa;
+    --colorLight20: #f3f5f7;
+    --colorLight30: #eef1f3;
+    --colorLight40: #e9ecef;
+    --colorLight50: #cccfd1;
+    --colorLight60: #abadaf;
+    --colorLight70: #808183;
+    --textColorLight10: #000000;
+    --textColorLight20: #000000;
+    --textColorLight30: #000000;
+    --textColorLight40: #000000;
+    --textColorLight50: #7b7b7b;
+    --textColorLight60: #aeaeae;
+    --textColorLight70: #d5d5d5;
 
     /* Color - Stable (mobile) */
     --colorStable10: #fdfdfd;
@@ -207,14 +207,13 @@
     --textColorStable70: #d9d9d9;
 
     /* Color - Dark (mobile) */
-    --colorDark10: #d9d9d9;
-    --colorDark20: #b5b5b5;
-    --colorDark30: #898989;
-    --colorDark40: #444444;
-    --colorDark50: #3c3c3c;
-    --colorDark60: #323232;
-    --colorDark70: #252525;
-
+    --colorDark10: #d6d7d7;
+    --colorDark20: #b0b0b1;
+    --colorDark30: #808182;
+    --colorDark40: #272b30;
+    --colorDark50: #22262a;
+    --colorDark60: #1d2023;
+    --colorDark70: #15181a;
     --textColorDark10: #8c8c8c;
     --textColorDark20: #bbbbbb;
     --textColorDark30: #dfdfdf;

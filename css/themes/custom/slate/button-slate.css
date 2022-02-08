@@ -1,9 +1,9 @@
 button,
 .button {
-    background-color: var(--colorDefault40, #3b448e);
+    background-color: var(--colorDefault40, #d9230f);
     text-align: center;
     color: var(--textColorDefault40, #ffffff);
-    border: 0;
+    border: 1px solid;
 }
 
 .button span {
@@ -17,7 +17,7 @@ button,
 
 .button.button-outline span,
 .button.button-outline i {
-    color: var(--colorDefault40, #3b448e);
+    color: var(--colorDefault40, #2fa4e7);
 }
 
 .button.button-outline {
@@ -26,7 +26,8 @@ button,
 
 /* Theme default */
 .button.button-default {
-    background-color: var(--colorDefault40, #3b448e);
+    background-image: linear-gradient(var(--colorDefault40, #d9230f), var(--colorDefault40, #d9230f), var(--colorDefault50, #be1f0d));
+    border-color: var(--colorDefault50, #be1f0d);
 }
 
 .button.button-default span,
@@ -37,7 +38,8 @@ button,
 .button.button-default:active,
 .button.button-default.active,
 .button.button-default.activated {
-    background-color: var(--colorDefault60, #2b3268);
+    background-image: none;
+    background-color: var(--colorDefault60, #9f1a0b);
 }
 
 .button.button-default:active i,
@@ -49,18 +51,19 @@ button,
 
 /* Theme default - Outline */
 .button.button-default.button-outline {
-    border-color: var(--colorDefault40, #3b448e);
+    border-color: var(--colorDefault40, #d9230f);
     background-color: transparent;
 }
 
 .button.button-default.button-outline span,
 .button.button-default.button-outline i {
-    color: var(--colorDefault40, #3b448e);
+    color: var(--colorDefault40, #d9230f);
 }
 
 .button.button-default.button-outline:active,
 .button.button-default.button-outline.activated {
-    background-color: var(--colorDefault40, #3b448e);
+    background-image: none;
+    background-color: var(--colorDefault40, #d9230f);
 }
 
 .button.button-default.button-outline:active span,
@@ -72,7 +75,8 @@ button,
 
 /* Positive */
 .button.button-positive {
-    background-color: var(--colorPrimary40, #387ef5);
+    background-image: linear-gradient(var(--colorPrimary40, #ffffff), var(--colorPrimary40, #ffffff), var(--colorPrimary50, #dfdfdf));
+    border-color: var(--colorPrimary50, #dfdfdf);
 }
 
 .button.button-positive span,
@@ -82,7 +86,8 @@ button,
 
 .button.button-positive:active,
 .button.button-positive.activated {
-    background-color: var(--colorPrimary60);
+    background-image: none;
+    background-color: var(--colorPrimary60, #bbbbbb);
 }
 
 .button.button-positive:active i,
@@ -95,17 +100,17 @@ button,
 /* Positive - Outline */
 
 .button.button-positive.button-outline {
-    border-color: var(--colorPrimary40, #387ef5);
+    border-color: var(--colorPrimary40, #ffffff);
 }
 
 .button.button-positive.button-outline span,
 .button.button-positive.button-outline i {
-    color: var(--colorPrimary40, #387ef5);
+    color: var(--colorPrimary40, #ffffff);
 }
 
 .button.button-positive.button-outline:active,
 .button.button-positive.button-outline.activated {
-    background-color: var(--colorPrimary40, #387ef5);
+    background-color: var(--colorPrimary40, #ffffff);
 }
 
 .button.button-positive.button-outline:active span,
@@ -117,7 +122,8 @@ button,
 
 /* Calm */
 .button.button-calm {
-    background-color: var(--colorCalm40, #11c1f3);
+    background-image: linear-gradient(var(--colorCalm40, #029acf), var(--colorCalm40, #029acf), var(--colorCalm50, #0287b5));
+    border-color: var(--colorCalm40, #029acf);
 }
 
 .button.button-calm span,
@@ -127,7 +133,8 @@ button,
 
 .button.button-calm:active,
 .button.button-calm.activated {
-    background-color: var(--colorCalm60, #0c8db2);
+    background-image: none;
+    background-color: var(--colorCalm60, #017198);
 }
 
 .button.button-calm:active i,
@@ -139,17 +146,17 @@ button,
 
 /* Calm - Outline */
 .button.button-calm.button-outline {
-    border-color: var(--colorCalm40, #11c1f3);
+    border-color: var(--colorCalm40, #029acf);
 }
 
 .button.button-calm.button-outline span,
 .button.button-calm.button-outline i {
-    color: var(--colorCalm40, #11c1f3);
+    color: var(--colorCalm40, #029acf);
 }
 
 .button.button-calm.button-outline:active,
 .button.button-calm.button-outline.activated {
-    background-color: var(--colorCalm40, #11c1f3);
+    background-color: var(--colorCalm40, #029acf);
 }
 
 .button.button-calm.button-outline:active span,
@@ -161,7 +168,8 @@ button,
 
 /* Assertive */
 .button.button-assertive {
-    background-color: var(--colorDanger40, #ef473a);
+    background-image: linear-gradient(var(--colorDanger40, #9b479f), var(--colorDanger40, #9b479f), var(--colorDanger50, #883e8b));
+    border-color: var(--colorDanger50, #883e8b);
 }
 
 .button.button-assertive span,
@@ -171,31 +179,32 @@ button,
 
 .button.button-assertive:active,
 .button.button-assertive.activated {
-    background-color: var(--colorDanger60);
+    background-image: none;
+    background-color: var(--colorDanger60, #723474);
 }
 
 .button.button-assertive:active i,
 .button.button-assertive:active span,
 .button.button-assertive.activated i,
 .button.button-assertive.activated span {
-    color: var(--textColorDanger60);
+    color: var(--textColorDanger60, #ffffff);
 }
 
 
 /* Assertive - Outline */
 
 .button.button-assertive.button-outline {
-    border-color: var(--colorDanger40, #ef473a);
+    border-color: var(--colorDanger40, #9b479f);
 }
 
 .button.button-assertive.button-outline span,
 .button.button-assertive.button-outline i {
-    color: var(--colorDanger40, #ef473a);
+    color: var(--colorDanger40, #9b479f);
 }
 
 .button.button-assertive.button-outline:active,
 .button.button-assertive.button-outline.activated {
-    background-color: var(--colorDanger40, #ef473a);
+    background-color: var(--colorDanger40, #9b479f);
 }
 
 .button.button-assertive.button-outline:active span,
@@ -207,7 +216,8 @@ button,
 
 /* Energized */
 .button.button-energized {
-    background-color: var(--colorWarning40, #ffc900);
+    background-image: linear-gradient(var(--colorWarning40, #d9831f), var(--colorWarning40, #d9831f), var(--colorWarning50, #be731b));
+    border: 1px solid var(--colorWarning40, #d9831f);
 }
 
 .button.button-energized span,
@@ -217,30 +227,31 @@ button,
 
 .button.button-energized:active,
 .button.button-energized.activated {
-    background-color: var(--colorWarning60);
+    background-image: none;
+    background-color: var(--colorWarning60, #a23f00);
 }
 
 .button.button-energized:active i,
 .button.button-energized:active span,
 .button.button-energized.activated i,
 .button.button-energized.activated span {
-    color: var(--textColorWarning60);
+    color: var(--textColorWarning60, #ffffff);
 }
 
 /* Energized - Outline */
 
 .button.button-energized.button-outline {
-    border-color: var(--colorWarning40, #ffc900);
+    border-color: var(--colorWarning40, #d9831f);
 }
 
 .button.button-energized.button-outline span,
 .button.button-energized.button-outline i {
-    color: var(--colorWarning40, #ffc900);
+    color: var(--colorWarning40, #d9831f);
 }
 
 .button.button-energized.button-outline:active,
 .button.button-energized.button-outline.activated {
-    background-color: var(--colorWarning40, #ffc900);
+    background-color: var(--colorWarning40, #d9831f);
 }
 
 .button.button-energized.button-outline:active span,
@@ -252,7 +263,8 @@ button,
 
 /* Balanced */
 .button.button-balanced {
-    background-color: var(--colorSuccess40, #33cd5f);
+    background-image: linear-gradient(var(--colorSuccess40, #469408), var(--colorSuccess40, #469408), var(--colorSuccess50, #3d8207));
+    border-color: var(--colorSuccess40, #469408);
 }
 
 .button.button-balanced span,
@@ -262,30 +274,31 @@ button,
 
 .button.button-balanced:active,
 .button.button-balanced.activated {
-    background-color: var(--colorSuccess60);
+    background-image: none;
+    background-color: var(--colorSuccess60, #547b2a);
 }
 
 .button.button-balanced:active i,
 .button.button-balanced:active span,
 .button.button-balanced.activated i,
 .button.button-balanced.activated span {
-    color: var(--textColorSuccess60);
+    color: var(--textColorSuccess60, #ffffff);
 }
 
 /* Balanced - Outline */
 
 .button.button-balanced.button-outline {
-    border-color: var(--colorSuccess40, #33cd5f);
+    border-color: var(--colorSuccess40, #469408);
 }
 
 .button.button-balanced.button-outline span,
 .button.button-balanced.button-outline i {
-    color: var(--colorSuccess40, #33cd5f);
+    color: var(--colorSuccess40, #469408);
 }
 
 .button.button-balanced.button-outline:active,
 .button.button-balanced.button-outline.activated {
-    background-color: var(--colorSuccess40, #33cd5f);
+    background-color: var(--colorSuccess40, #469408);
 }
 
 .button.button-balanced.button-outline:active span,
@@ -297,7 +310,8 @@ button,
 
 /* Royal */
 .button.button-royal {
-    background-color: var(--colorRoyal40, #3b448e);
+    background-image: linear-gradient(var(--colorRoyal40, #9b479f), var(--colorRoyal40, #9b479f), var(--colorRoyal50, #883e8b));
+    border-color: var(--colorRoyal40, #9b479f);
 }
 
 .button.button-royal span,
@@ -307,29 +321,31 @@ button,
 
 .button.button-royal:active,
 .button.button-royal.activated {
-    background-color: var(--colorRoyal60);
+    background-image: none;
+    background-color: var(--colorRoyal60, #644eab);
 }
 
 .button.button-royal:active i,
 .button.button-royal:active span,
 .button.button-royal.activated i,
 .button.button-royal.activated span {
-    color: var(--textColorRoyal60);
+    color: var(--textColorRoyal60, #ffffff);
 }
 
 /* Royal - Outline */
+
 .button.button-royal.button-outline {
-    border-color: var(--colorRoyal40, #3b448e);
+    border-color: var(--colorRoyal40, #886aea);
 }
 
 .button.button-royal.button-outline span,
 .button.button-royal.button-outline i {
-    color: var(--colorRoyal40, #3b448e);
+    color: var(--colorRoyal40, #886aea);
 }
 
 .button.button-royal.button-outline:active,
 .button.button-royal.button-outline.activated {
-    background-color: var(--colorRoyal40, #3b448e);
+    background-color: var(--colorRoyal40, #886aea);
 }
 
 .button.button-royal.button-outline:active span,
@@ -341,18 +357,20 @@ button,
 
 /* Light */
 .button.button-light {
-    background-color: var(--colorLight40, #ffffff);
+    background-image: linear-gradient(var(--colorLight40, #ffffff), var(--colorLight40, #ffffff), var(--colorLight50, #dfdfdf));
+    border-color: var(--colorLight40, #ffffff);
 }
 
 .button.button-light span,
 .button.button-light i {
-    color: var(--textColorLight40, #444444);
+    color: var(--textColorLight40, #000000);
 }
 
 .button.button-light:active,
 .button.button-light.activated {
-    background-color: var(--colorLight60);
-    color: var(--textColorLight60);
+    background-image: none;
+    background-color: var(--colorLight60, #bbbbbb);
+    color: var(--textColorLight60, #aeaeae);
 }
 
 /* Light - Outline */
@@ -375,23 +393,25 @@ button,
 .button.button-light.button-outline.activated span,
 .button.button-light.button-outline:active i,
 .button.button-light.button-outline.activated i {
-    color: var(--textColorLight40, #444444);
+    color: var(--textColorLight40, #000000);
 }
 
 /* Stable */
 .button.button-stable {
-    background-color: var(--colorStable40, #f8f8f8);
+    background-image: linear-gradient(var(--colorStable40, #f8f8f8), var(--colorStable40, #f8f8f8), var(--colorStable50, #d9d9d9));
+    border-color: var(--colorStable40, #f8f8f8);
 }
 
 .button.button-stable span,
 .button.button-stable i {
-    color: var(--textColorStable40, #f8f8f8);
+    color: var(--textColorStable40, #444444);
 }
 
 .button.button-stable:active,
 .button.button-stable.activated {
-    background-color: var(--colorStable60);
-    color: var(--textColorStable60);
+    background-image: none;
+    background-color: var(--colorStable60, #b6b6b6);
+    color: var(--textColorStable60, #b5b5b5);
 }
 
 /* Stable - Outline */
@@ -413,44 +433,46 @@ button,
 .button.button-stable.button-outline.activated span,
 .button.button-stable.button-outline:active i,
 .button.button-stable.button-outline.activated i {
-    color: var(--textColorStable40, #f8f8f8);
+    color: var(--textColorStable40, #444444);
 }
 
 /* Dark */
 .button.button-dark {
-    background-color: var(--colorDark40, #444444);
+    background-image: linear-gradient(var(--colorDark40, #373a3c), var(--colorDark40, #373a3c), var(--colorDark50, #303335));
+    border-color: var(--colorDark40, #373a3c);
 }
 
-.button.button-dark i,
-.button.button-dark span {
+.button.button-positive i.dark,
+.button.button-positive i.dark+span {
     color: var(--textColorDark40, #ffffff);
 }
 
 .button.button-dark:active,
 .button.button-dark.activated {
-    background-color: var(--colorDark70, #252525);
+    background-image: none;
+    background-color: var(--colorDark70, #1e2021);
 }
 
 .button.button-dark:active i.dark,
-.button.button-dark:active span,
+.button.button-dark:active i.dark+span,
 .button.button-dark.activated i.dark,
-.button.button-dark.activated span {
+.button.button-dark.activated i.dark+span {
     color: var(--textColorDark70, #ffffff);
 }
 
 /* Dark - Outline */
 .button.button-dark.button-outline {
-    border-color: var(--colorDark40, #444444);
+    border-color: var(--colorDark40, #373a3c);
 }
 
 .button.button-dark.button-outline span,
 .button.button-dark.button-outline i {
-    color: var(--colorDark40, #444444);
+    color: var(--colorDark40, #373a3c);
 }
 
 .button.button-dark.button-outline:active,
 .button.button-dark.button-outline.activated {
-    background-color: var(--colorDark40, #444444);
+    background-color: var(--colorDark40, #373a3c);
 }
 
 .button.button-dark.button-outline:active span,

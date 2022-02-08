@@ -10,17 +10,47 @@
 
 body {
     font-family: var(--fontFamily);
-    color: var(--colorNeutral160);
+    color: var(--textColor40);
     font-size: var(--textNormalSize);
 }
 
-a {
-    color: var(--colorDefault40, #3b448e);
+.item-complex .item-content,
+.item-radio .item-content,
+.pane,
+.view {
+    background-color: var(--backgroundColor40);
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: var(--textColor40, #3b448e);
     font-size: var(--textNormalSize);
+}
+
+.item.active,
+.item.activated,
+.item-complex.active .item-content,
+.item-complex.activated .item-content,
+.item .item-content.active,
+.item .item-content.activated {
+    border-color: var(--textColor30);
+    background-color: var(--colorDefault40, #3b448e);
 }
 
 .has-header .scroll {
-    background-color: var(--backgroundColor);
+    background-color: var(--backgroundColor40);
 }
 
 p {

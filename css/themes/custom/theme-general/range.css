@@ -1,0 +1,79 @@
+.range.range-default input:before {
+    background: var(--colorDefault40);
+}
+
+.range.range-default input::-ms-fill-lower {
+    background: var(--colorDefault40);
+}
+
+.range.range-light input:before {
+    background: var(--colorLight40);
+}
+
+.range.range-light input::-ms-fill-lower {
+    background: var(--colorLight40);
+}
+
+.range.range-stable input:before {
+    background: var(--colorStable40);
+}
+
+.range.range-stable input::-ms-fill-lower {
+    background: var(--colorStable40);
+}
+
+.range.range-positive input:before {
+    background: var(--colorPrimary40);
+}
+
+.range.range-positive input::-ms-fill-lower {
+    background: var(--colorPrimary40);
+}
+
+.range.range-calm input:before {
+    background: var(--colorCalm40);
+}
+
+.range.range-calm input::-ms-fill-lower {
+    background: var(--colorCalm40);
+}
+
+.range.range-balanced input:before {
+    background: var(--colorSuccess40);
+}
+
+.range.range-balanced input::-ms-fill-lower {
+    background: var(--colorSuccess40);
+}
+
+.range.range-assertive input:before {
+    background: var(--colorDanger40);
+}
+
+.range.range-assertive input::-ms-fill-lower {
+    background: var(--colorDanger40);
+}
+
+.range.range-energized input:before {
+    background: var(--colorWarning40);
+}
+
+.range.range-energized input::-ms-fill-lower {
+    background: var(--colorWarning40);
+}
+
+.range.range-royal input:before {
+    background: var(--colorRoyal40);
+}
+
+.range.range-royal input::-ms-fill-lower {
+    background: var(--colorRoyal40);
+}
+
+.range.range-dark input:before {
+    background: var(--colorDark40);
+}
+
+.range.range-dark input::-ms-fill-lower {
+    background: var(--colorDark40);
+}

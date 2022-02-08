@@ -57,13 +57,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d9d9d9;
-    --colorDefault20: #b5b5b5;
-    --colorDefault30: #8a8989;
-    --colorDefault40: #464545;
-    --colorDefault50: #3d3c3c;
-    --colorDefault60: #333333;
-    --colorDefault70: #262626;
+    --colorDefault10: #d7dbe0;
+    --colorDefault20: #b2bac5;
+    --colorDefault30: #8492a6;
+    --colorDefault40: #375a7f;
+    --colorDefault50: #304f6f;
+    --colorDefault60: #28425d;
+    --colorDefault70: #1e3146;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -73,13 +73,13 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #d7dbe0;
-    --colorPrimary20: #b2bac5;
-    --colorPrimary30: #8492a6;
-    --colorPrimary40: #375a7f;
-    --colorPrimary50: #304f6f;
-    --colorPrimary60: #28425d;
-    --colorPrimary70: #1e3146;
+    --colorPrimary10: #d9d9d9;
+    --colorPrimary20: #b5b5b5;
+    --colorPrimary30: #898989;
+    --colorPrimary40: #444444;
+    --colorPrimary50: #3c3c3c;
+    --colorPrimary60: #323232;
+    --colorPrimary70: #252525;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;
@@ -154,14 +154,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #d7e5f5;
+    --colorCalm20: #b2ceec;
+    --colorCalm30: #83b5e4;
+    --colorCalm40: #3498db;
+    --colorCalm50: #2e85c0;
+    --colorCalm60: #266fa0;
+    --colorCalm70: #1c5378;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;
@@ -171,20 +170,20 @@
     --textColorCalm70: #ffffff;
 
     /* Color - Light (mobile) */
-    --colorLight10: #ffffff;
-    --colorLight20: #ffffff;
-    --colorLight30: #ffffff;
-    --colorLight40: #ffffff;
-    --colorLight50: #dfdfdf;
-    --colorLight60: #bbbbbb;
-    --colorLight70: #8c8c8c;
-    --textColorLight10: #1c1c1c;
-    --textColorLight20: #252525;
-    --textColorLight30: #2d2d2d;
-    --textColorLight40: #333333;
-    --textColorLight50: #838383;
-    --textColorLight60: #b2b2b2;
-    --textColorLight70: #d7d7d7;
+    --colorLight10: #e9ebed;
+    --colorLight20: #d7dade;
+    --colorLight30: #c3c9ce;
+    --colorLight40: #adb5bd;
+    --colorLight50: #979ea5;
+    --colorLight60: #7f858a;
+    --colorLight70: #5f6368;
+    --textColorLight10: #252525;
+    --textColorLight20: #323232;
+    --textColorLight30: #3c3c3c;
+    --textColorLight40: #444444;
+    --textColorLight50: #898989;
+    --textColorLight60: #b5b5b5;
+    --textColorLight70: #d9d9d9;
 
     /* Color - Stable (mobile) */
     --colorStable10: #fdfdfd;
@@ -204,14 +203,13 @@
     --textColorStable70: #d9d9d9;
 
     /* Color - Dark (mobile) */
-    --colorDark10: #d9d9d9;
-    --colorDark20: #b5b5b5;
-    --colorDark30: #898989;
-    --colorDark40: #444444;
-    --colorDark50: #3c3c3c;
-    --colorDark60: #323232;
-    --colorDark70: #252525;
-
+    --colorDark10: #d7d7d7;
+    --colorDark20: #b1b1b1;
+    --colorDark30: #828282;
+    --colorDark40: #303030;
+    --colorDark50: #2a2a2a;
+    --colorDark60: #232323;
+    --colorDark70: #1a1a1a;
     --textColorDark10: #8c8c8c;
     --textColorDark20: #bbbbbb;
     --textColorDark30: #dfdfdf;

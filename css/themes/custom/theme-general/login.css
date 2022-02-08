@@ -5,7 +5,7 @@
 .login-mobile input[type="email"]::-webkit-input-placeholder,
 .login-mobile input[type="text"]::-webkit-input-placeholder,
 .login-mobile input[type="password"]::-webkit-input-placeholder {
-    color: var(--colorPrimary10);
+    color: var(--textColorDefault40, #ffffff);
     background-color: transparent;
 }
 
@@ -278,7 +278,7 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .login-mobile .placeholder-icon {
-    color: var(--colorNeutral00);
+    color: var(--textColorDefault40, #ffffff);
     font-size: var(--textNormalSize);
     border-radius: 100%;
     border: 1px solid var(--colorNeutral00);
