@@ -26,8 +26,8 @@ button,
 
 /* Theme default */
 .button.button-default {
-    background-image: linear-gradient(var(--colorDefault40, #446e9b), var(--colorDefault40, #446e9b), var(--colorDefault50, #3c6088));
-    border-color: var(--colorDefault50, #3c6088);
+    background-image: linear-gradient(var(--colorDefault30, #899cb7), var(--colorDefault40, #446e9b) 50%, var(--colorDefault50, #3c6088)) ;
+    border-color: var(--colorDefault40, #446e9b);
 }
 
 .button.button-default span,
@@ -75,7 +75,8 @@ button,
 
 /* Positive */
 .button.button-positive {
-    background-image: linear-gradient(var(--colorPrimary40, #999999), var(--colorPrimary40, #999999), var(--colorPrimary50, #868686));
+    background-image: linear-gradient(var(--colorPrimary30, #b6b6b6), var(--colorPrimary40, #999999), var(--colorPrimary50, #868686));
+
     border-color: var(--colorPrimary50, #868686);
 }
 
@@ -122,7 +123,7 @@ button,
 
 /* Calm */
 .button.button-calm {
-    background-image: linear-gradient(var(--colorCalm40, #3399f3), var(--colorCalm40, #3399f3), var(--colorCalm50, #2d86d5));
+    background-image: linear-gradient(var(--colorCalm30, #83b6f6), var(--colorCalm40, #3399f3), var(--colorCalm50, #2d86d5));
     border-color: var(--colorCalm40, #3399f3);
 }
 
@@ -168,7 +169,7 @@ button,
 
 /* Assertive */
 .button.button-assertive {
-    background-image: linear-gradient(var(--colorDanger40, #cd0200), var(--colorDanger40, #cd0200), var(--colorDanger50, #b30200));
+    background-image: linear-gradient(var(--colorDanger30, #da7b7b), var(--colorDanger40, #cd0200), var(--colorDanger50, #b30200));
     border-color: var(--colorDanger50, #b30200);
 }
 
@@ -216,7 +217,7 @@ button,
 
 /* Energized */
 .button.button-energized {
-    background-image: linear-gradient(var(--colorWarning40, #d47500), var(--colorWarning40, #d47500), var(--colorWarning50, #ba6600));
+    background-image: linear-gradient(var(--colorWarning30, #dfa07b), var(--colorWarning40, #d47500), var(--colorWarning50, #ba6600));
     border: 1px solid var(--colorWarning40, #d47500);
 }
 
@@ -263,7 +264,7 @@ button,
 
 /* Balanced */
 .button.button-balanced {
-    background-image: linear-gradient(var(--colorSuccess40, #3cb521), var(--colorSuccess40, #3cb521), var(--colorSuccess50, #359e1d));
+    background-image: linear-gradient(var(--colorSuccess30, #86c97f), var(--colorSuccess40, #3cb521), var(--colorSuccess50, #359e1d));
     border-color: var(--colorSuccess40, #3cb521);
 }
 
@@ -310,7 +311,7 @@ button,
 
 /* Royal */
 .button.button-royal {
-    background-image: linear-gradient(var(--colorRoyal40, #886aea), var(--colorRoyal40, #886aea), var(--colorRoyal50, #775dcd));
+    background-image: linear-gradient(var(--colorRoyal30, #ab9aef), var(--colorRoyal40, #886aea), var(--colorRoyal50, #775dcd));
     border-color: var(--colorRoyal40, #886aea);
 }
 
@@ -357,7 +358,7 @@ button,
 
 /* Light */
 .button.button-light {
-    background-image: linear-gradient(var(--colorLight40, #eeeeee), var(--colorLight40, #eeeeee), var(--colorLight50, #d0d0d0));
+    background-image: linear-gradient(var(--colorLight30, #f2f2f2), var(--colorLight40, #eeeeee), var(--colorLight50, #d0d0d0));
     border-color: var(--colorLight40, #eeeeee);
 }
 
@@ -398,7 +399,7 @@ button,
 
 /* Stable */
 .button.button-stable {
-    background-image: linear-gradient(var(--colorStable40, #f8f8f8), var(--colorStable40, #f8f8f8), var(--colorStable50, #d9d9d9));
+    background-image: linear-gradient(var(--colorStable30, #fafafa), var(--colorStable40, #f8f8f8), var(--colorStable50, #d9d9d9));
     border-color: var(--colorStable40, #f8f8f8);
 }
 
@@ -438,7 +439,7 @@ button,
 
 /* Dark */
 .button.button-dark {
-    background-image: linear-gradient(var(--colorDark40, #333333), var(--colorDark40, #333333), var(--colorDark50, #2d2d2d));
+    background-image: linear-gradient(var(--colorDark30, #838383), var(--colorDark40, #333333), var(--colorDark50, #2d2d2d));
     border-color: var(--colorDark40, #333333);
 }
 

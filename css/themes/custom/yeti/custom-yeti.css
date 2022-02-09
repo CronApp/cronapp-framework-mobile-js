@@ -57,36 +57,36 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #f8f8f8;
-    --colorDefault20: #f2f2f2;
-    --colorDefault30: #ededed;
-    --colorDefault40: #e7e7e7;
-    --colorDefault50: #cacaca;
-    --colorDefault60: #a9a9a9;
-    --colorDefault70: #7f7f7f;
-    --textColorDefault10: #1c1c1c;
-    --textColorDefault20: #252525;
-    --textColorDefault30: #2d2d2d;
-    --textColorDefault40: #333333;
-    --textColorDefault50: #838383;
-    --textColorDefault60: #b2b2b2;
-    --textColorDefault70: #d7d7d7;
+    --colorDefault10: #d5e3ec;
+    --colorDefault20: #aecadd;
+    --colorDefault30: #7baecc;
+    --colorDefault40: #008cba;
+    --colorDefault50: #007ba3;
+    --colorDefault60: #006788;
+    --colorDefault70: #004d66;
+    --textColorDefault10: #8c8c8c;
+    --textColorDefault20: #bbbbbb;
+    --textColorDefault30: #dfdfdf;
+    --textColorDefault40: #ffffff;
+    --textColorDefault50: #ffffff;
+    --textColorDefault60: #ffffff;
+    --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #d5e3ec;
-    --colorPrimary20: #aecadd;
-    --colorPrimary30: #7baecc;
-    --colorPrimary40: #008cba;
-    --colorPrimary50: #007ba3;
-    --colorPrimary60: #006788;
-    --colorPrimary70: #004d66;
-    --textColorPrimary10: #8c8c8c;
-    --textColorPrimary20: #bbbbbb;
-    --textColorPrimary30: #dfdfdf;
-    --textColorPrimary40: #ffffff;
-    --textColorPrimary50: #ffffff;
-    --textColorPrimary60: #ffffff;
-    --textColorPrimary70: #ffffff;
+    --colorPrimary10: #fafafa;
+    --colorPrimary20: #f6f6f6;
+    --colorPrimary30: #f2f2f2;
+    --colorPrimary40: #eeeeee;
+    --colorPrimary50: #d0d0d0;
+    --colorPrimary60: #aeaeae;
+    --colorPrimary70: #828282;
+    --textColorPrimary10: #000000;
+    --textColorPrimary20: #000000;
+    --textColorPrimary30: #000000;
+    --textColorPrimary40: #000000;
+    --textColorPrimary50: #7b7b7b;
+    --textColorPrimary60: #aeaeae;
+    --textColorPrimary70: #d5d5d5;
 
     /* Color - Success - balanced */
     --colorSuccess10: #d8e9dd;
@@ -154,14 +154,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #dbeef6;
+    --colorCalm20: #badfee;
+    --colorCalm30: #93d0e6;
+    --colorCalm40: #5bc0de;
+    --colorCalm50: #50a8c2;
+    --colorCalm60: #438da3;
+    --colorCalm70: #32697a;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;
@@ -171,21 +170,20 @@
     --textColorCalm70: #ffffff;
 
     /* Color - Light (mobile) */
-    --colorLight10: #ffffff;
-    --colorLight20: #ffffff;
-    --colorLight30: #ffffff;
-    --colorLight40: #ffffff;
-    --colorLight50: #dfdfdf;
-    --colorLight60: #bbbbbb;
-    --colorLight70: #8c8c8c;
-
-    --textColorLight10: #252525;
-    --textColorLight20: #323232;
-    --textColorLight30: #3c3c3c;
-    --textColorLight40: #444444;
-    --textColorLight50: #898989;
-    --textColorLight60: #b5b5b5;
-    --textColorLight70: #d9d9d9;
+    --colorLight10: #fafafa;
+    --colorLight20: #f6f6f6;
+    --colorLight30: #f2f2f2;
+    --colorLight40: #eeeeee;
+    --colorLight50: #d0d0d0;
+    --colorLight60: #aeaeae;
+    --colorLight70: #828282;
+    --textColorLight10: #000000;
+    --textColorLight20: #000000;
+    --textColorLight30: #000000;
+    --textColorLight40: #000000;
+    --textColorLight50: #7b7b7b;
+    --textColorLight60: #aeaeae;
+    --textColorLight70: #d5d5d5;
 
     /* Color - Stable (mobile) */
     --colorStable10: #fdfdfd;
@@ -205,14 +203,13 @@
     --textColorStable70: #d9d9d9;
 
     /* Color - Dark (mobile) */
-    --colorDark10: #d9d9d9;
-    --colorDark20: #b5b5b5;
-    --colorDark30: #898989;
-    --colorDark40: #444444;
-    --colorDark50: #3c3c3c;
-    --colorDark60: #323232;
-    --colorDark70: #252525;
-
+    --colorDark10: #d6d6d6;
+    --colorDark20: #afafaf;
+    --colorDark30: #7f7f7f;
+    --colorDark40: #222222;
+    --colorDark50: #1e1e1e;
+    --colorDark60: #191919;
+    --colorDark70: #131313;
     --textColorDark10: #8c8c8c;
     --textColorDark20: #bbbbbb;
     --textColorDark30: #dfdfdf;
