@@ -59,36 +59,36 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d6e3ec;
-    --colorDefault20: #aecadd;
-    --colorDefault30: #7daecc;
-    --colorDefault40: #158cba;
-    --colorDefault50: #127ba3;
-    --colorDefault60: #0f6788;
-    --colorDefault70: #0c4d66;
-    --textColorDefault10: #8c8c8c;
-    --textColorDefault20: #bbbbbb;
-    --textColorDefault30: #dfdfdf;
-    --textColorDefault40: #ffffff;
-    --textColorDefault50: #ffffff;
-    --textColorDefault60: #ffffff;
-    --textColorDefault70: #ffffff;
+    --colorDefault10: #fbfbfb;
+    --colorDefault20: #f7f7f7;
+    --colorDefault30: #f4f4f4;
+    --colorDefault40: #f0f0f0;
+    --colorDefault50: #d2d2d2;
+    --colorDefault60: #b0b0b0;
+    --colorDefault70: #838383;
+    --textColorDefault10: #000000;
+    --textColorDefault20: #000000;
+    --textColorDefault30: #000000;
+    --textColorDefault40: #000000;
+    --textColorDefault50: #7b7b7b;
+    --textColorDefault60: #aeaeae;
+    --textColorDefault70: #d5d5d5;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #fbfbfb;
-    --colorPrimary20: #f7f7f7;
-    --colorPrimary30: #f4f4f4;
-    --colorPrimary40: #f0f0f0;
-    --colorPrimary50: #d2d2d2;
-    --colorPrimary60: #b0b0b0;
-    --colorPrimary70: #838383;
-    --textColorPrimary10: #000000;
-    --textColorPrimary20: #000000;
-    --textColorPrimary30: #000000;
-    --textColorPrimary40: #000000;
-    --textColorPrimary50: #7b7b7b;
-    --textColorPrimary60: #aeaeae;
-    --textColorPrimary70: #d5d5d5;
+    --colorPrimary10: #d6e3ec;
+    --colorPrimary20: #aecadd;
+    --colorPrimary30: #7daecc;
+    --colorPrimary40: #158cba;
+    --colorPrimary50: #127ba3;
+    --colorPrimary60: #0f6788;
+    --colorPrimary70: #0c4d66;
+    --textColorPrimary10: #8c8c8c;
+    --textColorPrimary20: #bbbbbb;
+    --textColorPrimary30: #dfdfdf;
+    --textColorPrimary40: #ffffff;
+    --textColorPrimary50: #ffffff;
+    --textColorPrimary60: #ffffff;
+    --textColorPrimary70: #ffffff;
 
     /* Color - Success - balanced */
     --colorSuccess10: #d6ebd7;

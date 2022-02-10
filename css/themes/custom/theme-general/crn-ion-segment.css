@@ -1,9 +1,56 @@
 /* icon-theme */
-.crn-ion-segment-modern ul li.active a,
-.crn-ion-segment-classic ul li.active a {
+.crn-ion-segment-modern ul.active-background-default li.active a,
+.crn-ion-segment-classic ul.active-background-default li.active a {
     color: var(--textColorDefault40, #838383);
 }
 
+.crn-ion-segment-modern ul.active-background-assertive li.active a,
+.crn-ion-segment-classic ul.active-background-assertive li.active a {
+    color: var(--textColorDanger40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-positive li.active a,
+.crn-ion-segment-classic ul.active-background-positive li.active a {
+    color: var(--textColorPrimary40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-balanced li.active a,
+.crn-ion-segment-classic ul.active-background-balanced li.active a {
+    color: var(--textColorSuccess40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-energized li.active a,
+.crn-ion-segment-classic ul.active-background-energized li.active a {
+    color: var(--textColorWarning40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-royal li.active a,
+.crn-ion-segment-classic ul.active-background-royal li.active a {
+    color: var(--textColorRoyal40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-calm li.active a,
+.crn-ion-segment-classic ul.active-background-calm li.active a {
+    color: var(--textColorCalm40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-light li.active a,
+.crn-ion-segment-classic ul.active-background-light li.active a {
+    color: var(--textColorLight40, #333333);
+}
+
+.crn-ion-segment-modern ul.active-background-stable li.active a,
+.crn-ion-segment-classic ul.active-background-stable li.active a {
+    color: var(--textColorStable40, #ffffff);
+}
+
+.crn-ion-segment-modern ul.active-background-dark li.active a,
+.crn-ion-segment-classic ul.active-background-dark li.active a {
+    color: var(--textColorDark40, #ffffff);
+}
+
+
+/* icon-theme-light */
 div.crn-ion-segment-light.icon-theme-light-default li a,
 .ion-segment-default li a {
     color: var(--colorDefault40, #3b448e);
