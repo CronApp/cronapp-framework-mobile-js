@@ -137,14 +137,13 @@
     --textColorDanger70: #ffffff;
 
     /* Color - Royal (mobile) */
-    --colorRoyal10: #e2ddf9;
-    --colorRoyal20: #c8bef4;
-    --colorRoyal30: #ab9aef;
-    --colorRoyal40: #886aea;
-    --colorRoyal50: #775dcd;
-    --colorRoyal60: #644eab;
-    --colorRoyal70: #4a3a80;
-
+    --colorRoyal10: #dfd7da;
+    --colorRoyal20: #c2b0b8;
+    --colorRoyal30: #a1808f;
+    --colorRoyal40: #772953;
+    --colorRoyal50: #682449;
+    --colorRoyal60: #571e3d;
+    --colorRoyal70: #41162d;
     --textColorRoyal10: #8c8c8c;
     --textColorRoyal20: #bbbbbb;
     --textColorRoyal30: #dfdfdf;
@@ -154,14 +153,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #d6e7ec;
+    --colorCalm20: #aed2dc;
+    --colorCalm30: #7dbccb;
+    --colorCalm40: #17a2b8;
+    --colorCalm50: #148ea1;
+    --colorCalm60: #117787;
+    --colorCalm70: #0d5965;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;
@@ -171,21 +169,20 @@
     --textColorCalm70: #ffffff;
 
     /* Color - Light (mobile) */
-    --colorLight10: #ffffff;
-    --colorLight20: #ffffff;
-    --colorLight30: #ffffff;
-    --colorLight40: #ffffff;
-    --colorLight50: #dfdfdf;
-    --colorLight60: #bbbbbb;
-    --colorLight70: #8c8c8c;
-
-    --textColorLight10: #252525;
-    --textColorLight20: #323232;
-    --textColorLight30: #3c3c3c;
-    --textColorLight40: #444444;
-    --textColorLight50: #898989;
-    --textColorLight60: #b5b5b5;
-    --textColorLight70: #d9d9d9;
+    --colorLight10: #f9f9fa;
+    --colorLight20: #f3f5f7;
+    --colorLight30: #eef1f3;
+    --colorLight40: #e9ecef;
+    --colorLight50: #cccfd1;
+    --colorLight60: #abadaf;
+    --colorLight70: #808183;
+    --textColorLight10: #000000;
+    --textColorLight20: #000000;
+    --textColorLight30: #000000;
+    --textColorLight40: #000000;
+    --textColorLight50: #7b7b7b;
+    --textColorLight60: #aeaeae;
+    --textColorLight70: #d5d5d5;
 
     /* Color - Stable (mobile) */
     --colorStable10: #fdfdfd;

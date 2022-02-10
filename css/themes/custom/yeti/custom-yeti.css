@@ -57,13 +57,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d5e3ec;
-    --colorDefault20: #aecadd;
-    --colorDefault30: #7baecc;
-    --colorDefault40: #008cba;
-    --colorDefault50: #007ba3;
-    --colorDefault60: #006788;
-    --colorDefault70: #004d66;
+    --colorDefault10: #f8f8f8;
+    --colorDefault20: #f2f2f2;
+    --colorDefault30: #ededed;
+    --colorDefault40: #e7e7e7;
+    --colorDefault50: #cacaca;
+    --colorDefault60: #a9a9a9;
+    --colorDefault70: #7f7f7f;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -73,20 +73,20 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #fafafa;
-    --colorPrimary20: #f6f6f6;
-    --colorPrimary30: #f2f2f2;
-    --colorPrimary40: #eeeeee;
-    --colorPrimary50: #d0d0d0;
-    --colorPrimary60: #aeaeae;
-    --colorPrimary70: #828282;
-    --textColorPrimary10: #000000;
-    --textColorPrimary20: #000000;
-    --textColorPrimary30: #000000;
-    --textColorPrimary40: #000000;
-    --textColorPrimary50: #7b7b7b;
-    --textColorPrimary60: #aeaeae;
-    --textColorPrimary70: #d5d5d5;
+    --colorPrimary10: #d5e3ec;
+    --colorPrimary20: #aecadd;
+    --colorPrimary30: #7baecc;
+    --colorPrimary40: #008cba;
+    --colorPrimary50: #007ba3;
+    --colorPrimary60: #006788;
+    --colorPrimary70: #004d66;
+    --textColorPrimary10: #8c8c8c;
+    --textColorPrimary20: #bbbbbb;
+    --textColorPrimary30: #dfdfdf;
+    --textColorPrimary40: #ffffff;
+    --textColorPrimary50: #ffffff;
+    --textColorPrimary60: #ffffff;
+    --textColorPrimary70: #ffffff;
 
     /* Color - Success - balanced */
     --colorSuccess10: #d8e9dd;

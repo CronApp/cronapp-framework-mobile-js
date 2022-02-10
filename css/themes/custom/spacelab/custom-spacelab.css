@@ -6,7 +6,7 @@
 
     /* Font */
     --fontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --textColor: #777777;
+    --textColor: #666666;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -14,13 +14,13 @@
     --textBigSize: 18px;
     --textExtraBigSize: 23px;
 
-    --textColor10: #dfdfdf;
-    --textColor20: #c2c2c2;
-    --textColor30: #a1a1a1;
-    --textColor40: #777777;
-    --textColor50: #686868;
-    --textColor60: #575757;
-    --textColor70: #414141;
+    --textColor10: #dddddd;
+    --textColor20: #bdbdbd;
+    --textColor30: #989898;
+    --textColor40: #666666;
+    --textColor50: #595959;
+    --textColor60: #4b4b4b;
+    --textColor70: #383838;
 
     /* Menus - Sizes and Distances */
     --menuVerticalWidth: 270px;
@@ -60,13 +60,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d9dee6;
-    --colorDefault20: #b5bfcf;
-    --colorDefault30: #899cb7;
-    --colorDefault40: #446e9b;
-    --colorDefault50: #3c6088;
-    --colorDefault60: #325172;
-    --colorDefault70: #253c55;
+    --colorDefault10: #d9d9d9;
+    --colorDefault20: #b5b6b6;
+    --colorDefault30: #8a8b8b;
+    --colorDefault40: #474949;
+    --colorDefault50: #3e4040;
+    --colorDefault60: #343535;
+    --colorDefault70: #272828;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -76,13 +76,13 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #e5e5e5;
-    --colorPrimary20: #cfcfcf;
-    --colorPrimary30: #b6b6b6;
-    --colorPrimary40: #999999;
-    --colorPrimary50: #868686;
-    --colorPrimary60: #707070;
-    --colorPrimary70: #545454;
+    --colorPrimary10: #d9dee6;
+    --colorPrimary20: #b5bfcf;
+    --colorPrimary30: #899cb7;
+    --colorPrimary40: #446e9b;
+    --colorPrimary50: #3c6088;
+    --colorPrimary60: #325172;
+    --colorPrimary70: #253c55;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;

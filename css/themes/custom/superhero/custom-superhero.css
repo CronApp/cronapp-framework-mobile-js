@@ -3,7 +3,7 @@
 
     /* Font */
     --fontFamily: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    --textColor: #777777;
+    --textColor: #ebebeb;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -28,13 +28,13 @@
     --menuItemIconWidth: 25px;
 
     /* Background */
-    --backgroundColor10: #d6d6d7;
-    --backgroundColor20: #aeb0b2;
-    --backgroundColor30: #7c7f84;
-    --backgroundColor40: #0f2537;
-    --backgroundColor50: #0d2030;
-    --backgroundColor60: #0b1b28;
-    --backgroundColor70: #08141e;
+    --backgroundColor10: #d7d8da;
+    --backgroundColor20: #b0b3b7;
+    --backgroundColor30: #81878e;
+    --backgroundColor40: #2b3e50;
+    --backgroundColor50: #263646;
+    --backgroundColor60: #202d3b;
+    --backgroundColor70: #18222c;
 
     /* Distances */
     --distanceNone: 0;
@@ -57,13 +57,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d9e6f8;
-    --colorDefault20: #b6cff3;
-    --colorDefault30: #8cb7ee;
-    --colorDefault40: #4c9be8;
-    --colorDefault50: #4388cb;
-    --colorDefault60: #3872aa;
-    --colorDefault70: #2a557f;
+    --colorDefault10: #dadbdd;
+    --colorDefault20: #b7babf;
+    --colorDefault30: #8d949b;
+    --colorDefault40: #4e5d6c;
+    --colorDefault50: #44515f;
+    --colorDefault60: #39444f;
+    --colorDefault70: #2b333b;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -73,13 +73,13 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #dadbdd;
-    --colorPrimary20: #b7babf;
-    --colorPrimary30: #8d949b;
-    --colorPrimary40: #4e5d6c;
-    --colorPrimary50: #44515f;
-    --colorPrimary60: #39444f;
-    --colorPrimary70: #2b333b;
+    --colorPrimary10: #f6ddd6;
+    --colorPrimary20: #eebeaf;
+    --colorPrimary30: #e79a7d;
+    --colorPrimary40: #df691a;
+    --colorPrimary50: #c35c17;
+    --colorPrimary60: #a34d13;
+    --colorPrimary70: #7a3a0e;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;
@@ -105,13 +105,13 @@
     --textColorSuccess70: #ffffff;
 
     /* Color - Warning (web) - energized (mobile) */
-    --colorWarning10: #ffeed5;
-    --colorWarning20: #ffe0ae;
-    --colorWarning30: #ffd17b;
-    --colorWarning40: #ffc107;
-    --colorWarning50: #dfa906;
-    --colorWarning60: #bb8d05;
-    --colorWarning70: #8c6a04;
+    --colorWarning10: #fbe9da;
+    --colorWarning20: #f7d7b7;
+    --colorWarning30: #f4c38d;
+    --colorWarning40: #f0ad4e;
+    --colorWarning50: #d29744;
+    --colorWarning60: #b07f39;
+    --colorWarning70: #835f2b;
     --textColorWarning10: #8c8c8c;
     --textColorWarning20: #bbbbbb;
     --textColorWarning30: #dfdfdf;

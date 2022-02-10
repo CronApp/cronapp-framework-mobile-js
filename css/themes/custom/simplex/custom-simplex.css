@@ -6,7 +6,7 @@
 
     /* Font */
     --fontFamily: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --textColor: #212529;
+    --textColor: #777777;
 
     --textSmallSize: 12px;
     --textNormalSize: 14px;
@@ -14,13 +14,13 @@
     --textBigSize: 18px;
     --textExtraBigSize: 23px;
 
-    --textColor10: #d6d6d7;
-    --textColor20: #afb0b0;
-    --textColor30: #7f7f80;
-    --textColor40: #212529;
-    --textColor50: #1d2024;
-    --textColor60: #181b1e;
-    --textColor70: #121416;
+    --textColor10: #dfdfdf;
+    --textColor20: #c2c2c2;
+    --textColor30: #a1a1a1;
+    --textColor40: #777777;
+    --textColor50: #686868;
+    --textColor60: #575757;
+    --textColor70: #414141;
 
     /* Menus - Sizes and Distances */
     --menuVerticalWidth: 270px;
@@ -60,13 +60,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #f4d6d6;
-    --colorDefault20: #ebafae;
-    --colorDefault30: #e27f7c;
-    --colorDefault40: #d9230f;
-    --colorDefault50: #be1f0d;
-    --colorDefault60: #9f1a0b;
-    --colorDefault70: #771308;
+    --colorDefault10: #d9d9d9;
+    --colorDefault20: #b5b6b6;
+    --colorDefault30: #8a8b8b;
+    --colorDefault40: #474949;
+    --colorDefault50: #3e4040;
+    --colorDefault60: #343535;
+    --colorDefault70: #272828;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -76,20 +76,20 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #ffffff;
-    --colorPrimary20: #ffffff;
-    --colorPrimary30: #ffffff;
-    --colorPrimary40: #ffffff;
-    --colorPrimary50: #dfdfdf;
-    --colorPrimary60: #bbbbbb;
-    --colorPrimary70: #8c8c8c;
-    --textColorPrimary10: #000000;
-    --textColorPrimary20: #000000;
-    --textColorPrimary30: #000000;
-    --textColorPrimary40: #000000;
-    --textColorPrimary50: #7b7b7b;
-    --textColorPrimary60: #aeaeae;
-    --textColorPrimary70: #d5d5d5;
+    --colorPrimary10: #f4d6d6;
+    --colorPrimary20: #ebafae;
+    --colorPrimary30: #e27f7c;
+    --colorPrimary40: #d9230f;
+    --colorPrimary50: #be1f0d;
+    --colorPrimary60: #9f1a0b;
+    --colorPrimary70: #771308;
+    --textColorPrimary10: #8c8c8c;
+    --textColorPrimary20: #bbbbbb;
+    --textColorPrimary30: #dfdfdf;
+    --textColorPrimary40: #ffffff;
+    --textColorPrimary50: #ffffff;
+    --textColorPrimary60: #ffffff;
+    --textColorPrimary70: #ffffff;
 
     /* Color - Success - balanced */
     --colorSuccess10: #d9e4d5;
