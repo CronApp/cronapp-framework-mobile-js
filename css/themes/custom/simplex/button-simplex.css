@@ -442,8 +442,8 @@ button,
     border-color: var(--colorDark40, #373a3c);
 }
 
-.button.button-positive i.dark,
-.button.button-positive i.dark+span {
+.button.button-dark i,
+.button.button-dark span {
     color: var(--textColorDark40, #ffffff);
 }
 
@@ -453,10 +453,10 @@ button,
     background-color: var(--colorDark70, #1e2021);
 }
 
-.button.button-dark:active i.dark,
-.button.button-dark:active i.dark+span,
-.button.button-dark.activated i.dark,
-.button.button-dark.activated i.dark+span {
+.button.button-dark:active i,
+.button.button-dark:active span,
+.button.button-dark.activated i,
+.button.button-dark.activated span {
     color: var(--textColorDark70, #ffffff);
 }
 

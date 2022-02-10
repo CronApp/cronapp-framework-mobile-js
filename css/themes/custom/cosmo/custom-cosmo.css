@@ -57,13 +57,13 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #d6d6d6;
-    --colorDefault20: #afafaf;
-    --colorDefault30: #7f7f7f;
-    --colorDefault40: #222222;
-    --colorDefault50: #1e1e1e;
-    --colorDefault60: #191919;
-    --colorDefault70: #131313;
+    --colorDefault10: #d6e1f7;
+    --colorDefault20: #b0c5f0;
+    --colorDefault30: #80a7ea;
+    --colorDefault40: #2780e3;
+    --colorDefault50: #2270c7;
+    --colorDefault60: #1d5ea6;
+    --colorDefault70: #15467c;
     --textColorDefault10: #8c8c8c;
     --textColorDefault20: #bbbbbb;
     --textColorDefault30: #dfdfdf;
@@ -73,13 +73,13 @@
     --textColorDefault70: #ffffff;
 
     /* Color - Primary - positive */
-    --colorPrimary10: #d6e1f7;
-    --colorPrimary20: #b0c5f0;
-    --colorPrimary30: #80a7ea;
-    --colorPrimary40: #2780e3;
-    --colorPrimary50: #2270c7;
-    --colorPrimary60: #1d5ea6;
-    --colorPrimary70: #15467c;
+    --colorPrimary10: #d6d6d6;
+    --colorPrimary20: #afafaf;
+    --colorPrimary30: #7f7f7f;
+    --colorPrimary40: #222222;
+    --colorPrimary50: #1e1e1e;
+    --colorPrimary60: #191919;
+    --colorPrimary70: #131313;
     --textColorPrimary10: #8c8c8c;
     --textColorPrimary20: #bbbbbb;
     --textColorPrimary30: #dfdfdf;

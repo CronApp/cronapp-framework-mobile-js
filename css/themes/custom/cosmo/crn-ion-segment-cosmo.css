@@ -1,8 +1,8 @@
 /* background-color-active */
 div.crn-ion-segment-classic ul.active-background-default li.active,
 div.crn-ion-segment-modern ul.active-background-default li.active {
-    background-image: linear-gradient(var(--colorDefault30, #82bded), var(--colorDefault40, #2fa4e7));
-    border-color: var(--colorDefault40, #2fa4e7);
+    background-image: linear-gradient(var(--colorDefault30, #82bded), var(--colorDefault40, #222222));
+    border-color: var(--colorDefault40, #222222);
 }
 
 div.crn-ion-segment-classic ul.active-background-assertive li.active,
@@ -43,8 +43,8 @@ div.crn-ion-segment-modern ul.active-background-calm li.active {
 
 div.crn-ion-segment-classic ul.active-background-positive li.active,
 div.crn-ion-segment-modern ul.active-background-positive li.active {
-    background-image: linear-gradient(var(--colorPrimary30, #eef1f3), var(--colorPrimary40, #e9ecef));
-    border-color: var(--colorPrimary40, #e9ecef);
+    background-image: linear-gradient(var(--colorPositive30, #82bded), var(--colorPositive40, #3b448e));
+    border-color: var(--colorPositive40, #3b448e);
 }
 
 div.crn-ion-segment-classic ul.active-background-royal li.active,

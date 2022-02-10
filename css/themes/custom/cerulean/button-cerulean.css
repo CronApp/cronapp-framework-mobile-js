@@ -26,7 +26,7 @@ button,
 
 /* Theme default */
 .button.button-default {
-    background-image: linear-gradient(var(--colorDefault30, #82bded), var(--colorDefault40, #2fa4e7));
+    background-image: linear-gradient(var(--colorDefault30, #82bded), var(--colorDefault40, #2fa4e7) 60%, var(--colorDefault50, #2990ca));
     border-color: var(--colorDefault40, #2fa4e7);
 }
 
@@ -75,26 +75,26 @@ button,
 
 /* Positive */
 .button.button-positive {
-    background-image: linear-gradient(var(--colorDefault30, #82bded), var(--colorDefault40, #3b448e));
-    border-color: var(--colorDefault40, #3b448e);
+    background-image: linear-gradient(var(--colorPrimary30, #eef1f3), var(--colorPrimary40, #e9ecef) 60%, var(--colorPrimary50, #cccfd1));
+    border-color: var(--colorPrimary40, #3b448e);
 }
 
 .button.button-positive span,
 .button.button-positive i {
-    color: var(--textColorPrimary40, #ffffff);
+    color: var(--textColorPrimary40, #444444);
 }
 
 .button.button-positive:active,
 .button.button-positive.activated {
     background-image: none;
-    background-color: var(--colorPrimary60);
+    background-color: var(--colorPrimary60, #547b2a);
 }
 
 .button.button-positive:active i,
 .button.button-positive:active span,
 .button.button-positive.activated i,
 .button.button-positive.activated span {
-    color: var(--textColorPrimary60);
+    color: var(--textColorPrimary30, #3c3c3c);
 }
 
 /* Positive - Outline */
@@ -122,7 +122,7 @@ button,
 
 /* Calm */
 .button.button-calm {
-    background-image: linear-gradient(var(--colorCalm30, #7cd1f6), var(--colorCalm40, #11c1f3));
+    background-image: linear-gradient(var(--colorCalm30, #7b869f), var(--colorCalm40, #033c73) 60%, var(--colorCalm50, #033565));
     border-color: var(--colorCalm40, #11c1f3);
 }
 
@@ -168,7 +168,7 @@ button,
 
 /* Assertive */
 .button.button-assertive {
-    background-image: linear-gradient(var(--colorDanger40, #ef473a), var(--colorDanger50, #ae191e));
+    background-image: linear-gradient(var(--colorDanger30, #d57e7f), var(--colorDanger40, #ef473a) 60%, var(--colorDanger50, #ae191e));
     border-color: var(--colorDanger50, #ae191e);
 }
 
@@ -216,7 +216,7 @@ button,
 
 /* Energized */
 .button.button-energized {
-    background-image: linear-gradient(var(--colorWarning30, #e5907b), var(--colorWarning40, #dd5600));
+    background-image: linear-gradient(var(--colorWarning30, #e5907b), var(--colorWarning40, #dd5600) 60%, var(--colorWarning50, #c24b00));
     border: 1px solid var(--colorWarning40, #dd5600);
 }
 
@@ -263,7 +263,7 @@ button,
 
 /* Balanced */
 .button.button-balanced {
-    background-image: linear-gradient(var(--colorSuccess30, #73a839), var(--colorSuccess40, #73a839));
+    background-image: linear-gradient(var(--colorSuccess30, #73a839), var(--colorSuccess40, #73a839) 60%, var(--colorSuccess50, #659332));
     border-color: var(--colorSuccess40, #73a839);
 }
 
@@ -310,7 +310,7 @@ button,
 
 /* Royal */
 .button.button-royal {
-    background-image: linear-gradient(var(--colorRoyal30, #ab9aef), var(--colorRoyal40, #886aea));
+    background-image: linear-gradient(var(--colorRoyal30, #ab9aef), var(--colorRoyal40, #886aea) 60%, var(--colorRoyal50, #775dcd));
     border-color: var(--colorRoyal40, #886aea);
 }
 
@@ -357,7 +357,7 @@ button,
 
 /* Light */
 .button.button-light {
-    background-image: linear-gradient(var(--colorLight30, #ffffff), var(--colorLight40, #ffffff));
+    background-image: linear-gradient(var(--colorLight30, #ffffff), var(--colorLight40, #ffffff) 60%, var(--colorLight50, #dfdfdf));
     border-color: var(--colorLight40, #ffffff);
 }
 
@@ -398,7 +398,7 @@ button,
 
 /* Stable */
 .button.button-stable {
-    background-image: linear-gradient(var(--colorStable30, #fafafa), var(--colorStable40, #f8f8f8));
+    background-image: linear-gradient(var(--colorStable30, #fafafa), var(--colorStable40, #f8f8f8) 60%, var(--colorStable50, #d9d9d9));
     border-color: var(--colorStable40, #f8f8f8);
 }
 
@@ -438,12 +438,12 @@ button,
 
 /* Dark */
 .button.button-dark {
-    background-image: linear-gradient(var(--colorDark30, #898989), var(--colorDark40, #444444));
+    background-image: linear-gradient(var(--colorDark30, #898989), var(--colorDark40, #444444) 60%, var(--colorDark50, #3c3c3c));
     border-color: var(--colorDark40, #444444);
 }
 
-.button.button-positive i.dark,
-.button.button-positive i.dark+span {
+.button.button-dark i,
+.button.button-dark span {
     color: var(--textColorDark40, #ffffff);
 }
 
@@ -453,10 +453,10 @@ button,
     background-color: var(--colorDark70, #252525);
 }
 
-.button.button-dark:active i.dark,
-.button.button-dark:active i.dark+span,
-.button.button-dark.activated i.dark,
-.button.button-dark.activated i.dark+span {
+.button.button-dark:active i,
+.button.button-dark:active span,
+.button.button-dark.activated i,
+.button.button-dark.activated span {
     color: var(--textColorDark70, #ffffff);
 }
 

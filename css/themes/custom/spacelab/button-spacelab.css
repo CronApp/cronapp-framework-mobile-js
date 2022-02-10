@@ -443,8 +443,8 @@ button,
     border-color: var(--colorDark40, #333333);
 }
 
-.button.button-positive i.dark,
-.button.button-positive span {
+.button.button-dark i,
+.button.button-dark span {
     color: var(--textColorDark40, #ffffff);
 }
 
@@ -454,9 +454,9 @@ button,
     background-color: var(--colorDark70, #252525);
 }
 
-.button.button-dark:active i.dark,
+.button.button-dark:active i,
 .button.button-dark:active span,
-.button.button-dark.activated i.dark,
+.button.button-dark.activated i,
 .button.button-dark.activated span {
     color: var(--textColorDark70, #ffffff);
 }
