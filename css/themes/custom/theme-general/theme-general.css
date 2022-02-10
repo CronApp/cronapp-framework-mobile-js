@@ -1,10 +1,10 @@
 @import 'button.css';
 @import 'input.css';
+@import 'crn-ion-header-bar.css';
+@import 'crn-ion-segment.css';
 @import 'login.css';
 @import 'signup.css';
 @import 'reset-password.css';
-@import 'crn-ion-header-bar.css';
-@import 'icon.css';
 @import 'checkbox.css';
 @import 'toggle.css';
 

@@ -1,3 +1,5 @@
+@import 'button-lumen.css';
+
 /* ==== VARIABLES ==== */
 :root {
 
@@ -154,14 +156,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #dff0f9;
+    --colorCalm20: #c2e4f4;
+    --colorCalm30: #a0d8f0;
+    --colorCalm40: #75caeb;
+    --colorCalm50: #66b1ce;
+    --colorCalm60: #5694ac;
+    --colorCalm70: #406f81;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;

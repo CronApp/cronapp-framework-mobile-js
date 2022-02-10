@@ -154,14 +154,13 @@
     --textColorRoyal70: #ffffff;
 
     /* Color - Calm (mobile) */
-    --colorCalm10: #d6eefb;
-    --colorCalm20: #aee0f9;
-    --colorCalm30: #7cd1f6;
-    --colorCalm40: #11c1f3;
-    --colorCalm50: #0fa9d5;
-    --colorCalm60: #0c8db2;
-    --colorCalm70: #096a85;
-
+    --colorCalm10: #d7dde5;
+    --colorCalm20: #b2bdcf;
+    --colorCalm30: #8398b6;
+    --colorCalm40: #336699;
+    --colorCalm50: #2d5986;
+    --colorCalm60: #254b70;
+    --colorCalm70: #1c3854;
     --textColorCalm10: #8c8c8c;
     --textColorCalm20: #bbbbbb;
     --textColorCalm30: #dfdfdf;

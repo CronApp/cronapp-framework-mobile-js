@@ -168,6 +168,7 @@
     --textColorCalm50: #ffffff;
     --textColorCalm60: #ffffff;
     --textColorCalm70: #ffffff;
+    
 
     /* Color - Light (mobile) */
     --colorLight10: #e9ebed;
@@ -177,13 +178,13 @@
     --colorLight50: #979ea5;
     --colorLight60: #7f858a;
     --colorLight70: #5f6368;
-    --textColorLight10: #252525;
-    --textColorLight20: #323232;
-    --textColorLight30: #3c3c3c;
-    --textColorLight40: #444444;
-    --textColorLight50: #898989;
-    --textColorLight60: #b5b5b5;
-    --textColorLight70: #d9d9d9;
+    --textColorLight10: #8c8c8c;
+    --textColorLight20: #bbbbbb;
+    --textColorLight30: #dfdfdf;
+    --textColorLight40: #ffffff;
+    --textColorLight50: #ffffff;
+    --textColorLight60: #ffffff;
+    --textColorLight70: #ffffff;
 
     /* Color - Stable (mobile) */
     --colorStable10: #fdfdfd;

@@ -1,3 +1,5 @@
+@import 'button-paper.css';
+
 /* ==== VARIABLES ==== */
 :root {
 
@@ -57,20 +59,20 @@
     --borderRadiusFull: 99999px;
 
     /* Color - Theme default */
-    --colorDefault10: #e6d6ea;
-    --colorDefault20: #d0b0d8;
-    --colorDefault30: #b880c5;
-    --colorDefault40: #9c27b0;
-    --colorDefault50: #89229a;
-    --colorDefault60: #721d81;
-    --colorDefault70: #551560;
-    --textColorDefault10: #8c8c8c;
-    --textColorDefault20: #bbbbbb;
-    --textColorDefault30: #dfdfdf;
-    --textColorDefault40: #ffffff;
-    --textColorDefault50: #ffffff;
-    --textColorDefault60: #ffffff;
-    --textColorDefault70: #ffffff;
+    --colorDefault10: #ffffff;
+    --colorDefault20: #ffffff;
+    --colorDefault30: #ffffff;
+    --colorDefault40: #ffffff;
+    --colorDefault50: #dfdfdf;
+    --colorDefault60: #bbbbbb;
+    --colorDefault70: #8c8c8c;
+    --textColorDefault10: #252525;
+    --textColorDefault20: #323232;
+    --textColorDefault30: #3c3c3c;
+    --textColorDefault40: #444444;
+    --textColorDefault50: #898989;
+    --textColorDefault60: #b5b5b5;
+    --textColorDefault70: #d9d9d9;
 
     /* Color - Primary - positive */
     --colorPrimary10: #d6e5fb;
@@ -137,14 +139,13 @@
     --textColorDanger70: #ffffff;
 
     /* Color - Royal (mobile) */
-    --colorRoyal10: #e2ddf9;
-    --colorRoyal20: #c8bef4;
-    --colorRoyal30: #ab9aef;
-    --colorRoyal40: #886aea;
-    --colorRoyal50: #775dcd;
-    --colorRoyal60: #644eab;
-    --colorRoyal70: #4a3a80;
-
+    --colorRoyal10: #e6d6ea;
+    --colorRoyal20: #d0b0d8;
+    --colorRoyal30: #b880c5;
+    --colorRoyal40: #9c27b0;
+    --colorRoyal50: #89229a;
+    --colorRoyal60: #721d81;
+    --colorRoyal70: #551560;
     --textColorRoyal10: #8c8c8c;
     --textColorRoyal20: #bbbbbb;
     --textColorRoyal30: #dfdfdf;
