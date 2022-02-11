@@ -8,11 +8,12 @@
   "category": [
     "LAYOUTS"
   ],
-  "wrapper": false,
+  "wrapper": true,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/dist/components/templates/slider.template.html",
+  "forcedGroup": true,
   "properties": {
     "id": {
-      "order": 2
+      "order": 1
     },
     "class": {
       "order": 9999
