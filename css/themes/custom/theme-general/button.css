@@ -393,7 +393,7 @@ button,
 .button.button-stable:active,
 .button.button-stable.activated {
     background-color: var(--colorStable60, #b6b6b6);
-    color: var(--textColorStable20, #323232);
+    color: var(--textColorStable60, #b5b5b5);
 }
 
 /* Stable - Outline */

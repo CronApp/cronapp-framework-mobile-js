@@ -617,7 +617,7 @@ button,
 
 /* Container */
 *[id^="crn-container"] {
-    color: var(--textColorPrimary40, #383838);
+    color: var(--colorNeutral160, #383838);
 }
 
 /* Card */
