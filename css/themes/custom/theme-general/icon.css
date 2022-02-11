@@ -15,7 +15,7 @@ i.positive {
 }
 
 i.calm {
-    color: var(--textColorCalm40);
+    color: var(--textColorCalm40, #ffffff);
 }
 
 i.assertive {

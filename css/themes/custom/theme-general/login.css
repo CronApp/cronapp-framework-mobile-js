@@ -13,23 +13,23 @@
     border-color: var(--colorDefault40, #3b448e);
     background-color: var(--colorDefault40, #3b448e);
     background-image: linear-gradient(0deg, var(--colorDefault40, #3b448e), var(--colorDefault40, #3b448e) 50%, transparent 50%);
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .item h2,
 .login-bg .item h2 {
     margin: 0 0 2px 0;
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
     font-weight: normal;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .item h3,
 .login-bg .item h3 {
     margin: 0 0 2px 0;
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
     font-weight: normal;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .item-icon-left .icon,
@@ -62,7 +62,7 @@ div.nav>a.item-avatar-left>div.item-content {
 [nav-bar-transition="ios"] [nav-bar="entering"] .bar,
 .login-bg [nav-bar-transition="ios"] [nav-bar="active"] .bar,
 [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .button .icon:before,
@@ -76,10 +76,10 @@ div.nav>a.item-avatar-left>div.item-content {
     display: inline-block;
     padding: 0 0 1px 0;
     vertical-align: inherit;
-    font-size: var(--textExtraBigSize);
+    font-size: var(--textExtraBigSize, 23px);
     line-height: 41px;
     pointer-events: none;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .bar .title,
@@ -97,10 +97,10 @@ div.nav>a.item-avatar-left>div.item-content {
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: var(--textMediumSize);
+    font-size: var(--textMediumSize, 16px);
     font-weight: 500;
     line-height: 44px;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view label.item.item-input,
@@ -116,28 +116,28 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-bg fieldset {
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
-    border: 0px solid var(--colorNeutral40);
+    border: 0px solid var(--colorNeutral40, #C7C7C7);
 }
 
 .menu-view .bar-header button i,
 .login-bg .bar-header button i {
-    font-size: var(--textSmallSize);
-    color: var(--colorNeutral220);
+    font-size: var(--textSmallSize, 12px);
+    color: var(--colorNeutral220, #000000);
 }
 
 .menu-view .bar-header .header-item .right-buttons .button i::before,
 .bar-header .header-item .left-buttons .button i::before,
 .login-bg .bar-header .header-item .right-buttons .button i::before,
 .bar-header .header-item .left-buttons .button i::before {
-    font-size: var(--textExtraBigSize);
-    color: var(--colorNeutral00);
+    font-size: var(--textExtraBigSize, 23px);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 .menu-view .user-avatar,
 .login-bg .user-avatar {
     float: left;
     font-size: 52px;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
     width: 45px;
     height: auto;
     padding: 0px;
@@ -149,9 +149,9 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .menu-view .input-default input,
 .login-bg .input-default input {
-    border-bottom: 1px solid var(--colorNeutral60);
+    border-bottom: 1px solid var(--colorNeutral60, #ACACAC);
     transition: 400ms;
-    color: var(--colorPrimary10);
+    color: var(--colorPrimary10, #d8e0fc);
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -166,9 +166,9 @@ div.nav>a.item-avatar-left>div.item-content {
 .menu-view .input-default .item-input i,
 .login-bg .input-default .item-input i {
     border-radius: 100%;
-    border: 1px solid var(--colorNeutral60);
+    border: 1px solid var(--colorNeutral60, #ACACAC);
     padding: 6px 7px 6px 7px;
-    font-size: var(--textSmallSize);
+    font-size: var(--textSmallSize, 12px);
 }
 
 .menu-view .item-input,
@@ -188,7 +188,7 @@ div.nav>a.item-avatar-left>div.item-content {
     padding: 0px;
     border-width: 1px;
     border-style: solid;
-    font-size: var(--textMediumSize);
+    font-size: var(--textMediumSize, 16px);
 }
 
 .login-bg input:-webkit-autofill {
@@ -199,7 +199,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-mobile .button.button-positive {
     border-color: var(--colorPrimary40, #387ef5);
     background-color: transparent;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
     border-radius: 2px;
     transition: 400ms;
     margin-top: 20px !important;
@@ -210,7 +210,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-mobile .button.button-block,
 .button.button-full {
     padding: 0;
-    border: 1px solid var(--colorNeutral00) !important;
+    border: 1px solid var(--colorNeutral00, #FFFFFF) !important;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -237,14 +237,14 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .login-mobile input {
-    border-bottom: 1px solid var(--colorNeutral00) !important;
+    border-bottom: 1px solid var(--colorNeutral00, #FFFFFF) !important;
     transition: 700ms;
-    color: var(--colorNeutral00) !important;
+    color: var(--colorNeutral00, #FFFFFF) !important;
     background-color: transparent !important;
 }
 
 .login-mobile input:focus {
-    border-bottom: 1px solid var(--colorPrimary10) !important;
+    border-bottom: 1px solid var(--colorPrimary10, #d8e0fc) !important;
     transition: 700ms;
     background-color: transparent !important;
 }
@@ -260,8 +260,8 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .menu-view .button.button-positive,
 .login-bg .button.button-positive {
-    border-color: var(--colorNeutral00);
-    background-color: var(--colorNeutral00);
+    border-color: var(--colorNeutral00, #FFFFFF);
+    background-color: var(--colorNeutral00, #FFFFFF);
     color: var(--colorDefault40, #3b448e);
     border-radius: 7px;
     transition: 400ms;
@@ -272,7 +272,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .menu-view .button.button-positive i,
 .login-bg .button.button-positive i {
     color: var(--colorDefault40, #3b448e);
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .login-mobile .placeholder-icon:first-child {
@@ -281,9 +281,9 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .login-mobile .placeholder-icon {
     color: var(--textColorDefault40, #ffffff);
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
     border-radius: 100%;
-    border: 1px solid var(--colorNeutral00);
+    border: 1px solid var(--colorNeutral00, #FFFFFF);
     text-align: center;
     padding: 11px 5px 0px 0px;
     margin-right: 7px;
@@ -293,7 +293,7 @@ div.nav>a.item-avatar-left>div.item-content {
 
 .login-mobile label.item.item-input {
     padding: 10px;
-    border: 0px solid var(--colorNeutral30);
+    border: 0px solid var(--colorNeutral30, #D5D5D5);
 }
 
 .login-bg label.item.item-input {
@@ -306,11 +306,11 @@ div.nav>a.item-avatar-left>div.item-content {
 
 a#reset-password-login {
     text-align: right;
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
 }
 
 a#button-signup {
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
     text-align: center;
     margin-top: 10px;
 }

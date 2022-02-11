@@ -85,41 +85,41 @@
 /* Cores primárias */
 
 .tabs-striped.background-default .tabs {
-    background-color: var(--textColorDefault40);
+    background-color: var(--textColorDefault40, #ffffff);
 }
 
 .tabs-striped.background-assertive .tabs {
-    background-color: var(--textColorDanger40);
+    background-color: var(--textColorDanger40, #ffffff);
 }
 
 .tabs-striped.background-balanced .tabs {
-    background-color: var(--textColorSuccess40);
+    background-color: var(--textColorSuccess40, #ffffff);
 }
 
 .tabs-striped.background-energized .tabs {
-    background-color: var(--textColorWarning40);
+    background-color: var(--textColorWarning40, #ffffff);
 }
 
 .tabs-striped.background-light .tabs {
-    background-color: var(--textColorLight40);
+    background-color: var(--textColorLight40, #444444);
 }
 
 .tabs-striped.background-stable .tabs {
-    background-color: var(--textColorStable40);
+    background-color: var(--textColorStable40, #444444);
 }
 
 .tabs-striped.background-calm .tabs {
-    background-color: var(--textColorCalm40);
+    background-color: var(--textColorCalm40, #ffffff);
 }
 
 .tabs-striped.background-positive .tabs {
-    background-color: var(--textColorPrimary40);
+    background-color: var(--textColorPrimary40, #ffffff);
 }
 
 .tabs-striped.background-royal .tabs {
-    background-color: var(--textColorRoyal40);
+    background-color: var(--textColorRoyal40, #ffffff);
 }
 
 .tabs-striped.background-dark .tabs {
-    background-color: var(--textColorDark40);
+    background-color: var(--textColorDark40, #ffffff);
 }

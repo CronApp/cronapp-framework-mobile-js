@@ -102,14 +102,14 @@
 /* Calm */
 
 .tabs-striped.tabs-icon-calm .tab-item {
-    color: var(--colorCalm40);
+    color: var(--colorCalm40, #11c1f3);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-calm .tab-item.active,
 .tabs-striped.tabs-icon-calm .tab-item.activated {
-    color: var(--colorCalm40);
-    border-color: var(--colorCalm40);
+    color: var(--colorCalm40, #11c1f3);
+    border-color: var(--colorCalm40, #11c1f3);
     opacity: 1;
 }
 
@@ -142,32 +142,17 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* white */
 
 .tabs-striped.tabs-icon-white .tab-item {
-    color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-white .tab-item.active,
 .tabs-striped.tabs-icon-white .tab-item.activated {
-    color: var(--colorNeutral00);
-    border-color: var(--colorNeutral00);
+    color: var(--colorNeutral00, #FFFFFF);
+    border-color: var(--colorNeutral00, #FFFFFF);
     opacity: 1;
 }
 
@@ -188,14 +173,14 @@
 /* black */
 
 .tabs-striped.tabs-icon-black .tab-item {
-    color: var(--colorNeutral220);
+    color: var(--colorNeutral220, #000000);
     opacity: 0.5;
 }
 
 .tabs-striped.tabs-icon-black .tab-item.active,
 .tabs-striped.tabs-icon-black .tab-item.activated {
-    color: var(--colorNeutral220);
-    border-color: var(--colorNeutral220);
+    color: var(--colorNeutral220, #000000);
+    border-color: var(--colorNeutral220, #000000);
     opacity: 1;
 }
 

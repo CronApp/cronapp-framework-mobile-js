@@ -24,18 +24,18 @@
 /* Light */
 .checkbox-light input:before,
 .checkbox-light .checkbox-icon:before {
-    border-color: var(--colorLight50);
+    border-color: var(--colorLight50, #dfdfdf);
 }
 
 .checkbox-light input:checked:before,
 .checkbox-light input:checked+.checkbox-icon:before {
-    background: var(--colorLight50);
-    border-color: var(--colorLight50);
+    background: var(--colorLight50, #dfdfdf);
+    border-color: var(--colorLight50, #dfdfdf);
 }
 
 .checkbox-light input:checked:after,
 .checkbox-light input:checked+.checkbox-icon:after {
-    border-color: var(--textColorDark10);
+    border-color: var(--textColorDark10, #8c8c8c);
 }
 
 /* Stable */
@@ -65,13 +65,13 @@
 /* Calm */
 .checkbox-calm input:before,
 .checkbox-calm .checkbox-icon:before {
-    border-color: var(--colorCalm40);
+    border-color: var(--colorCalm40, #11c1f3);
 }
 
 .checkbox-calm input:checked:before,
 .checkbox-calm input:checked+.checkbox-icon:before {
-    background: var(--colorCalm40);
-    border-color: var(--colorCalm40);
+    background: var(--colorCalm40, #11c1f3);
+    border-color: var(--colorCalm40, #11c1f3);
 }
 
 /* Assertive */
