@@ -9,16 +9,16 @@
 @import 'toggle.css';
 
 body {
-    font-family: var(--fontFamily);
-    color: var(--textColor40);
-    font-size: var(--textNormalSize);
+    font-family: var(--fontFamily, "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif);
+    color: var(--textColor40, #111111);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .item-complex .item-content,
 .item-radio .item-content,
 .pane,
 .view {
-    background-color: var(--backgroundColor40);
+    background-color: var(--backgroundColor40, #ffffff);
 }
 
 a,
@@ -36,7 +36,7 @@ h6,
 .h5,
 .h6 {
     color: var(--textColor40, #3b448e);
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .item.active,
@@ -45,20 +45,20 @@ h6,
 .item-complex.activated .item-content,
 .item .item-content.active,
 .item .item-content.activated {
-    border-color: var(--textColor30);
+    border-color: var(--textColor30, #7c7c7c);
     background-color: var(--colorDefault40, #3b448e);
 }
 
 .has-header .scroll {
-    background-color: var(--backgroundColor40);
+    background-color: var(--backgroundColor40, #ffffff);
 }
 
 p {
-    font-size: var(--textNormalSize);
+    font-size: var(--textNormalSize, 14px);
 }
 
 h1 {
-    font-size: var(--textExtraBigSize);
+    font-size: var(--textExtraBigSize, 23px);
 }
 
 
@@ -87,7 +87,7 @@ a.light {
 }
 
 .light-border {
-    border-color: var(--colorLight50);
+    border-color: var(--colorLight50, #dfdfdf);
 }
 
 .stable,
@@ -100,7 +100,7 @@ a.stable {
 }
 
 .stable-border {
-    border-color: var(--colorStable50);
+    border-color: var(--colorStable50, #d9d9d9);
 }
 
 .positive,
@@ -118,11 +118,11 @@ a.positive {
 
 .calm,
 a.calm {
-    color: var(--colorCalm40);
+    color: var(--colorCalm40, #11c1f3);
 }
 
 .calm-bg {
-    background-color: var(--colorCalm40);
+    background-color: var(--colorCalm40, #11c1f3);
 }
 
 .calm-border {

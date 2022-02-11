@@ -11,14 +11,14 @@
 
 /* Light */
 .toggle.toggle-light input:checked+.track {
-    border-color: var(--colorLight50);
-    background-color: var(--colorLight50);
+    border-color: var(--colorLight50, #dfdfdf);
+    background-color: var(--colorLight50, #dfdfdf);
 }
 
 /* Stable */
 .toggle.toggle-stable input:checked+.track {
-    border-color: var(--colorStable50);
-    background-color: var(--colorStable50);
+    border-color: var(--colorStable50, #d9d9d9);
+    background-color: var(--colorStable50, #d9d9d9);
 }
 
 /* Positive */
@@ -29,8 +29,8 @@
 
 /* Calm */
 .toggle.toggle-calm input:checked+.track {
-    border-color: var(--colorCalm40);
-    background-color: var(--colorCalm40);
+    border-color: var(--colorCalm40, #11c1f3);
+    background-color: var(--colorCalm40, #11c1f3);
 }
 
 /* Assertive */

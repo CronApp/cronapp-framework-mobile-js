@@ -86,27 +86,27 @@
       "target": "style",
       "values": [
         {
-          "key": "font-size: var(--textSmallSize);",
+          "key": "font-size: var(--textSmallSize, 12px);",
           "value_pt_BR": "Pequena",
           "value_en_US": "Small"
         },
         {
-          "key": "font-size: var(--textNormalSize);",
+          "key": "font-size: var(--textNormalSize, 14px);",
           "value_pt_BR": "Padrão",
           "value_en_US": "Default"
         },
         {
-          "key": "font-size: var(--textMediumSize);",
+          "key": "font-size: var(--textMediumSize, 16px);",
           "value_pt_BR": "Média",
           "value_en_US": "Medium"
         },
         {
-          "key": "font-size: var(--textBigSize);",
+          "key": "font-size: var(--textBigSize, 18px);",
           "value_pt_BR": "Grande",
           "value_en_US": "Big"
         },
         {
-          "key": "font-size: var(--textExtraBigSize);",
+          "key": "font-size: var(--textExtraBigSize, 23px);",
           "value_pt_BR": "Extra grande",
           "value_en_US": "Extra big"
         }

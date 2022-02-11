@@ -94,7 +94,7 @@ button,
 .button.button-positive:active span,
 .button.button-positive.activated i,
 .button.button-positive.activated span {
-    color: var(--textColorPrimary60);
+    color: var(--textColorPrimary60, #ffffff);
 }
 
 /* Positive - Outline */

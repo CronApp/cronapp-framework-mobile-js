@@ -1,38 +1,38 @@
 .item,
 .item-select select {
-    border-color: var(--textColor30);
-    background-color: var(--backgroundColor40);
-    color: var(--textColor);
+    border-color: var(--textColor30, #7c7c7c);
+    background-color: var(--backgroundColor40, #ffffff);
+    color: var(--textColor, #111111);
 }
 
 .item-input {
-    background-color: var(--backgroundColor40);
-    color: var(--textColor);
+    background-color: var(--backgroundColor40, #ffffff);
+    color: var(--textColor, #111111);
 }
 
 .item-input input,
 .item-input textarea {
-    color: var(--textColor);
-    font-size: var(--textNormalSize);
+    color: var(--textColor, #111111);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .item-input input::placeholder,
 .item-input textarea::placeholder {
-    color: var(--colorNeutral50);
-    font-size: var(--textNormalSize);
+    color: var(--colorNeutral50, #B9B9B9);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .input-label {
-    color: var(--textColor);
-    font-size: var(--textNormalSize);
+    color: var(--textColor, #111111);
+    font-size: var(--textNormalSize, 14px);
 }
 
 .item-input .icon.placeholder-icon {
-    color: var(--colorNeutral60);
+    color: var(--colorNeutral60, #ACACAC);
 }
 
 .item-input-wrapper {
-    background: var(--backgroundColor40);
+    background: var(--backgroundColor40, #ffffff);
 }
 
 textarea,
@@ -50,5 +50,5 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-    color: var(--textColor);
+    color: var(--textColor, #111111);
 }
