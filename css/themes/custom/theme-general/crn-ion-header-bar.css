@@ -1,5 +1,5 @@
 .button .icon {
-    font-size: var(--textBigSize);
+    font-size: var(--textBigSize, 18px);
 }
 
 /* Default */
@@ -7,12 +7,12 @@
     border-color: var(--colorDefault40, #3b448e);
     background-color: var(--colorDefault40, #3b448e);
     background-image: none;
-    color: var(--textColorDefault40);
+    color: var(--textColorDefault40, #ffffff);
 }
 
 .bar.bar-default .button .icon,
 .bar.bar-default .title {
-    color: var(--textColorDefault40);
+    color: var(--textColorDefault40, #ffffff);
 }
 
 .bar.bar-default.bar-footer {
@@ -24,12 +24,12 @@
     border-color: var(--colorLight40, #ffffff);
     background-color: var(--colorLight40, #ffffff);
     background-image: none;
-    color: var(--textColorLight40);
+    color: var(--textColorLight40, #444444);
 }
 
 .bar.bar-light .button .icon,
 .bar.bar-light .title {
-    color: var(--textColorLight40);
+    color: var(--textColorLight40, #444444);
 }
 
 .bar.bar-light.bar-footer {
@@ -41,12 +41,12 @@
     border-color: var(--colorStable40, #f8f8f8);
     background-color: var(--colorStable40, #f8f8f8);
     background-image: none;
-    color: var(--textColorStable40);
+    color: var(--textColorStable40, #444444);
 }
 
 .bar.bar-stable .button .icon,
 .bar.bar-stable .title {
-    color: var(--textColorStable40);
+    color: var(--textColorStable40, #444444);
 }
 
 .bar.bar-stable.bar-footer {
@@ -58,12 +58,12 @@
     border-color: var(--colorPrimary40, #387ef5);
     background-color: var(--colorPrimary40, #387ef5);
     background-image: none;
-    color: var(--textColorPrimary40);
+    color: var(--textColorPrimary40, #ffffff);
 }
 
 .bar.bar-positive .button .icon,
 .bar.bar-positive .title {
-    color: var(--textColorPrimary40);
+    color: var(--textColorPrimary40, #ffffff);
 }
 
 .bar.bar-positive.bar-footer {
@@ -72,15 +72,15 @@
 
 /* Calm */
 .bar.bar-calm {
-    border-color: var(--colorCalm40);
-    background-color: var(--colorCalm40);
+    border-color: var(--colorCalm40, #11c1f3);
+    background-color: var(--colorCalm40, #11c1f3);
     background-image: none;
-    color: var(--textColorCalm40);
+    color: var(--textColorCalm40, #ffffff);
 }
 
 .bar.bar-calm .button .icon,
 .bar.bar-calm .title {
-    color: var(--textColorCalm40);
+    color: var(--textColorCalm40, #ffffff);
 }
 
 .bar.bar-calm.bar-footer {
@@ -92,12 +92,12 @@
     border-color: var(--colorDanger40, #ef473a);
     background-color: var(--colorDanger40, #ef473a);
     background-image: none;
-    color: var(--textColorDanger40);
+    color: var(--textColorDanger40, #ffffff);
 }
 
 .bar.bar-assertive .button .icon,
 .bar.bar-assertive .title {
-    color: var(--textColorDanger40);
+    color: var(--textColorDanger40, #ffffff);
 }
 
 .bar.bar-assertive.bar-footer {
@@ -109,12 +109,12 @@
     border-color: var(--colorSuccess40, #33cd5f);
     background-color: var(--colorSuccess40, #33cd5f);
     background-image: none;
-    color: var(--textColorSuccess40);
+    color: var(--textColorSuccess40, #ffffff);
 }
 
 .bar.bar-balanced .button .icon,
 .bar.bar-balanced .title {
-    color: var(--textColorSuccess40);
+    color: var(--textColorSuccess40, #ffffff);
 }
 
 .bar.bar-balanced.bar-footer {
@@ -126,12 +126,12 @@
     border-color: var(--colorWarning40, #ffc900);
     background-color: var(--colorWarning40, #ffc900);
     background-image: none;
-    color: var(--textColorWarning40);
+    color: var(--textColorWarning40, #ffffff);
 }
 
 .bar.bar-energized .button .icon,
 .bar.bar-energized .title {
-    color: var(--textColorWarning40);
+    color: var(--textColorWarning40, #ffffff);
 }
 
 .bar.bar-energized.bar-footer {
@@ -143,12 +143,12 @@
     border-color: var(--colorRoyal40, #886aea);
     background-color: var(--colorRoyal40, #886aea);
     background-image: none;
-    color: var(--textColorRoyal40);
+    color: var(--textColorRoyal40, #ffffff);
 }
 
 .bar.bar-royal .button .icon,
 .bar.bar-royal .title {
-    color: var(--textColorRoyal40);
+    color: var(--textColorRoyal40, #ffffff);
 }
 
 .bar.bar-royal.bar-footer {
@@ -160,12 +160,12 @@
     border-color: var(--colorDark40, #444444);
     background-color: var(--colorDark40, #444444);
     background-image: none;
-    color: var(--textColorDark40);
+    color: var(--textColorDark40, #ffffff);
 }
 
 .bar.bar-dark .button .icon,
 .bar.bar-dark .title {
-    color: var(--textColorDark40);
+    color: var(--textColorDark40, #ffffff);
 }
 
 .bar.bar-dark.bar-footer {
@@ -174,5 +174,5 @@
 
 .bar .title,
 .platform-android .bar .title {
-    font-size: var(--textBigSize);
+    font-size: var(--textBigSize, 18px);
 }

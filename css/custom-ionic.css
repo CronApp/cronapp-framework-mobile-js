@@ -123,8 +123,8 @@
     width: 28px;
     height: 28px;
     border: solid 4px transparent;
-    border-top-color: var(--colorNeutral50);
-    border-left-color: var(--colorNeutral50);
+    border-top-color: var(--colorNeutral50, #B9B9B9);
+    border-left-color: var(--colorNeutral50, #B9B9B9);
     border-radius: 20px;
     -webkit-animation: pace-spinner 400ms linear infinite;
     -moz-animation: pace-spinner 400ms linear infinite;

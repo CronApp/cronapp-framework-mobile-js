@@ -109,7 +109,7 @@
 }
 
 .color-calm {
-    color: var(--colorCalm40);
+    color: var(--colorCalm40, #11c1f3);
 }
 
 .color-light {

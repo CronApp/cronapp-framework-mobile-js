@@ -14,7 +14,7 @@
     border-color: var(--colorPrimary40, #387ef5);
     background-color: var(--colorPrimary40, #387ef5);
     background-image: linear-gradient(0deg, var(--colorPrimary40, #387ef5), var(--colorPrimary40, #387ef5) 50%, transparent 50%);
-    color: var(--textColorPrimary40);
+    color: var(--textColorPrimary40, #ffffff);
 }
 
 .menu-view .item h2,
@@ -196,7 +196,7 @@ div.nav>a.item-avatar-left>div.item-content {
 .login-mobile .button.button-positive {
     border-color: var(--colorPrimary40, #387ef5);
     background-color: transparent;
-    color: var(--textColorPrimary40);
+    color: var(--textColorPrimary40, #ffffff);
     border-radius: 2px;
     transition: 400ms;
     margin-top: 20px !important;
