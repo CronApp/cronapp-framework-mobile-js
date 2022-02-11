@@ -26,10 +26,18 @@
   },
   "childrenProperties": [
     {
+      "name": "content",
+      "selector": "label",
+      "displayName_pt_BR": "Título",
+      "displayName_en_US": "Title",
+      "type": "text",
+      "order": 1
+    },
+    {
       "name": "file-info",
       "selector": "div[dynamic-file]",
       "type": "text",
-      "order": 2
+      "order": 3
     },
     {
       "name": "max-file-size",
@@ -37,7 +45,7 @@
       "displayName_en_US": "Maximum file size",
       "selector": "div[dynamic-file]",
       "type": "text",
-      "order": 1
+      "order": 2
     },
     {
       "name": "ng-required",
