@@ -172,7 +172,16 @@
       "resourceType": "image/jpeg,image/gif,image/png,image/svg+xml",
       "displayName_pt_BR": "Imagem",
       "displayName_en_US": "Image",
-      "selector": "img"
+      "selector": "img",
+      "order": 1
+    },
+    {
+      "name": "content",
+      "selector": "h2",
+      "displayName_pt_BR": "Subtítulo",
+      "displayName_en_US": "Subtitle",
+      "type": "text",
+      "order": 2
     },
     {
       "name": "object-fit",
