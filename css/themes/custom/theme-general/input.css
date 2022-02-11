@@ -1,0 +1,54 @@
+.item,
+.item-select select {
+    border-color: var(--textColor30);
+    background-color: var(--backgroundColor40);
+    color: var(--textColor);
+}
+
+.item-input {
+    background-color: var(--backgroundColor40);
+    color: var(--textColor);
+}
+
+.item-input input,
+.item-input textarea {
+    color: var(--textColor);
+    font-size: var(--textNormalSize);
+}
+
+.item-input input::placeholder,
+.item-input textarea::placeholder {
+    color: var(--colorNeutral50);
+    font-size: var(--textNormalSize);
+}
+
+.input-label {
+    color: var(--textColor);
+    font-size: var(--textNormalSize);
+}
+
+.item-input .icon.placeholder-icon {
+    color: var(--colorNeutral60);
+}
+
+.item-input-wrapper {
+    background: var(--backgroundColor40);
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+    color: var(--textColor);
+}

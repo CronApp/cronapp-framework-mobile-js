@@ -1,0 +1,132 @@
+button,
+.button {
+    border: 1px solid;
+}
+
+.button:active,
+.button.active,
+.button.activated {
+    box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+
+/* Theme default */
+.button.button-default,
+.button.button-default:active,
+.button.button-default.active,
+.button.button-default.activated {
+    border-color: var(--colorDefault60, #bbbbbb);
+}
+
+.button.button-default:active,
+.button.button-default.active,
+.button.button-default.activated {
+    background-color: var(--colorDefault50, #dfdfdf);
+}
+
+/* Positive */
+.button.button-positive,
+.button.button-positive:active,
+.button.button-positive.activated {
+    border-color: var(--colorPrimary60, #335fad);
+}
+
+.button.button-positive:active,
+.button.button-positive.activated {
+    background-color: var(--colorPrimary50, #3c72cf);
+}
+
+/* Calm */
+.button.button-calm,
+.button.button-calm:active,
+.button.button-calm.activated {
+    border-color: var(--colorCalm60, #11c1f3);
+}
+
+.button.button-calm:active,
+.button.button-calm.activated {
+    background-color: var(--colorCalm50, #0fa9d5);
+}
+
+/* Assertive */
+.button.button-assertive,
+.button.button-assertive:active,
+.button.button-assertive.activated {
+    border-color: var(--colorDanger60, #9f3d3a);
+}
+
+.button.button-assertive:active,
+.button.button-assertive.activated {
+    background-color: var(--colorDanger50, #be4945);
+}
+
+/* Energized */
+.button.button-energized,
+.button.button-energized:active,
+.button.button-energized.activated {
+    border-color: var(--colorWarning60, #b07f39);
+}
+
+.button.button-energized:active,
+.button.button-energized.activated {
+    background-color: var(--colorWarning50, #d29744);
+}
+
+/* Balanced */
+.button.button-balanced,
+.button.button-balanced:active,
+.button.button-balanced.activated {
+    border-color: var(--colorSuccess60, #2e7f33);
+}
+
+.button.button-balanced:active,
+.button.button-balanced.activated {
+    background-color: var(--colorSuccess50, #37973d);
+}
+
+/* Royal */
+.button.button-royal,
+.button.button-royal:active,
+.button.button-royal.activated {
+    border-color: var(--colorRoyal60, #644eab);
+}
+
+.button.button-royal:active,
+.button.button-royal.activated {
+    background-color: var(--colorRoyal50, #775dcd);
+}
+
+/* Light */
+.button.button-light,
+.button.button-light:active,
+.button.button-light.activated {
+    border-color: var(--colorLight60, #bbbbbb);
+}
+
+.button.button-light:active,
+.button.button-light.activated {
+    background-color: var(--colorLight50, #dfdfdf);
+}
+
+/* Stable */
+.button.button-stable,
+.button.button-stable:active,
+.button.button-stable.activated {
+    border-color: var(--colorStable60, #b6b6b6);
+}
+
+.button.button-stable:active,
+.button.button-stable.activated {
+    background-color: var(--colorStable50, #d9d9d9);
+}
+
+/* Dark */
+.button.button-dark,
+.button.button-dark:active,
+.button.button-dark.activated {
+    border-color: var(--colorDark60, #323232);
+}
+
+.button.button-dark:active,
+.button.button-dark.activated {
+    background-color: var(--colorDark50, #3c3c3c);
+}

@@ -46,7 +46,7 @@
   overflow: hidden;
   padding: 5px;
   border-radius: 20px;
-  background-color: #33cd5f;
+  background-color: var(--colorSuccess40, #33cd5f);
 }
 
 .col.item.item-input.component-holder {

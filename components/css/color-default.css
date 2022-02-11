@@ -81,3 +81,45 @@
 .color-dark-green {
     color: var(--dark-green);
 }
+
+/* cores primárias */
+
+.color-default {
+    color: var(--colorDefault40, #3b448e);
+}
+
+.color-positive {
+    color: var(--colorPrimary40, #387ef5);
+}
+
+.color-balanced {
+    color: var(--colorSuccess40, #33cd5f);
+}
+
+.color-energized {
+    color: var(--colorWarning40, #ffc900);
+}
+
+.color-assertive {
+    color: var(--colorDanger40, #ef473a);
+}
+
+.color-royal {
+    color: var(--colorRoyal40, #886aea);
+}
+
+.color-calm {
+    color: var(--colorCalm40);
+}
+
+.color-light {
+    color: var(--colorLight40, #ffffff);
+}
+
+.color-stable {
+    color: var(--colorStable40, #f8f8f8);
+}
+
+.color-dark {
+    color: var(--colorDark40, #444444);
+}
