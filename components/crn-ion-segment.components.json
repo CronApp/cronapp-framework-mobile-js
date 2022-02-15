@@ -8,6 +8,7 @@
   "category": [
     "LAYOUTS"
   ],
+  "wrapper": false,
   "templateURL": "src/main/mobileapp/www/node_modules/cronapp-framework-mobile-js/components/templates/crn-ion-segment.template.html",
   "properties": {
     "class": {
@@ -899,9 +900,9 @@
     },
     {
       "name": "icon-theme-light",
-      "displayName_pt_BR": "Cor do texto e ícone",
-      "displayName_en_US": "Text color and icon",
-      "selector": "div.crn-ion-segment-light",
+      "displayName_pt_BR": "Cor do texto e ícone (light)",
+      "displayName_en_US": "Text color and icon (light)",
+      "selector": "div.crn-ion-segment-light ul",
       "order": 3
     },
     {

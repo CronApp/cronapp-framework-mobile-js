@@ -135,13 +135,17 @@
 
 /* icon-theme */
 
-div.crn-ion-segment-light.icon-theme-light-default li a,
+div.crn-ion-segment-light .icon-theme-light-default li a {
+    color: var(--colorDefault40, #3b448e);
+    opacity: 0.64;
+}
+
 .ion-segment-default li a {
     color: var(--textColorDefault40, #3b448e);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-default li.active a,
+div.crn-ion-segment-light .icon-theme-light-default li.active a,
 .ion-segment-default li.active a {
     opacity: 1;
 }
@@ -151,332 +155,368 @@ div.crn-ion-segment-light.icon-theme-light-default li.active a,
     color: var(--textColorDefault40, #ffffff);
 }
 
-div.crn-ion-segment-light.icon-theme-light-assertive li a,
+div.crn-ion-segment-light .icon-theme-light-assertive li a {
+    color: var(--textColorDanger40, #ef473a);
+    opacity: 0.64;
+}
+
 .ion-segment-assertive li a {
     color: var(--textColorDanger40, #ef473a);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-assertive li.active a,
+div.crn-ion-segment-light .icon-theme-light-assertive li.active a,
 .ion-segment-assertive li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-balanced li a,
+div.crn-ion-segment-light .icon-theme-light-balanced li a {
+    color: var(--colorSuccess40, #33cd5f);
+    opacity: 0.64;
+}
+
 .ion-segment-balanced li a {
     color: var(--textColorSuccess40, #33cd5f);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-balanced li.active a,
+div.crn-ion-segment-light .icon-theme-light-balanced li.active a,
 .ion-segment-balanced li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-energized li a,
+div.crn-ion-segment-light .icon-theme-light-energized li a {
+    color: var(--colorWarning40, #ffc900);
+    opacity: 0.64;
+}
+
 .ion-segment-energized li a {
     color: var(--textColorWarning40, #ffc900);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-energized li.active a,
+div.crn-ion-segment-light .icon-theme-light-energized li.active a,
 .ion-segment-energized li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light li a,
+div.crn-ion-segment-light .icon-theme-light-light li a {
+    color: var(--colorLight40, #ffffff);
+    opacity: 0.64;
+}
+
 .ion-segment-light li a {
     color: var(--textColorLight40, #ffffff);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light li.active a,
+div.crn-ion-segment-light .icon-theme-light-light li.active a,
 .ion-segment-light li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-stable li a,
+div.crn-ion-segment-light .icon-theme-light-stable li a {
+    color: var(--colorStable40, #f8f8f8);
+    opacity: 0.64;
+}
+
 .ion-segment-stable li a {
     color: var(--textColorStable40, #f8f8f8);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-stable li.active a,
+div.crn-ion-segment-light .icon-theme-light-stable li.active a,
 .ion-segment-stable li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-calm li a,
+div.crn-ion-segment-light .icon-theme-light-calm li a {
+    color: var(--colorCalm40, #11c1f3);
+    opacity: 0.64;
+}
+
 .ion-segment-calm li a {
     color: var(--textColorCalm40, #11c1f3);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-calm li.active a,
+div.crn-ion-segment-light .icon-theme-light-calm li.active a,
 .ion-segment-calm li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-positive li a,
+div.crn-ion-segment-light .icon-theme-light-positive li a {
+    color: var(--colorPrimary40, #387ef5);
+    opacity: 0.64;
+}
+
 .ion-segment-positive li a {
     color: var(--textColorPrimary40, #387ef5);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-positive li.active a,
+div.crn-ion-segment-light .icon-theme-light-positive li.active a,
 .ion-segment-positive li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-royal li a,
+div.crn-ion-segment-light .icon-theme-light-royal li a {
+    color: var(--colorRoyal40, #886aea);
+    opacity: 0.64;
+}
+
 .ion-segment-royal li a {
     color: var(--textColorRoyal40, #886aea);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-royal li.active a,
+div.crn-ion-segment-light .icon-theme-light-royal li.active a,
 .ion-segment-royal li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark li a,
+div.crn-ion-segment-light .icon-theme-light-dark li a {
+    color: var(--colorDark40, #444444);
+    opacity: 0.64;
+}
+
 .ion-segment-dark li a {
     color: var(--textColorDark40, #444444);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark li.active a,
 .ion-segment-dark li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-white li a,
+div.crn-ion-segment-light .icon-theme-light-white li a,
 .ion-segment-white li a {
     color: var(--white);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-white li.active a,
+div.crn-ion-segment-light .icon-theme-light-white li.active a,
 .ion-segment-white li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-gray li a,
+div.crn-ion-segment-light .icon-theme-light-gray li a,
 .ion-segment-gray li a {
     color: var(--gray);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-gray li.active a,
+div.crn-ion-segment-light .icon-theme-light-gray li.active a,
 .ion-segment-gray li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-black li a,
+div.crn-ion-segment-light .icon-theme-light-black li a,
 .ion-segment-black li a {
     color: var(--black);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-black li.active a,
+div.crn-ion-segment-light .icon-theme-light-black li.active a,
 .ion-segment-black li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-blue li a,
+div.crn-ion-segment-light .icon-theme-light-blue li a,
 .ion-segment-blue li a {
     color: var(--blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-blue li.active a,
+div.crn-ion-segment-light .icon-theme-light-blue li.active a,
 .ion-segment-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-blue li a,
+div.crn-ion-segment-light .icon-theme-light-light-blue li a,
 .ion-segment-light-blue li a {
     color: var(--light-blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-blue li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-blue li.active a,
 .ion-segment-light-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-blue li a,
+div.crn-ion-segment-light .icon-theme-light-dark-blue li a,
 .ion-segment-dark-blue li a {
     color: var(--dark-blue);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-blue li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-blue li.active a,
 .ion-segment-dark-blue li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-purple li a,
+div.crn-ion-segment-light .icon-theme-light-purple li a,
 .ion-segment-purple li a {
     color: var(--purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-purple li.active a,
+div.crn-ion-segment-light .icon-theme-light-purple li.active a,
 .ion-segment-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-purple li a,
+div.crn-ion-segment-light .icon-theme-light-light-purple li a,
 .ion-segment-light-purple li a {
     color: var(--light-purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-purple li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-purple li.active a,
 .ion-segment-light-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-purple li a,
+div.crn-ion-segment-light .icon-theme-light-dark-purple li a,
 .ion-segment-dark-purple li a {
     color: var(--dark-purple);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-purple li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-purple li.active a,
 .ion-segment-dark-purple li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-red li a,
+div.crn-ion-segment-light .icon-theme-light-red li a,
 .ion-segment-red li a {
     color: var(--red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-red li.active a,
+div.crn-ion-segment-light .icon-theme-light-red li.active a,
 .ion-segment-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li a,
+div.crn-ion-segment-light .icon-theme-light-light-red li a,
 .ion-segment-light-red li a {
     color: var(--light-red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-red li.active a,
 .ion-segment-light-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li a,
+div.crn-ion-segment-light .icon-theme-light-dark-red li a,
 .ion-segment-dark-red li a {
     color: var(--dark-red);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-red li.active a,
 .ion-segment-dark-red li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-orange li a,
+div.crn-ion-segment-light .icon-theme-light-orange li a,
 .ion-segment-orange li a {
     color: var(--orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-orange li.active a,
+div.crn-ion-segment-light .icon-theme-light-orange li.active a,
 .ion-segment-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li a,
+div.crn-ion-segment-light .icon-theme-light-light-red li a,
 .ion-segment-light-orange li a {
     color: var(--light-orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-red li.active a,
 .ion-segment-light-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li a,
+div.crn-ion-segment-light .icon-theme-light-dark-red li a,
 .ion-segment-dark-orange li a {
     color: var(--dark-orange);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-red li.active a,
 .ion-segment-dark-orange li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-yellow li a,
+div.crn-ion-segment-light .icon-theme-light-yellow li a,
 .ion-segment-yellow li a {
     color: var(--yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-yellow li.active a,
+div.crn-ion-segment-light .icon-theme-light-yellow li.active a,
 .ion-segment-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-yellow li a,
+div.crn-ion-segment-light .icon-theme-light-light-yellow li a,
 .ion-segment-light-yellow li a {
     color: var(--light-yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-yellow li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-yellow li.active a,
 .ion-segment-light-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-yellow li a,
+div.crn-ion-segment-light .icon-theme-light-dark-yellow li a,
 .ion-segment-dark-yellow li a {
     color: var(--dark-yellow);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-yellow li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-yellow li.active a,
 .ion-segment-dark-yellow li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-green li a,
+div.crn-ion-segment-light .icon-theme-light-green li a,
 .ion-segment-green li a {
     color: var(--green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-green li.active a,
+div.crn-ion-segment-light .icon-theme-light-green li.active a,
 .ion-segment-green li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-green li a,
+div.crn-ion-segment-light .icon-theme-light-light-green li a,
 .ion-segment-light-green li a {
     color: var(--light-green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-green li.active a,
+div.crn-ion-segment-light .icon-theme-light-light-green li.active a,
 .ion-segment-light-green li.active a {
     opacity: 1;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-green li a,
+div.crn-ion-segment-light .icon-theme-light-dark-green li a,
 .ion-segment-dark-green li a {
     color: var(--dark-green);
     opacity: 0.64;
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-green li.active a,
+div.crn-ion-segment-light .icon-theme-light-dark-green li.active a,
 .ion-segment-dark-green li.active a {
     opacity: 1;
 }
@@ -806,122 +846,122 @@ div.crn-ion-segment-light ul li.active {
     background-color: transparent;
 }
 
-div.crn-ion-segment-light.icon-theme-light-white li.active {
+div.crn-ion-segment-light .icon-theme-light-white li.active {
     border-color: var(--white);
 }
 
-div.crn-ion-segment-light.icon-theme-light-gray li.active {
+div.crn-ion-segment-light .icon-theme-light-gray li.active {
     border-color: var(--gray);
 }
 
-div.crn-ion-segment-light.icon-theme-light-black li.active {
+div.crn-ion-segment-light .icon-theme-light-black li.active {
     border-color: var(--black);
 }
 
-div.crn-ion-segment-light.icon-theme-light-blue li.active {
+div.crn-ion-segment-light .icon-theme-light-blue li.active {
     border-color: var(--blue);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-blue li.active {
+div.crn-ion-segment-light .icon-theme-light-light-blue li.active {
     border-color: var(--light-blue);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-blue li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-blue li.active {
     border-color: var(--dark-blue);
 }
 
-div.crn-ion-segment-light.icon-theme-light-purple li.active {
+div.crn-ion-segment-light .icon-theme-light-purple li.active {
     border-color: var(--purple);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-purple li.active {
+div.crn-ion-segment-light .icon-theme-light-light-purple li.active {
     border-color: var(--light-purple);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-purple li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-purple li.active {
     border-color: var(--dark-purple);
 }
 
-div.crn-ion-segment-light.icon-theme-light-red li.active {
+div.crn-ion-segment-light .icon-theme-light-red li.active {
     border-color: var(--red);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-red li.active {
+div.crn-ion-segment-light .icon-theme-light-light-red li.active {
     border-color: var(--light-red);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-red li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-red li.active {
     border-color: var(--dark-red);
 }
 
-div.crn-ion-segment-light.icon-theme-light-orange li.active {
+div.crn-ion-segment-light .icon-theme-light-orange li.active {
     border-color: var(--orange);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-orange li.active {
+div.crn-ion-segment-light .icon-theme-light-light-orange li.active {
     border-color: var(--light-orange);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-orange li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-orange li.active {
     border-color: var(--dark-orange);
 }
 
-div.crn-ion-segment-light.icon-theme-light-yellow li.active {
+div.crn-ion-segment-light .icon-theme-light-yellow li.active {
     border-color: var(--yellow);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-yellow li.active {
+div.crn-ion-segment-light .icon-theme-light-light-yellow li.active {
     border-color: var(--light-yellow);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-yellow li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-yellow li.active {
     border-color: var(--dark-yellow);
 }
 
-div.crn-ion-segment-light.icon-theme-light-green li.active {
+div.crn-ion-segment-light .icon-theme-light-green li.active {
     border-color: var(--green);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light-green li.active {
+div.crn-ion-segment-light .icon-theme-light-light-green li.active {
     border-color: var(--light-green);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark-green li.active {
+div.crn-ion-segment-light .icon-theme-light-dark-green li.active {
     border-color: var(--dark-green);
 }
 
-div.crn-ion-segment-light.icon-theme-light-assertive li.active {
+div.crn-ion-segment-light .icon-theme-light-assertive li.active {
     border-color: var(--colorDanger40, #ef473a);
 }
 
-div.crn-ion-segment-light.icon-theme-light-balanced li.active {
+div.crn-ion-segment-light .icon-theme-light-balanced li.active {
     border-color: var(--colorSuccess40, #33cd5f);
 }
 
-div.crn-ion-segment-light.icon-theme-light-energized li.active {
+div.crn-ion-segment-light .icon-theme-light-energized li.active {
     border-color: var(--colorWarning40, #ffc900);
 }
 
-div.crn-ion-segment-light.icon-theme-light-light li.active {
+div.crn-ion-segment-light .icon-theme-light-light li.active {
     border-color: var(--colorLight40, #ffffff);
 }
 
-div.crn-ion-segment-light.icon-theme-light-stable li.active {
+div.crn-ion-segment-light .icon-theme-light-stable li.active {
     border-color: var(--colorStable40, #f8f8f8);
 }
 
-div.crn-ion-segment-light.icon-theme-light-calm li.active {
+div.crn-ion-segment-light .icon-theme-light-calm li.active {
     border-color: var(--colorCalm40, #11c1f3);
 }
 
-div.crn-ion-segment-light.icon-theme-light-positive li.active {
+div.crn-ion-segment-light .icon-theme-light-positive li.active {
     border-color: var(--colorPrimary40, #387ef5);
 }
 
-div.crn-ion-segment-light.icon-theme-light-royal li.active {
+div.crn-ion-segment-light .icon-theme-light-royal li.active {
     border-color: var(--colorRoyal40, #886aea);
 }
 
-div.crn-ion-segment-light.icon-theme-light-dark li.active {
+div.crn-ion-segment-light .icon-theme-light-dark li.active {
     border-color: var(--colorDark40, #444444);
 }
