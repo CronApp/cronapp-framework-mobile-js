@@ -17,7 +17,7 @@
     "class": {
       "order": 9999
     },
-    "xattr-theme": {
+    "xattr-theme-background": {
       "displayName_pt_BR": "Tema do fundo",
       "displayName_en_US": "Background theme",
       "order": 2
@@ -60,7 +60,7 @@
   },
   "attributesForPreview": [
     {
-      "name": "xattr-theme",
+      "name": "xattr-theme-background",
       "type": "options",
       "target": "class",
       "values": [
@@ -122,47 +122,47 @@
       "target": "class",
       "values": [
         {
-          "key": "left-button-theme-default",
+          "key": "button-default",
           "value_pt_BR": "Padrão do tema",
           "value_en_US": "Default theme"
         },
         {
-          "key": "left-button-theme-positive",
+          "key": "button-positive",
           "value_pt_BR": "Positivo",
           "value_en_US": "Positive"
         },
         {
-          "key": "left-button-theme-balanced",
+          "key": "button-balanced",
           "value_pt_BR": "Equilibrado",
           "value_en_US": "Balanced"
         },
         {
-          "key": "left-button-theme-energized",
+          "key": "button-energized",
           "value_pt_BR": "Energizado",
           "value_en_US": "Energized"
         },
         {
-          "key": "left-button-theme-assertive ",
+          "key": "button-assertive ",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive"
         },
         {
-          "key": "left-button-theme-royal",
+          "key": "button-royal",
           "value_pt_BR": "Real",
           "value_en_US": "Royal"
         },
         {
-          "key": "left-button-theme-light ",
+          "key": "button-light ",
           "value_pt_BR": "Claro",
           "value_en_US": "Light"
         },
         {
-          "key": "left-button-theme-stable",
+          "key": "button-stable",
           "value_pt_BR": "Estável",
           "value_en_US": "Stable"
         },
         {
-          "key": "left-button-theme-dark",
+          "key": "button-dark",
           "value_pt_BR": "Escuro",
           "value_en_US": "Dark"
         }
@@ -174,47 +174,47 @@
       "target": "class",
       "values": [
         {
-          "key": "right-button-theme-default",
+          "key": "button-default",
           "value_pt_BR": "Padrão do tema",
           "value_en_US": "Default theme"
         },
         {
-          "key": "right-button-theme-positive",
+          "key": "button-positive",
           "value_pt_BR": "Positivo",
           "value_en_US": "Positive"
         },
         {
-          "key": "right-button-theme-balanced",
+          "key": "button-balanced",
           "value_pt_BR": "Equilibrado",
           "value_en_US": "Balanced"
         },
         {
-          "key": "right-button-theme-energized",
+          "key": "button-energized",
           "value_pt_BR": "Energizado",
           "value_en_US": "Energized"
         },
         {
-          "key": "right-button-theme-assertive ",
+          "key": "button-assertive ",
           "value_pt_BR": "Assertivo",
           "value_en_US": "Assertive"
         },
         {
-          "key": "right-button-theme-royal",
+          "key": "button-royal",
           "value_pt_BR": "Real",
           "value_en_US": "Royal"
         },
         {
-          "key": "right-button-theme-light ",
+          "key": "button-light ",
           "value_pt_BR": "Claro",
           "value_en_US": "Light"
         },
         {
-          "key": "right-button-theme-stable",
+          "key": "button-stable",
           "value_pt_BR": "Estável",
           "value_en_US": "Stable"
         },
         {
-          "key": "right-button-theme-dark",
+          "key": "button-dark",
           "value_pt_BR": "Escuro",
           "value_en_US": "Dark"
         }
@@ -263,22 +263,22 @@
       "name": "content",
       "displayName_pt_BR": "Texto do botão direito",
       "displayName_en_US": "Right click text",
-      "selector": "div .button-right",
+      "selector": "div#right-buttons button span",
       "type": "text",
       "order": 2
     },
     {
       "name": "right-button-theme",
-      "displayName_pt_BR": "Tema do botão esquerdo",
+      "displayName_pt_BR": "Tema do botão direito",
       "displayName_en_US": "Right button theme",
-      "selector": "div .button-right",
+      "selector": "div#right-buttons button",
       "order": 3
     },
     {
       "name": "content",
       "displayName_pt_BR": "Texto do botão esquerdo",
       "displayName_en_US": "Left button text",
-      "selector": "div .button-left",
+      "selector": "div#left-buttons button span",
       "type": "text",
       "order": 4
     },
@@ -286,21 +286,21 @@
       "name": "left-button-theme",
       "displayName_pt_BR": "Tema do botão esquerdo",
       "displayName_en_US": "Left button theme",
-      "selector": "div .button-left",
+      "selector": "div#left-buttons button",
       "order": 5
     },
     {
       "name": "ng-click",
-      "selector": "div .button-left",
+      "selector": "div#left-buttons button",
       "type": "event",
       "displayName_pt_BR": "Ao clicar no botão esquerdo",
       "displayName_en_US": "On left button click"
     },
     {
       "name": "ng-click",
-      "selector": "div .button-right",
+      "selector": "div#right-buttons button",
       "type": "event",
-      "displayName_pt_BR": "Ao clicar no botãodireito",
+      "displayName_pt_BR": "Ao clicar no botão direito",
       "displayName_en_US": "On right button lick"
     }
   ],
@@ -316,12 +316,12 @@
       "text_en_US": "Title"
     },
     {
-      "selector": "#{id} .button-left",
+      "selector": "#{id} .button-left button",
       "text_pt_BR": "Botão esquerdo",
       "text_en_US": "Left button"
     },
     {
-      "selector": "#{id} .button-right",
+      "selector": "#{id} .button-right button",
       "text_pt_BR": "Botão direito",
       "text_en_US": "Right button"
     }
