@@ -627,7 +627,7 @@ window.addEventListener('message', function(event) {
                   let falseValue = attrs.ngFalseValue ? attrs.ngFalseValue.split("'").join("") : false;
                   let trueValue = attrs.ngTrueValue ? attrs.ngTrueValue.split("'").join("") : true;
 
-                  if (attrs.crnAllowNullValues == 'false') {
+                  if (attrs.crnAllowNullValues == 'true') {
                     ctrl.$render = function () {
                       let viewValue = ctrl.$viewValue;
                       if (ctrl.$viewValue === undefined || ctrl.$viewValue === null) {
