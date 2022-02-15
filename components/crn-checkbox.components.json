@@ -49,52 +49,49 @@
       "target": "class",
       "values": [
         {
+          "key": "checkbox-default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
+        },
+        {
           "key": "checkbox-assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "checkbox-balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "checkbox-energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "checkbox-light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "checkbox-stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "checkbox-calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "checkbox-positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "checkbox-royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "checkbox-dark",

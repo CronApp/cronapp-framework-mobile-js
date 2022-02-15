@@ -3,7 +3,7 @@
   "text": "Option Button",
   "pallete": false,
   "class": "adjust-icon mdi mdi-stop",
-  "template": "<ion-option-button class=\"button-positive button\"><i class=\"icon ion-home\">home</i></ion-option-button>",
+  "template": "<ion-option-button class=\"button-default button\"><i class=\"icon ion-home\">home</i></ion-option-button>",
   "groupedChildren": [
     {
       "text_pt_BR": "Ícone",
@@ -18,8 +18,9 @@
       "target": "class",
       "values": [
         {
-          "key": "",
-          "value": "Default"
+          "key": "default",
+          "value_pt_BR": "Padrão do tema",
+          "value_en_US": "Default theme"
         },
         {
           "key": "button-assertive",

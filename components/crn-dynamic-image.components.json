@@ -147,7 +147,7 @@
       "text_en_US": "Title"
     },
     {
-      "selector": "div#{id} .button-positive",
+      "selector": "div#{id} .buttomImage",
       "text_pt_BR": "Botão de Câmera",
       "text_en_US": "Camera Button"
     },
