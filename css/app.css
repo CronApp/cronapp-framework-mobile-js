@@ -259,6 +259,8 @@ ion-header-bar.bar h1.title {
 .button-bar>.button {
     gap: 6px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-bar>.button:last-child {
