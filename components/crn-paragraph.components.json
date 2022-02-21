@@ -9,7 +9,7 @@
     "TEXTS", "LAYOUTS"
   ],
   "wrapper": false,
-  "template": "<p xattr-position=\"text-center\" style=\"font-size: 14px;\" class=\"text-center\" xattr-type=\"font-size: 14px;\">Some friendly Paragraph</p>",
+  "template": "<p xattr-position=\"text-center\" style=\"font-size: var(--textNormalSize, 14px);\" class=\"text-center\" xattr-type=\"font-size: var(--textNormalSize, 14px);\">Some friendly Paragraph</p>",
   "properties": {
     "id": {
       "order": 1

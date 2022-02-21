@@ -36,6 +36,10 @@ h6,
 .h5,
 .h6 {
     color: var(--textColor40, #3b448e);
+}
+
+a {
+    color: var(--colorDefault40, #3b448e);
     font-size: var(--textNormalSize, 14px);
 }
 

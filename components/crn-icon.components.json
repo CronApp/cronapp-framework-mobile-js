@@ -6,7 +6,7 @@
   "image": "/node_modules/cronapp-framework-mobile-js/img/cron-icon/crn-icon.svg",
   "description": "Ícone",
   "description_en_US": "Icon",
-  "template": "<i class=\"ion ion-android-star\" style=\"font-size:300%; color: #333;\" icon-size=\"font-size:300%;\" icon-theme=\"color: #333;\"></i>",
+  "template": "<i class=\"ion ion-android-star\" style=\"font-size:300%; color: var(--colorDefault40, #3b448e);\" icon-size=\"font-size:300%;\" icon-theme=\"color: var(--colorDefault40, #3b448e);\"></i>",
   "wrapper": false,
   "properties": {
     "id": {
