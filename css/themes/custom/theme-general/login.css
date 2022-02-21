@@ -144,7 +144,7 @@ div.nav>a.item-avatar-left>div.item-content {
 }
 
 .menu-view .user-avatar i {
-    color: var(--colorDefault40, #ffffff);
+    color: var(--textColorDefault40, #ffffff);
 }
 
 .menu-view .input-default input,
