@@ -40,11 +40,6 @@
       "displayName_en_US": "Number of lines",
       "order": 4
     },
-    "maxlength": {
-      "displayName_pt_BR": "Máximo de caracteres",
-      "displayName_en_US": "Maximum characters",
-      "order": 5
-    },
     "resize": {
       "displayName_pt_BR": "Redimensionável",
       "displayName_en_US": "Resize",
@@ -91,6 +86,24 @@
           "value_en_US": "Both"
         }
       ]
+    }
+  ],
+  "childrenProperties": [
+    {
+      "name": "minlength",
+      "selector": "input",
+      "type": "text",
+      "displayName_pt_BR": "Tamanho mínimo",
+      "displayName_en_US": "Minimum size",
+      "order": 1
+    },
+    {
+      "name": "maxlength",
+      "selector": "input",
+      "type": "text",
+      "displayName_pt_BR": "Máximo de caracteres",
+      "displayName_en_US": "Maximum characters",
+      "order": 2
     }
   ]
 }

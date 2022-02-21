@@ -55,6 +55,22 @@
       "order": 6
     },
     {
+      "name": "ng-minlength",
+      "selector": "input",
+      "type": "text",
+      "displayName_pt_BR": "Tamanho mínimo",
+      "displayName_en_US": "Minimum size",
+      "order": 7
+    },
+    {
+      "name": "ng-maxlength",
+      "selector": "input",
+      "type": "text",
+      "displayName_pt_BR": "Máximo de caracteres",
+      "displayName_en_US": "Maximum characters",
+      "order": 8
+    },
+    {
       "name": "mask",
       "selector": "input",
       "type": "mask",
