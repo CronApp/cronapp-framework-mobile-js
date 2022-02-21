@@ -224,56 +224,47 @@
         {
           "key": "assertive",
           "value_pt_BR": "Assertivo",
-          "value_en_US": "Assertive",
-          "color": "#ef473a"
+          "value_en_US": "Assertive"
         },
         {
           "key": "balanced",
           "value_pt_BR": "Equilibrado",
-          "value_en_US": "Balanced",
-          "color": "#33cd5f"
+          "value_en_US": "Balanced"
         },
         {
           "key": "energized",
           "value_pt_BR": "Energizado",
-          "value_en_US": "Energized",
-          "color": "#ffc900"
+          "value_en_US": "Energized"
         },
         {
           "key": "light",
           "value_pt_BR": "Claro",
-          "value_en_US": "Light",
-          "color": "#fff"
+          "value_en_US": "Light"
         },
         {
           "key": "stable",
           "value_pt_BR": "Estável",
-          "value_en_US": "Stable",
-          "color": "#f8f8f8"
+          "value_en_US": "Stable"
         },
         {
           "key": "calm",
           "value_pt_BR": "Calmo",
-          "value_en_US": "Calm",
-          "color": "#11c1f3"
+          "value_en_US": "Calm"
         },
         {
           "key": "positive",
           "value_pt_BR": "Positivo",
-          "value_en_US": "Positive",
-          "color": "#387ef5"
+          "value_en_US": "Positive"
         },
         {
           "key": "royal",
           "value_pt_BR": "Real",
-          "value_en_US": "Royal",
-          "color": "#886aea"
+          "value_en_US": "Royal"
         },
         {
           "key": "dark",
           "value_pt_BR": "Escuro",
-          "value_en_US": "Dark",
-          "color": "#444"
+          "value_en_US": "Dark"
         }
       ]
     }
