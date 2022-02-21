@@ -81,8 +81,8 @@
       "name": "ng-maxlength",
       "selector": "input",
       "type": "text",
-      "displayName_pt_BR": "Tamanho máximo",
-      "displayName_en_US": "Maximum size",
+      "displayName_pt_BR": "Máximo de caracteres",
+      "displayName_en_US": "Maximum characters",
       "order": 8
     },
     {
