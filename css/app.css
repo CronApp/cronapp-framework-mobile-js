@@ -393,6 +393,7 @@ ion-header-bar.bar h1.title {
     width: 100%;
 }
 
+.item input.ng-invalid,
 .item-input input.ng-invalid {
     border-bottom: 1px solid var(--colorDanger40, #ef473a);
 }
